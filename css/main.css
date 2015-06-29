@@ -1,0 +1,142 @@
+/* Bootstrap Override */
+.navbar-brand {
+  padding: 0;
+}
+
+.panel-heading h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* END Bootstrap Override */
+
+body {
+  margin-top: 50px;
+  background:url(../images/bg-slider.jpg) no-repeat; background-size:100%;
+}
+
+ul {
+  padding: 0 0 0 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.img-graph {
+  width: 100%;
+}
+
+.special {
+background-color: #339933;
+color: #FFFFFF;
+
+
+}
+
+.center {
+
+	width: 75%;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.map {
+width: 50%;
+margin-bottom: 10px;
+}
+
+.storedata {
+width: 95%;
+}
+
+tr.selected {
+    background-color: #99CCFF;
+}
+
+/*table, th, td, tr, tbody, thead, tfoot {
+   border: 1px solid black;
+   border-color: #000000;
+}*/
+
+table>thead>tr>th, .table>thead>tr>th, table>tbody>tr>th, .table>tbody>tr>th, table>tfoot>tr>th, .table>tfoot>tr>th, table>thead>tr>td, .table>thead>tr>td, table>tbody>tr>td, .table>tbody>tr>td, table>tfoot>tr>td, .table>tfoot>tr>td {
+ border: 1px solid black;
+}
+
+#main-table tbody tr:not([data-level="1"]) {
+  display: none;
+}
+
+.hidden {
+display: none;
+}
+
+.testground::after{
+background-color: #000000;
+}
+.containertest {
+                opacity: 0.2;
+                background-color: #000000;
+                
+            
+            }
+.boxtest {
+                opacity: 1;
+                background-color: #000000;
+                position: absolute;
+text-align: center;
+color:#FFFFFF;
+          top:50%;
+            }
+.panel {
+position:relative;
+}
+.dimmed:after {
+ content:'Consistency';
+ text-align:center;
+ font-size:1000%;
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.7);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.dimmed:hover:after {
+    opacity:1;
+}
+.accountability:after {
+ content:'Accountability';
+ text-align:center;
+ font-size:900%;
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.7);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.accountability:hover:after {
+    opacity:1;
+}
+.focus:after {
+ content:'Focus on what matters';
+ text-align:center;
+ font-size:700%;
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.7);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.focus:hover:after {
+    opacity:1;
+}

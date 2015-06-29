@@ -1,0 +1,3726 @@
+[
+  {
+    "Tour":"M",
+    "Customer Name":"",
+    "Address_Line1_":"",
+    "# of Visits":null,
+    "Serve Time":null
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"BREAD BASKET",
+    "Address_Line1_":"2910 FM 812",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"BREAD BASKET TEXACO",
+    "Address_Line1_":"12800 PEARCE LN",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"BROOKSHIRE B 0034",
+    "Address_Line1_":"1400 FANNIN",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"BROOKSHIRE B 0055",
+    "Address_Line1_":"501 NW LOOP 230",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"BUC EES 0028",
+    "Address_Line1_":"1700 HWY 71 E",
+    "# of Visits":4,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HARLANS 08",
+    "Address_Line1_":"236 COLLEGE ST",
+    "# of Visits":4,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0256",
+    "Address_Line1_":"2105 MILAM ST",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0416",
+    "Address_Line1_":"450 E TRAVIS",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"JDS SUPERMARKET",
+    "Address_Line1_":"9111 FM 812",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 2378 MANN HILL",
+    "Address_Line1_":"717 E TRAVIS",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 5417 CONWAY GRP",
+    "Address_Line1_":"1481 STATE HWY 71 W",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"STAR MARKET",
+    "Address_Line1_":"7930 THAXTON RD",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 0503",
+    "Address_Line1_":"2103 MILAM ST",
+    "# of Visits":4,
+    "Serve Time":45
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 0846",
+    "Address_Line1_":"2125 W TRAWIS",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 1042",
+    "Address_Line1_":"488 HWY 71 W",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"",
+    "Address_Line1_":"",
+    "# of Visits":null,
+    "Serve Time":null
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"FOREST BLUFF",
+    "Address_Line1_":"14300 A FM 969",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0091",
+    "Address_Line1_":"2508 E RIVERSIDE DR",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0425",
+    "Address_Line1_":"1000 E 41ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0465",
+    "Address_Line1_":"2701 E 7TH ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0628",
+    "Address_Line1_":"2512 E RIVERSIDE",
+    "# of Visits":2,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"LA HACIENDA 0002 TR",
+    "Address_Line1_":"2410 E RIVERSIDE",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"LA HACIENDA 0005",
+    "Address_Line1_":"7517 CAMERON ROAD ST",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"LA HACIENDA MARKET",
+    "Address_Line1_":"1812 PEYTON GIN RD",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"LA MICHOACANA AUS   0001",
+    "Address_Line1_":"1917 E 7TH ST",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"LA MICHOACANA AUS   0006",
+    "Address_Line1_":"2237B E RIVERSIDE DR",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"MI TIENDA MEAT MARKET",
+    "Address_Line1_":"8007 GESSNER DR",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1507 CONWAY GRP",
+    "Address_Line1_":"9325 N LAMAR",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1531 CONWAY GRP",
+    "Address_Line1_":"6208 CAMERON RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1537 CONWAY GRP",
+    "Address_Line1_":"1815 AIRPORT BLVD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1541 CONWAY GRP",
+    "Address_Line1_":"1745 E OLTORF",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1562 CONWAY GRP",
+    "Address_Line1_":"7112 ED BLUESTEIN BL",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 4057 CONWAY GRP",
+    "Address_Line1_":"11215 HWY 290 E",
+    "# of Visits":8,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"TARGET 0095",
+    "Address_Line1_":"8601 RESEARCH BLVD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 4554",
+    "Address_Line1_":"2525 W ANDERSON LN",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"",
+    "Address_Line1_":"",
+    "# of Visits":null,
+    "Serve Time":null
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"BROOKSHIRE B 0037",
+    "Address_Line1_":"276 ORANGE",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0475",
+    "Address_Line1_":"1080 HWY 290 E",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0582",
+    "Address_Line1_":"400 HWY 71 W",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 1681 KEN HILL",
+    "Address_Line1_":"103 PERKINS ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 1984 CONWAY GRP",
+    "Address_Line1_":"1134 HWY 290",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2112 KEN HILL",
+    "Address_Line1_":"1254 E AUSTIN",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 0473",
+    "Address_Line1_":"US HWY 290/2374 E AU",
+    "# of Visits":8,
+    "Serve Time":45
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 3169",
+    "Address_Line1_":"11923 US HWY 290 E",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 3170",
+    "Address_Line1_":"1320 W HWY 290",
+    "# of Visits":8,
+    "Serve Time":45
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"EL RANCHO 0024",
+    "Address_Line1_":"6800 BERKMAN",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"FIESTA 0025",
+    "Address_Line1_":"3909 N IH 35",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"GAMA 1163 WHISTLE STOP GROCERY",
+    "Address_Line1_":"834 E RUNDBERG",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0161",
+    "Address_Line1_":"7112 ED BLUESTEIN",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0183",
+    "Address_Line1_":"9414 N LAMAR BLVD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0639",
+    "Address_Line1_":"1801 E 51ST ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA HACIENDA MKT",
+    "Address_Line1_":"9717 N LAMAR",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA MICHOACANA AUS   0002",
+    "Address_Line1_":"6908 CAMERON RD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA MICHOACANA AUS   0004",
+    "Address_Line1_":"9308 LAMAR BLVD N ST",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA MICHOACANA AUS   0005",
+    "Address_Line1_":"5706 MANOR RD STE B",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 1560 CONWAY GRP",
+    "Address_Line1_":"7708 BURNET RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 3356 CONWAY GRP",
+    "Address_Line1_":"2706 GONZALEZ",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"TARGET 1542",
+    "Address_Line1_":"5621 N IH 35",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"VIVA FOOD MART",
+    "Address_Line1_":"8610 N LAMAR STE 100",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 1185",
+    "Address_Line1_":"1030 NORWOOD PARK BL",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"GEORGETOWN",
+    "Address_Line1_":"120 COMMERCE BLVD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0237",
+    "Address_Line1_":"1100 IH 35 S",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0373",
+    "Address_Line1_":"16900 N RR 620",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0487",
+    "Address_Line1_":"4500 WILLIAMS DR",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0673",
+    "Address_Line1_":"250 UNIVERSITY BLVD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SAMS CLUB 6259",
+    "Address_Line1_":"130 SUNDANCE STE 300",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"TARGET 1982",
+    "Address_Line1_":"1021 W UNIVERSITY B3",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 1303",
+    "Address_Line1_":"620 IH 35 S",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"BROOKSHIRE B 0019",
+    "Address_Line1_":"725 W CAMERON",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"BROOKSHIRE B 0046",
+    "Address_Line1_":"1701 W 4TH ST",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HARLANS 0009",
+    "Address_Line1_":"705 N TRAVIS AVE",
+    "# of Visits":8,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0593",
+    "Address_Line1_":"100 NW CARLOS G PARK",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1788 CONWAY GRP",
+    "Address_Line1_":"802 N TRAVIS",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2827 CONWAY GRP",
+    "Address_Line1_":"1204 W CAMERON",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2997 CONWAY GRP",
+    "Address_Line1_":"1700 N MAIN",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 4778 CONWAY GRP",
+    "Address_Line1_":"712 US HIGHWAY 79 W",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 6309 CONWAY GRP",
+    "Address_Line1_":"1201 UNIVERSITY BLVD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 0077",
+    "Address_Line1_":"3701 N MAIN ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 0280",
+    "Address_Line1_":"1500 W CAMERON",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"CHICK FIL A OF RR",
+    "Address_Line1_":"110 LOUIS HENNA BLVD",
+    "# of Visits":4,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0236",
+    "Address_Line1_":"1434 WELLS BRANCH PK",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0476",
+    "Address_Line1_":"500 CANYON RIDGE DR",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0495",
+    "Address_Line1_":"603 LOUIS HENNA BLVD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA MEXICANA MARKET",
+    "Address_Line1_":"900 E PALM VALLEY BL",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA MICHOACANA AUS   0007",
+    "Address_Line1_":"1080 S MAYS STREET",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2818 CONWAY GRP",
+    "Address_Line1_":"1805 N MAYS",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 3313 CONWAY GRP",
+    "Address_Line1_":"1320 ROUND ROCK AVE",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 4948 CONWAY GRP",
+    "Address_Line1_":"1101 FM 685",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 5361 CONWAY GRP",
+    "Address_Line1_":"901 FM 1460",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 5736 CONWAY GRP",
+    "Address_Line1_":"1605 E PARMER LN",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 5968 CONWAY GRP",
+    "Address_Line1_":"3880 GATTIS SCHOOL R",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 1817",
+    "Address_Line1_":"12901 N I-35 STE 100",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 0475",
+    "Address_Line1_":"2701 IH 35 S",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 3569",
+    "Address_Line1_":"12900 N IH 35 SERVIC",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0034",
+    "Address_Line1_":"3750 GATTIS SCHOOL R",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0479",
+    "Address_Line1_":"201 N FM 685",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0591",
+    "Address_Line1_":"1700 PALMVALLEY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"JDS MEAT MARKET",
+    "Address_Line1_":"14300 DESSAU RD",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"RANDALLS 2636",
+    "Address_Line1_":"2051 GATIS RD",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 2767 CONWAY GRP",
+    "Address_Line1_":"2014 PECAN ST WEST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 3966 CONWAY GRP",
+    "Address_Line1_":"1637 WELLS BRANCH PK",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 4086 CONWAY GRP",
+    "Address_Line1_":"405 LOUIS HENNA BLVD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"TARGET 1066",
+    "Address_Line1_":"121 LOUIS HENNA BLVD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"TARGET 2495",
+    "Address_Line1_":"18700 LIMESTONE COMM",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 5479",
+    "Address_Line1_":"1548 FM 685",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 5480",
+    "Address_Line1_":"4700 E PALM VALLEY B",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"CHICK FIL A",
+    "Address_Line1_":"10901 RESEARCH",
+    "# of Visits":4,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"COSTCO 1152",
+    "Address_Line1_":"4601 183 A TOLL RD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0031",
+    "Address_Line1_":"12860 HWY 183",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0218",
+    "Address_Line1_":"12407 N MOPAC EXPWY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0580",
+    "Address_Line1_":"2800 E WHITESTONE",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"P TERRYS 0007",
+    "Address_Line1_":"12018 RESEARCH BLVD",
+    "# of Visits":1,
+    "Serve Time":15
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"RANDALLS 2490",
+    "Address_Line1_":"10900 RESEARCH STE D",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SAMS CLUB 6453",
+    "Address_Line1_":"9700 N CAPITAL OF TX",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 1571 CONWAY GRP",
+    "Address_Line1_":"10025 N BURNET",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 5013 CONWAY GRP",
+    "Address_Line1_":"3220 E WHITESTONE BL",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 5057 CONWAY GRP",
+    "Address_Line1_":"1510 CYPRESS CREEK R",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 5488 CONWAY GRP",
+    "Address_Line1_":"9215 WEST PARMER LN",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"TARGET 1797",
+    "Address_Line1_":"10900 LAKELINE MALL",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 5478",
+    "Address_Line1_":"8201 NORTH FM 620",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0284",
+    "Address_Line1_":"1503 HWY 1431 W",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0433",
+    "Address_Line1_":"105 S BOUNDARY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0587",
+    "Address_Line1_":"215 HWY 2900",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"MARBLE FALLS",
+    "Address_Line1_":"5236 HWY 281 N.",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1684 CONWAY GRP",
+    "Address_Line1_":"904 BUCHANAN DR",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3534 CONWAY GRP",
+    "Address_Line1_":"20700 FM 1431",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3631 CONWAY GRP",
+    "Address_Line1_":"507 W YOUNG",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 5813 CONWAY GRP",
+    "Address_Line1_":"1605 FM 1431",
+    "# of Visits":8,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 6178 CONWAY GRP",
+    "Address_Line1_":"1022 US HWY 281 S",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 0781",
+    "Address_Line1_":"2700 HWY 281 N",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0265",
+    "Address_Line1_":"170 E WHITESTONE",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0269",
+    "Address_Line1_":"10710 RESEARCH BLVD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0388",
+    "Address_Line1_":"6001 W PARMER LN",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"RANDALLS 1896",
+    "Address_Line1_":"1400 CYPRESS CREEK R",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"RANDALLS 2482",
+    "Address_Line1_":"8040 MESA DR",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 1586 CONWAY GRP",
+    "Address_Line1_":"12453 LAMPLIGHT VIL",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 1840 CONWAY GRP",
+    "Address_Line1_":"11506 FM 620 N",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 3457 CONWAY GRP",
+    "Address_Line1_":"809 HWY 183 S",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 3992 CONWAY GRP",
+    "Address_Line1_":"11881 JOLLYVILLE RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 1953",
+    "Address_Line1_":"11220 FM 2222",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 2409",
+    "Address_Line1_":"10107 RESEARCH BLVD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 1129",
+    "Address_Line1_":"13201 RANCH RD 620 N",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 4163",
+    "Address_Line1_":"2801 E WHITESTONE BL",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"COSTCO 0681",
+    "Address_Line1_":"10401 RESEARCH BLVD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0024",
+    "Address_Line1_":"11521 N FM 620 BLDG",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0451",
+    "Address_Line1_":"7301 RNCH RD 620 N",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0592",
+    "Address_Line1_":"651 NORTH US HWY 183",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0659",
+    "Address_Line1_":"14028 N US 183",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 1583 CONWAY GRP",
+    "Address_Line1_":"6816 MCNEIL",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 5555 CONWAY GRP",
+    "Address_Line1_":"14240 W HWY 29",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 5897 CONWAY GRP",
+    "Address_Line1_":"2000 BAGDAD RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"TARGET 2342",
+    "Address_Line1_":"1101 C-BAR RANCH TRA",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 2991",
+    "Address_Line1_":"201 WALTON WAY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0029",
+    "Address_Line1_":"701 CAPITAL OF TEXAS",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0045",
+    "Address_Line1_":"2400 S CONGRESS",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0096",
+    "Address_Line1_":"7025 VILLAGE CNTR DR",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0202",
+    "Address_Line1_":"5808 BURNET RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB CENTRAL MARKET 0061",
+    "Address_Line1_":"4001 N LAMAR BLVD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"P TERRYS",
+    "Address_Line1_":"404 S LAMAR",
+    "# of Visits":1,
+    "Serve Time":15
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"P TERRYS 0002",
+    "Address_Line1_":"3303 N LAMAR BLVD",
+    "# of Visits":1,
+    "Serve Time":15
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"RANDALLS 2471",
+    "Address_Line1_":"2725 EXPOSITION BLVD",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"RANDALLS 2475",
+    "Address_Line1_":"5311 BALCONES DR",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"RANDALLS 2481",
+    "Address_Line1_":"1500 W 35TH ST",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"RANDALLS 2483",
+    "Address_Line1_":"715 EXPOSITION BLVD.",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"RANDALLS 2987",
+    "Address_Line1_":"5145 NORTH FM 620 ST",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 1500 CONWAY GRP",
+    "Address_Line1_":"2632 S LAMAR",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 1557 CONWAY GRP",
+    "Address_Line1_":"4929 BURNET",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 3874 CONWAY GRP",
+    "Address_Line1_":"1901 MONTOPOLIS DR",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WHEATSVILLE FOOD COR ORO",
+    "Address_Line1_":"3101 GUADALUPE",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0227",
+    "Address_Line1_":"2110 NEW SLAUGHTER L",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0229",
+    "Address_Line1_":"6607 IH 35 S",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0374",
+    "Address_Line1_":"600 W WILLIAM CANNON",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0477",
+    "Address_Line1_":"15300 IH 35 S",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"LA HACIENDA MEAT MARKET 0006",
+    "Address_Line1_":"6425 S IH35",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SAMS CLUB 8259",
+    "Address_Line1_":"9900 S I H 35",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1566 CONWAY GRP",
+    "Address_Line1_":"5109 E STASSNEY LN",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1567 CONWAY GRP",
+    "Address_Line1_":"3119 E HWY 71",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1587 CONWAY GRP",
+    "Address_Line1_":"9708 MANCHACA RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3587 CONWAY GRP",
+    "Address_Line1_":"129 W SLAUGHTER",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3588 CONWAY GRP",
+    "Address_Line1_":"1805 E WILLIAM CANNO",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 4568 CONWAY GRP",
+    "Address_Line1_":"15330 S IH 35",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 5992 CONWAY GRP",
+    "Address_Line1_":"3200 B 967",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"TARGET 2288",
+    "Address_Line1_":"9500 I 35 SB FEEDER",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 4219",
+    "Address_Line1_":"690 OLD SAN ANTONIO",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 5317",
+    "Address_Line1_":"9300 S IH 35 BLDG B",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HAMILTON MARKET",
+    "Address_Line1_":"18901 HAMILTON POOH",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0225",
+    "Address_Line1_":"7010 HWY 71 W",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0404",
+    "Address_Line1_":"12400 HWY 71 W",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"P TERRYS",
+    "Address_Line1_":"204 BEN WHITE",
+    "# of Visits":1,
+    "Serve Time":15
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"P TERRYS 0005",
+    "Address_Line1_":"3311 RR620 S",
+    "# of Visits":1,
+    "Serve Time":15
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"P TERRYS 0006",
+    "Address_Line1_":"701 S CAPITAL TEXAS",
+    "# of Visits":1,
+    "Serve Time":15
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"RANDALLS 1779",
+    "Address_Line1_":"2303 RR 620 S",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"RANDALLS 2477",
+    "Address_Line1_":"3300 BEE CAVES RD ST",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"RANDALLS 2485",
+    "Address_Line1_":"2025 W BEN WHITE BLV",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SAMS CLUB 4720",
+    "Address_Line1_":"4970 HWY 290 W",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 1559 CONWAY GRP",
+    "Address_Line1_":"2102 RANCH RD 620 S",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 3697 CONWAY GRP",
+    "Address_Line1_":"7714 HWY 71",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 0096",
+    "Address_Line1_":"2300 W BEN WHITE BLV",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 1061",
+    "Address_Line1_":"5300 S MO PAC EXPY",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 1812",
+    "Address_Line1_":"3702 RANCH RD 620 S",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 1253",
+    "Address_Line1_":"710 E BEN WHITE BLVD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 2133",
+    "Address_Line1_":"5717 HWY 290 WEST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"COSTCO 0641",
+    "Address_Line1_":"4301 W WILLIAM CANNO",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"FIESTA 0064",
+    "Address_Line1_":"5510 IH 35 SOUTH",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"GAMA 1148 TERI METRO MART",
+    "Address_Line1_":"2008 TERI RD",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0068",
+    "Address_Line1_":"5800 W SLAUGHTER",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0428",
+    "Address_Line1_":"6900 BRODIE LN",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0611",
+    "Address_Line1_":"589 E HWY 290",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB CENTRAL MARKET 0420",
+    "Address_Line1_":"4521 W GATE BLVD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA HACIENDA MEAT MARKET 0007",
+    "Address_Line1_":"730 W STASSNEY LN ST",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA MICHOACANA AUS   0003",
+    "Address_Line1_":"512 W STASSNEY LN",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"P TERRYS 0003",
+    "Address_Line1_":"4228 W WILLIAM CANNO",
+    "# of Visits":1,
+    "Serve Time":15
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"RANDALLS 1850",
+    "Address_Line1_":"9911 BRODIE LN",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"RANDALLS 2480",
+    "Address_Line1_":"6600 S MO PAC EXPY",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 1553 CONWAY GRP",
+    "Address_Line1_":"804 W STASSNEY",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 1570 CONWAY GRP",
+    "Address_Line1_":"9916 BRODIE LN",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 3533 CONWAY GRP",
+    "Address_Line1_":"400 E HWY 290",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 5900 CONWAY GRP",
+    "Address_Line1_":"11801 WEST HWY 290 B",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"BO Temple 1004",
+    "Address_Line1_":"1302 S 5th",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"BROOKSHIRE B 0082",
+    "Address_Line1_":"982 US HWY 77",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"CEFCO 0048",
+    "Address_Line1_":"12310 NW HK DODGEN L",
+    "# of Visits":4,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0071",
+    "Address_Line1_":"1314 W ADAMS",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0182",
+    "Address_Line1_":"3002 S 31ST ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SAMS CLUB 6336",
+    "Address_Line1_":"1414 MARLAND WOOD RD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 1668 V RICHARDSON",
+    "Address_Line1_":"814 E CENTRAL AVE",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 2998 V RICHARDSON",
+    "Address_Line1_":"2012 S 57TH ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 4495 MANN HILL",
+    "Address_Line1_":"1401 MARLAND RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"TARGET 2278",
+    "Address_Line1_":"3550 SOUTH GENERAL B",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 0746",
+    "Address_Line1_":"3401 S 31ST ST",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"FT HOOD COMM 1",
+    "Address_Line1_":"HQCMC2 BLDG 5001",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0432",
+    "Address_Line1_":"705 S KEY AVE",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0668",
+    "Address_Line1_":"2990 E HWY 190",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1865 V RICHARDSON",
+    "Address_Line1_":"830 E HWY 190",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2366 CONWAY GRP",
+    "Address_Line1_":"702 S KEY AVE",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 0381",
+    "Address_Line1_":"2720 E HWY 190",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 1073",
+    "Address_Line1_":"1710 CENTRAL EXPWY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"BROOKSHIRE B 0069",
+    "Address_Line1_":"215 MILL CREEK DR ST",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0039",
+    "Address_Line1_":"2509 N MAIN",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0381",
+    "Address_Line1_":"601 INDIAN TRAIL",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SAMS CLUB 6245",
+    "Address_Line1_":"SE US HWY 281 & MARS",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 4092 GARY HENDRIX",
+    "Address_Line1_":"704 INDIAN TRAIL",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 2374",
+    "Address_Line1_":"201 E CENTRAL TEXAS",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 1232",
+    "Address_Line1_":"2604 N MAIN ST",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 3319",
+    "Address_Line1_":"2020 HARKER HEIGHTS",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"BO Killeen 1009",
+    "Address_Line1_":"2006 E Rancier Ave #300",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"FT HOOD STORE 2",
+    "Address_Line1_":"HQCMC3 BLDG 85020",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0072",
+    "Address_Line1_":"809 N GRAY ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0581",
+    "Address_Line1_":"2511 TRIMMIER RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"KILLEEN DEPOT",
+    "Address_Line1_":"3119 Commerce Drive",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA MICHOACANA KLN   0001",
+    "Address_Line1_":"1001 E VETERANS MEMO",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 2294 V RICHARDSON",
+    "Address_Line1_":"2701 E RANCIER",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 3261 GARY HENDRIX",
+    "Address_Line1_":"1803 S WS YOUNG DR",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 3888 GARY HENDRIX",
+    "Address_Line1_":"1514 S FT HOOD ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 0407",
+    "Address_Line1_":"1400 LOWES BLVD",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0108",
+    "Address_Line1_":"20935 US HWY 281 N",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0230",
+    "Address_Line1_":"14087 O CONNOR RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0622",
+    "Address_Line1_":"20725 HWY 46 WEST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SAMS CLUB 4914",
+    "Address_Line1_":"US 281 MARSHALL RD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 3532",
+    "Address_Line1_":"16401 NACOGDOCHES",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 3933",
+    "Address_Line1_":"18535 HWY 281 N",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 4421",
+    "Address_Line1_":"20555 HWY 46 W",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 5918",
+    "Address_Line1_":"3035 TPC PARKWAY",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"TARGET 2239",
+    "Address_Line1_":"22832 US 281 N",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 0765",
+    "Address_Line1_":"16503 NACOGDOCHES RD",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 1198",
+    "Address_Line1_":"1515 N LOOP 1604 E",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"COSTCO 1006",
+    "Address_Line1_":"15330 IH 35 NORTH",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0415",
+    "Address_Line1_":"17460 IH 35 N",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0555",
+    "Address_Line1_":"910 KITTY HAWK RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"RANDOLPH COMMISSARY",
+    "Address_Line1_":"770 W 3RD ST STE1075",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SAMS CLUB 8262",
+    "Address_Line1_":"12349 N IH 35",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 1839",
+    "Address_Line1_":"9080 FM 78",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2873",
+    "Address_Line1_":"320 FARM MARKET 78",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3381",
+    "Address_Line1_":"8134 KITTYHAWK RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3898",
+    "Address_Line1_":"11725 OCONNOR",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 4136",
+    "Address_Line1_":"5001 CORRIDOR LOOP",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 4896",
+    "Address_Line1_":"2325 PAT BOOKER RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 6211",
+    "Address_Line1_":"749 FM 1103",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"TARGET 1204",
+    "Address_Line1_":"8234 AGORA PKWY",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"TARGET 2452",
+    "Address_Line1_":"7014 FM 78",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 3391",
+    "Address_Line1_":"6102 FARM RD 3009",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 5144",
+    "Address_Line1_":"8315 FM 78",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"COSTCO 0693",
+    "Address_Line1_":"1201 N LOOP 1604 E",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0164",
+    "Address_Line1_":"15000 SAN PEDRO",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0397",
+    "Address_Line1_":"18140 SAN PEDRO",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0398",
+    "Address_Line1_":"2929 THOUSAND OAKS",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0568",
+    "Address_Line1_":"12018 PERRIN BEITEL",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA MICHOACANA SAN 0007",
+    "Address_Line1_":"13107 NACOGDOCHES RD",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SAMS CLUB 6416",
+    "Address_Line1_":"12919 HWY 281 N",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2952",
+    "Address_Line1_":"13131 NACOGDOCHES",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2973",
+    "Address_Line1_":"2314 THOUSAND OAKS",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2983",
+    "Address_Line1_":"955 E BITTERS RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 3318",
+    "Address_Line1_":"2629 NACOGDOCHES",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 4018",
+    "Address_Line1_":"17750 BLANCO RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 5110",
+    "Address_Line1_":"19133 STONE OAKS PKW",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 0176",
+    "Address_Line1_":"13700 SAN PEDRO AVE",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 1803",
+    "Address_Line1_":"4331 THOUSAND OAKS D",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0294",
+    "Address_Line1_":"6580 FM 78",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0372",
+    "Address_Line1_":"1955 NACOGDOCHES",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0384",
+    "Address_Line1_":"6030 MONTGOMERY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0567",
+    "Address_Line1_":"999 E BASSE RD STE 1",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0585",
+    "Address_Line1_":"1520 AUSTIN HIGHWAY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 2971",
+    "Address_Line1_":"4678 WALZEM RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 3465",
+    "Address_Line1_":"6608 FM 78",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 3816",
+    "Address_Line1_":"4527 RITTIMAN",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 5134",
+    "Address_Line1_":"1435 AUSTIN HWY",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 1347",
+    "Address_Line1_":"1340 AUSTIN HWY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 2769",
+    "Address_Line1_":"5626 WALZEM RD",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 3112",
+    "Address_Line1_":"3940 N FOSTER RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0019/0651",
+    "Address_Line1_":"19337 MC DONALD ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0379",
+    "Address_Line1_":"400 VALLEY HI",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0613",
+    "Address_Line1_":"8219 MARBACH ROAD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0678/0011",
+    "Address_Line1_":"368 VALLEY HI DR",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 0443",
+    "Address_Line1_":"103 22ND ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 0999",
+    "Address_Line1_":"7239 SW LOOP 410",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0620",
+    "Address_Line1_":"225 SOUTH IH 35",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"LA FIESTA 0017",
+    "Address_Line1_":"7002 MARBACH RD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"LA MICHOACANA SAN 0014",
+    "Address_Line1_":"8260 MARBACK RD STE",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2200",
+    "Address_Line1_":"705 19TH ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2740",
+    "Address_Line1_":"814 N OAK ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2981",
+    "Address_Line1_":"1730 HORAL DR",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3630",
+    "Address_Line1_":"351 VALLEY HIGH DR",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3934",
+    "Address_Line1_":"6341 PEARSALL RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 4185",
+    "Address_Line1_":"19350 MCDONALD ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 5251",
+    "Address_Line1_":"697 E HONDO",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 6413",
+    "Address_Line1_":"619 N IH 35",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"STRIPES 2415",
+    "Address_Line1_":"795 N IH 35",
+    "# of Visits":4,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 0478",
+    "Address_Line1_":"819 N OAKS ST",
+    "# of Visits":4,
+    "Serve Time":45
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 5290",
+    "Address_Line1_":"1515 S ELLISON DR",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"EAGLE PASS DEPOT",
+    "Address_Line1_":"1135 THOMPSON ROAD",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0419",
+    "Address_Line1_":"2135 E MAIN ST",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0424",
+    "Address_Line1_":"609 19TH ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0441",
+    "Address_Line1_":"201 E MAIN",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 1956",
+    "Address_Line1_":"2447 E MAIN ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 3058",
+    "Address_Line1_":"623 E MAIN ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 3515",
+    "Address_Line1_":"955 HWY 90",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 5233",
+    "Address_Line1_":"502 N 1ST ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"UVALDE DEPOT",
+    "Address_Line1_":"2633 E MAIN ST",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 0461",
+    "Address_Line1_":"496 S BIBB",
+    "# of Visits":4,
+    "Serve Time":75
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 1046",
+    "Address_Line1_":"2214 N 1ST ST",
+    "# of Visits":4,
+    "Serve Time":45
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"CRYSTAL CITY DEPOT",
+    "Address_Line1_":"2206 N OLD UVALDE HWY",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"DEL RIO DEPOT",
+    "Address_Line1_":"1700 BEDELL AVE",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0088",
+    "Address_Line1_":"500 PECAN ST",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0117",
+    "Address_Line1_":"514 E ZAVALA ST",
+    "# of Visits":4,
+    "Serve Time":45
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0418",
+    "Address_Line1_":"200 AVE F",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0671",
+    "Address_Line1_":"2030 N 1ST ST",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LAUGHLIN COMMISSARY",
+    "Address_Line1_":"BLDG 352",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 1931",
+    "Address_Line1_":"1109 AVE F",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 5227",
+    "Address_Line1_":"1510 E GIBBS",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"STRIPES 2280",
+    "Address_Line1_":"101 SOUTH 1ST STREET",
+    "# of Visits":4,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 0447",
+    "Address_Line1_":"2401 AVE F",
+    "# of Visits":4,
+    "Serve Time":75
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 0782",
+    "Address_Line1_":"3100 E MAIN ST",
+    "# of Visits":4,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0205",
+    "Address_Line1_":"721 CASTROVILLE RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0211",
+    "Address_Line1_":"415 N NEW BRAUNFELS",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0427",
+    "Address_Line1_":"735 SW MILITARY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0466",
+    "Address_Line1_":"108 N ROSILLO",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB CENTRAL MARKET 0191",
+    "Address_Line1_":"4821 BROADWAY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"LA FIESTA 0015",
+    "Address_Line1_":"3414 NOGALITOS",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"LA MICHOACANA SAN 0005",
+    "Address_Line1_":"1224 N FLORES",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 2904",
+    "Address_Line1_":"4547 RIGSBY",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 2962",
+    "Address_Line1_":"3521 BROADWAY",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 4117",
+    "Address_Line1_":"811 SAN PEDRO AVE",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"TARGET 0771",
+    "Address_Line1_":"2810 SW MILITARY DR",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"TARGET 2803",
+    "Address_Line1_":"1223 AUSTIN HWY",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 3106",
+    "Address_Line1_":"8538 IH 35 S",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0025",
+    "Address_Line1_":"925 10TH ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0155/688",
+    "Address_Line1_":"805 W MAIN ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0612",
+    "Address_Line1_":"14414 US HWY 87 WEST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2059",
+    "Address_Line1_":"1108 10TH ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2310",
+    "Address_Line1_":"200 N SUNSET STRIP",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"STRIPES 2417",
+    "Address_Line1_":"1905 US HWY 181 S",
+    "# of Visits":2,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 0465",
+    "Address_Line1_":"US 181 BYP N",
+    "# of Visits":8,
+    "Serve Time":45
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 0524",
+    "Address_Line1_":"200 BUSINESS PARK BL",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 3279",
+    "Address_Line1_":"2100 SE LOOP 410",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"FT SAM HOUSTON COMMISSARY",
+    "Address_Line1_":"2405 FUNSTON RD STE",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"GEVERS OUTLET",
+    "Address_Line1_":"512 S Gevers Street",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0026",
+    "Address_Line1_":"4100 S NEW BRAUNFELS",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0084",
+    "Address_Line1_":"6818 S ZARZAMORA",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA FIESTA 0010",
+    "Address_Line1_":"5603 S FLORES ST",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA FIESTA 0014",
+    "Address_Line1_":"448 CASTROVILLE RD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA MICHOACANA SAN 0001",
+    "Address_Line1_":"2323 SW MILITARY DR",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA MICHOACANA SAN 0003",
+    "Address_Line1_":"2510 PLEASANTON RD",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA MICHOACANA SAN 0013",
+    "Address_Line1_":"3310 S ZARZAMORA ST",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SAMS CLUB 8264",
+    "Address_Line1_":"3150 SW MILITARY DR",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2950",
+    "Address_Line1_":"1611 S GENERAL MCMUL",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2970",
+    "Address_Line1_":"4319 S NEW BRAUNFELS",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 3849",
+    "Address_Line1_":"2135 IH 35 N",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 4060",
+    "Address_Line1_":"3510 ROOSEVELT",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 5214",
+    "Address_Line1_":"4623 IH 35 S",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 5333",
+    "Address_Line1_":"9703 POTEET-JOURDANT",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 5472",
+    "Address_Line1_":"230 S WW WHITE",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 1313",
+    "Address_Line1_":"1200 SE MILITARY DR",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0106",
+    "Address_Line1_":"1015 S WW WHITE",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0411",
+    "Address_Line1_":"219 W OAKLAWN RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0444",
+    "Address_Line1_":"3323 SE MILITARY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA FIESTA 0024",
+    "Address_Line1_":"6103 PECAN VALLEY",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA MICHOACANA SAN 0006",
+    "Address_Line1_":"2107 B GOLIAD RD",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA MICHOACANA SAN 0008",
+    "Address_Line1_":"1814 S WW WHITE RD",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SAMS CLUB 4939",
+    "Address_Line1_":"3239 GOLIAD RD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 2735",
+    "Address_Line1_":"635 W OAKLAWN DR",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 5811",
+    "Address_Line1_":"3222 GOLIAD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"TARGET 1852",
+    "Address_Line1_":"3227 SE MILITARY DR",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 0757",
+    "Address_Line1_":"1715 W OAKLAWN",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 5245",
+    "Address_Line1_":"3302 SE MILITARY DR",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0224",
+    "Address_Line1_":"7951 GUILBEAU",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0494",
+    "Address_Line1_":"10660 FM 471 W",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0623",
+    "Address_Line1_":"9238 NORTHWEST 1604",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 2955",
+    "Address_Line1_":"5510 BABCOCK RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 2965",
+    "Address_Line1_":"7989 BANDERA RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 4451",
+    "Address_Line1_":"12405 BANDERA RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 5676",
+    "Address_Line1_":"9684 WEST LOOP 1604",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 5703",
+    "Address_Line1_":"8314 HAUSMAN RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"TARGET 1785",
+    "Address_Line1_":"11311 BANDERA RD",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 2864",
+    "Address_Line1_":"6703 LESLIE RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 3057",
+    "Address_Line1_":"12550 LESLIE RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 5146",
+    "Address_Line1_":"8030 BANDERA RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0189",
+    "Address_Line1_":"2130 CULEBRA RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0385",
+    "Address_Line1_":"300 W OLMOS",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0556",
+    "Address_Line1_":"2118 FREDERICKSBURG",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"LA FIESTA 0011",
+    "Address_Line1_":"4107 BLANCO RD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"LACKLAND COMMISSARY",
+    "Address_Line1_":"2250 FOULOIS ST STE",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2869",
+    "Address_Line1_":"6523 SAN PEDRO",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2958",
+    "Address_Line1_":"3824 FREDERICKSBURG",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3376",
+    "Address_Line1_":"2301 BLANCO RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3659",
+    "Address_Line1_":"422 S ZARZAMORA",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 4043",
+    "Address_Line1_":"973 BANDERA RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"TARGET 1979",
+    "Address_Line1_":"8223 STATE HWY 151",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 5145",
+    "Address_Line1_":"1603 VANCE JACKSON R",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0235",
+    "Address_Line1_":"9255 GRISSOM RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0262",
+    "Address_Line1_":"5601 BANDERA RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA MICHOACANA SAN 0009",
+    "Address_Line1_":"7914 CULEBRA RD STE",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA MICHOACANA SAN 0010",
+    "Address_Line1_":"6059 LA CIMA",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2943",
+    "Address_Line1_":"6111 INGRAM RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2949",
+    "Address_Line1_":"7902 CULEBRA",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 4276",
+    "Address_Line1_":"10885 HWY 471 WEST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 4869",
+    "Address_Line1_":"9424 W FM 471",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 5439",
+    "Address_Line1_":"8738 POTRANCO RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 5826",
+    "Address_Line1_":"5630 WURZBACH",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 2426",
+    "Address_Line1_":"5355 W LOOP 1604 N",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 1235",
+    "Address_Line1_":"5025 NW LOOP 410",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 4131",
+    "Address_Line1_":"9427 CULEBRA RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 5226",
+    "Address_Line1_":"9526 W MILITARY RD",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0085",
+    "Address_Line1_":"10718 POTRANCO RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0178",
+    "Address_Line1_":"6839 SAN PEDRO",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA FIESTA 0012",
+    "Address_Line1_":"6050 INGRAM RD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA MICHOACANA SAN 0002",
+    "Address_Line1_":"4523 BLANCO RD",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA MICHOACANA SAN 0004",
+    "Address_Line1_":"100 CROSSROADS BLVD",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SAMS CLUB 8227",
+    "Address_Line1_":"5055 LOOP 410 NW",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 3841",
+    "Address_Line1_":"10831 POTRANCO",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"TARGET 1523",
+    "Address_Line1_":"4522 FREDERICKSBURG",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 2239",
+    "Address_Line1_":"8923 W MILITARY DR",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 3888",
+    "Address_Line1_":"11210 POTRANCO RD",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0089",
+    "Address_Line1_":"300 MAIN ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0561",
+    "Address_Line1_":"407 S ADAMS ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0655",
+    "Address_Line1_":"313 SIDNEY BAKER",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0658",
+    "Address_Line1_":"23635 WILDERNESS OAK",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"INGRAM DEPOT",
+    "Address_Line1_":"3134 JUNCTION HWY",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"JUNCTION DEPOT",
+    "Address_Line1_":"215 E MAIN ST",
+    "# of Visits":2,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 2025",
+    "Address_Line1_":"1106 E MAIN ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 2928",
+    "Address_Line1_":"202 HWY 277 NORTH",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 3709",
+    "Address_Line1_":"1281 JUNCTION HWY",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 5158",
+    "Address_Line1_":"1757 SIDNEY BAKER ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"SONIC 5576",
+    "Address_Line1_":"2337 N MAIN",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 0508",
+    "Address_Line1_":"1216 JUNCTION HWY",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 1154",
+    "Address_Line1_":"1435 E MAIN",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"COSTCO 0689",
+    "Address_Line1_":"5611 UTSA BLVD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0102",
+    "Address_Line1_":"8503 NW MILITARY",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0395",
+    "Address_Line1_":"12777 IH 10 W",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0480",
+    "Address_Line1_":"9900 WURZBACH",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0566",
+    "Address_Line1_":"24165 I 10 W 300",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3696",
+    "Address_Line1_":"14635 HUEBNER",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 4575",
+    "Address_Line1_":"4318 VANCE JACKSON R",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 5210",
+    "Address_Line1_":"2209 NW MILITARY HWY",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"TARGET 2467",
+    "Address_Line1_":"746 NW LOOP 410",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 2599",
+    "Address_Line1_":"5555 DEZAVALA RD",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0463",
+    "Address_Line1_":"1150 N LOOP 1604",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0621",
+    "Address_Line1_":"420 W BANDERA RD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2959",
+    "Address_Line1_":"9429 FREDERICKSBURG",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 3851",
+    "Address_Line1_":"121 W BANDERA",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 4094",
+    "Address_Line1_":"1013 MAIN ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 0948",
+    "Address_Line1_":"12621 IH 10 W",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 1354",
+    "Address_Line1_":"18255 BLANCO ST",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TARGET 2187",
+    "Address_Line1_":"17502 LACANTERA PKWY",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"TIMEWISE 0061",
+    "Address_Line1_":"25200 IH 10 W",
+    "# of Visits":2,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 1126",
+    "Address_Line1_":"1381 N MAIN ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART NEW",
+    "Address_Line1_":"WURZBACH PKWY & BLANCO RD",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0195",
+    "Address_Line1_":"11551 WEST AVE",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0389",
+    "Address_Line1_":"6000 WEST AVE",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0618",
+    "Address_Line1_":"5910 BABCOCK ROAD",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"LA MICHOACANA SAN 0011",
+    "Address_Line1_":"2341 NW MILITARY HWY",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SAMS CLUB 6262",
+    "Address_Line1_":"5565 DE ZAVALA RD",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 2976",
+    "Address_Line1_":"5221 DEZAVALA RD",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 5391",
+    "Address_Line1_":"24039 1-10 WEST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 2404",
+    "Address_Line1_":"8500 JONES MALTSBERG",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"BROOKSHIRE B 0074",
+    "Address_Line1_":"1514 N TEXANA DR",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"BUC EES 0015",
+    "Address_Line1_":"114 HWY 90A",
+    "# of Visits":2,
+    "Serve Time":20
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"GONZALES DEPOT",
+    "Address_Line1_":"2929 BUSINESS HWY 183",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0355",
+    "Address_Line1_":"201 W GONZALES",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0368",
+    "Address_Line1_":"1161 N ESPLANADE ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"HEB 0641",
+    "Address_Line1_":"1841 CHURCH ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 0290",
+    "Address_Line1_":"1625 SARAH DEWITT DR",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 0385",
+    "Address_Line1_":"1202 E BROADWAY ST",
+    "# of Visits":8,
+    "Serve Time":45
+  },
+  {
+    "Tour":"M",
+    "Customer Name":"WALMART 1067",
+    "Address_Line1_":"1506 N TEXANA",
+    "# of Visits":8,
+    "Serve Time":45
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"BROOKSHIRE B 0067",
+    "Address_Line1_":"14100 RR 12",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0014",
+    "Address_Line1_":"5401 SOUTH FM 1626",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0074",
+    "Address_Line1_":"1655 HIGHWAY 46 WEST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"HEB 0455",
+    "Address_Line1_":"200 W HOPKINS",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2350",
+    "Address_Line1_":"830 S COLORADO",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 2845",
+    "Address_Line1_":"802 S GUADALUPE",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 3519",
+    "Address_Line1_":"1646 AQUARENA SPRING",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"SONIC 6363",
+    "Address_Line1_":"1736 REBEL DR",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"TARGET 2438",
+    "Address_Line1_":"700 BARNES DR",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"TARGET 2725",
+    "Address_Line1_":"5188 KYLE CENTER DR",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"R",
+    "Customer Name":"WALMART 0292",
+    "Address_Line1_":"1904 S COLORADO ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"BUC EES 0017",
+    "Address_Line1_":"10070 W I H 10",
+    "# of Visits":4,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0445",
+    "Address_Line1_":"403 S COLORADO",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"HEB 0464",
+    "Address_Line1_":"320 E PIERCE",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"LA MICHOACANA SAN 0012",
+    "Address_Line1_":"1459 E COURT ST",
+    "# of Visits":4,
+    "Serve Time":30
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"SONIC 2427",
+    "Address_Line1_":"920 E PIERCE ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 0865",
+    "Address_Line1_":"1209 IH 35 S",
+    "# of Visits":8,
+    "Serve Time":75
+  },
+  {
+    "Tour":"T",
+    "Customer Name":"WALMART 0901",
+    "Address_Line1_":"550 S 123 BYP",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"BUC EES 0022",
+    "Address_Line1_":"2760 I 35 N",
+    "# of Visits":4,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0173",
+    "Address_Line1_":"1368 E COURT",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0243",
+    "Address_Line1_":"641 E HOPKINS ST",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"HEB 0380",
+    "Address_Line1_":"651 S WALNUT",
+    "# of Visits":8,
+    "Serve Time":60
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SAMS CLUB 4958",
+    "Address_Line1_":"1350 LEAH AVE",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SAN MARCOS",
+    "Address_Line1_":"7604 SOUTH OLD BASTROP HWY",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 2594",
+    "Address_Line1_":"710 S SEGUIN ST",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 4135",
+    "Address_Line1_":"861 LOOP 337",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"SONIC 6210",
+    "Address_Line1_":"2830 S IH 35",
+    "# of Visits":1,
+    "Serve Time":20
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"TARGET 2429",
+    "Address_Line1_":"135 CREEKSIDE WAY",
+    "# of Visits":8,
+    "Serve Time":30
+  },
+  {
+    "Tour":"W",
+    "Customer Name":"WALMART 0404",
+    "Address_Line1_":"1015 HWY 80",
+    "# of Visits":8,
+    "Serve Time":75
+  }
+]

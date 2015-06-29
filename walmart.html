@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Walmart 1042</title>
+
+  <link rel="stylesheet" href="css/bootstrap.lumen.min.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="css/kroger.css"/>
+    
+	<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css"/>
+<link rel="stylesheet" href="css/jquery.modal.css"/>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  
+  <script src="js/jquery.modal.js"></script>
+  <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+  <script src="js/bootstrap-image-gallery.min.js"></script>
+  <script type="text/javascript" src="js/main_store.js"></script>
+  
+</head>
+<body >
+  <!-- USED FOR MODALS -->
+  <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <div id="graph" style="display:none;position fixed; top: 50%; left: 50%;  margin-top:-123.5px; margin-left: -200px; z-index: 2">
+    <img src="images/graph.jpg" />
+  </div>
+    <div id="kroger" style="display:none">
+    <img src="images/Slide1.PNG" />
+  </div>
+  
+<div id="links" >
+ 
+    <a href="images/Slide2.PNG" title="" data-gallery>
+    
+    </a>
+    <a href="images/Slide3.PNG" title="" data-gallery>
+       
+    </a>
+	  <a href="images/Slide4.PNG" title="" data-gallery>
+       
+    </a>
+	  <a href="images/Slide5.PNG" title="" data-gallery>
+       
+    </a>
+	  <a href="images/Slide6.PNG" title="" data-gallery></a>
+	  <a href="images/Slide7.PNG" title="" data-gallery></a>
+	  <a href="images/Slide8.PNG" title="" data-gallery></a>
+	  <a href="images/Slide9.PNG" title="" data-gallery></a>
+	  <a href="images/Slide10.PNG" title="" data-gallery></a>
+	  <a href="images/Slide11.PNG" title="" data-gallery></a>
+</div>
+  
+  
+
+  <div  id="issue" style="display:none;position: fixed; top: 50%; left: 50%; margin-top:-123.5px; margin-left: -200px; z-index: 999999;width:360px;background: #FFFFFF">
+	<form action="">
+	<input type="checkbox" name="oos" value="outofStock"> Out of Stock<br>
+	<input type="checkbox" name="ooc" value="outofCode"> Out of Code<br>
+	<input type="comment" name"comments" value="Enter your comments" style="width:300px;height:100px;text-align:left;vertical-align:top" >
+	</form>
+    <div class="modal-footer">
+	    <button type="button" class="btn btn-default" data-dismiss="modal"onclick="return closewindow();">Close</button>
+        <button type="button" class="btn btn-primary" onclick="return closewindow();">Save changes</button>
+	</div>
+  </div>
+    <!-- END------------USED FOR MODALS -->
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+      <a href="index.html" class="navbar-brand"><img src="images/Seven_Logo.png"></a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li >
+            <a href="index.html">Dashboard</a>
+          </li>
+          <li>
+            <a id="priorities" href="images/Slide1.PNG" title=""  data-gallery>Account Priorities</a>
+          </li>
+          <li>
+            <a href="#behind">Behind the Store</a>
+          </li>
+          <li>
+            <a href="#back">Backroom</a>
+          </li>
+          <li>
+            <a href="#shelf">At the Shelf</a>
+          </li>
+		  <li>
+            <a href="#perimeter">Perimeter</a>
+          </li>
+		  <li>
+            <a href="#customer">Customer Contact</a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+
+      </div>
+    </div>
+  </div><!-- /.navbar -->
+  <div class="main-wrapper">
+    <div class="container">
+      <header class="page-header">
+     <h1 style="text-align:center"> Walmart 1042</h1>
+      </header>
+      <div class="row">
+        <div class="col-xs-12">
+          <article>
+		<!-- SALES DATA -->
+		  <section>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Sales Data<span class="glyphicon glyphicon-globe pull-right"></span></h2>
+                </div>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <h2 class="center-text"></h2>
+					      <img src="images/StoreData.png" alt="" class="image-graph center storedata" />
+                    </div>
+                  </div><!-- /.row -->
+				  
+	
+				 
+                </div><!-- /.panel-body -->
+              </div><!-- /.panel -->
+            </section>
+  
+		<!-- BEHIND STORE-->
+		        <section>
+				<a name="behind"></a>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+					
+                  <h2 class="panel-title">Behind the Store<span class="glyphicon glyphicon-globe pull-right"></span></h2>
+                </div>
+                <div class="panel-body">
+                  <div class="row"style="width:650px;margin: 0 auto;">
+				  <h3 style="text-align:center">Equipment</h3>
+                    <div class="col-xs-12">
+                  <div class="table-responsive">
+          <table  class="table table-bordered table-condensed" >
+            <thead >
+              <th>Type</th>
+              <th>Amount</th>
+              <th>Amount Last Visit</th>
+              <th>Average Last 4 Visits</th>           
+              </thead>
+            <tbody>
+			<tr>
+			<td>Dollies</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>0</td>
+			<td>2</td>
+			</tr>
+			<tr>
+			<td>Trays</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>6</td>
+			<td>29</td>
+			</tr>
+            </tbody>
+          </table>
+        </div>
+                    </div>
+                  </div><!-- /.row -->
+				  
+		<div class="row"style="width:650px;margin: 0 auto;" >
+	<h3 style="text-align:center">Other</h3>
+      <div class="col-xs-12">
+        <div class="table-responsive">
+          <table  class="table table-bordered table-condensed">
+            <thead >
+              <th>Type</th>
+              <th>Amount</th>
+                 </thead>
+            <tbody>
+			<tr>
+				<td><input type="text" class="form-control"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			</tr>
+			<tr>
+				<td><input type="text" class="form-control"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>	
+            </tbody>
+          </table>
+        </div>
+      </div>	  		
+    </div>
+	
+			<div class="row" style="position:relative;">
+	 <a href="#back" class="nextstep">Next Step</a>
+	 </div>
+                </div><!-- /.panel-body -->
+              </div><!-- /.panel -->
+            </section>
+  <!-- END BEHIND THE STORE-->
+  		<!-- BACKROOM-->
+		        <section>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+					<a name="back"></a> 
+                  <h2 class="panel-title">Backroom<span class="glyphicon glyphicon-globe pull-right"></span></h2>
+                </div>
+                <div class="panel-body">
+   <div class="row" style="width:400px;">
+	<h3 style="text-align:center">Empty Equipment</h3>
+      <div class="col-xs-12">
+        <div class="table-responsive">
+          <table  class="table table-bordered table-condensed">
+            <thead >
+              <th>Type</th>
+              <th>Amount</th>
+              <th>Amount Last Visit</th>
+              <th>Average Last 4 Visits</th>           
+              </thead>
+            <tbody>
+			<tr>
+			<td>Dollies</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>2</td>
+			<td>11</td>
+			</tr>
+			<tr>
+			<td>Trays</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>8</td>
+			<td>37</td>
+			</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>	  		
+    </div><!-- /.row -->
+		<div class="row" >
+
+      <div class="col-md-6">
+	  	<h3 style="text-align:center"># of Trays of Backstock</h3>
+        <div class="table-responsive">
+          <table  class="table table-bordered table-condensed">
+            <thead >
+              <th>Brand</th>
+              <th>Amount</th>
+              <th>Amount Last Visit</th>
+              <th>Average Last 4 Visits</th>           
+              </thead>
+            <tbody>
+			<tr>
+			<td>Mrs. Bairds</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>1</td>
+			<td>6</td>
+			</tr>
+			<tr>
+			<td>Oroweat</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>3</td>
+			<td>9</td>
+			</tr>
+				<tr>
+			<td>Thomas</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>0</td>
+			<td>0</td>
+			</tr>
+				<tr>
+			<td>Sara Lee</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>1</td>
+			<td>3</td>
+			</tr>
+				<tr>
+			<td>Bimbo Bread</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>0</td>
+			<td>0</td>
+			</tr>
+				<tr>
+			<td>Import</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>0</td>
+			<td>7</td>
+			</tr>
+				<tr>
+			<td>Entenmanns</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>0</td>
+			<td>0</td>
+			</tr>
+				<tr>
+			<td>Boboli</td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td>0</td>
+			<td>0</td>
+			</tr>
+            </tbody>
+          </table>
+		  
+        </div>
+      </div>	  		
+	   <div class="col-md-6 hidden">
+	   	<h3 style="text-align:center">By SKU Tracking</h3>
+        <div class="table-responsive">
+          <table  class="table table-bordered table-condensed">
+            <thead >
+              <th>UPC 10</th>
+              <th>Item #</th>
+              <th>Product Description</th>
+              <th>Units</th>           
+              </thead>
+            <tbody>
+			<tr>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="text" class="form-control"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			</tr>
+			<tr>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="text" class="form-control"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			</tr>
+			<tr>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="text" class="form-control"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			</tr>
+			<tr>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="text" class="form-control"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			</tr>
+			<tr>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="text" class="form-control"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			</tr>
+			<tr>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			<td><input type="text" class="form-control"></td>
+			<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"></td>
+			</tr>
+			
+            </tbody>
+          </table>
+		  
+        </div>
+      </div>	  		
+    </div>			  
+	<div class="row" style="position:relative;">
+	 <a href="#shelf" class="nextstep">Next Step</a>
+	 </div>
+                </div><!-- /.panel-body -->
+              </div><!-- /.panel -->
+            </section>
+  	<!-- END OF BACKROOM-->
+				<!-- PERIMETER-->
+			
+			<section>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Perimeter<span class="glyphicon glyphicon-globe pull-right"></span></h2>
+                </div>
+                <div class="panel-body">
+					<div class="row" style="width:900px;margin: 0 auto;">
+					<h3 style="text-align:center">Golden Path</h3>
+					<img id="goldenpath" src='images/Golden_Path.jpg' class="center"  />
+					</div>
+                   
+	<div class="row" >
+	<h3 style="text-align:center">Permanent Displays</h3>
+      <div class="col-xs-12">
+        <div class="table-responsive">
+          <table id="permanent-table" class="table table-bordered table-condensed">
+            <thead >
+			<th>Type</th>
+			<th>Location</th>
+			<th>Desired</th>
+			<th>Executed</th>
+			<th>Picture</th>
+			</thead>
+			<tbody>
+			<tr>
+			<td>
+			<select class="form-control">
+			<option>Select Type</option>
+			<option>Premium Bread Display</option>
+				<option>Main Stream Bread Display</option>
+					<option>Breakfast Display</option>
+						<option>Box Cake Display</option>
+								<option>IWP Cake Disay</option>
+								<option>Thin/Bun Display</option>
+								<option>Roll Display</option>
+								<option>Combination</option>
+			</select>
+			</td>
+			<td>
+			<select class="form-control">
+			<option>Select Location</option>
+			<option>Cream Cheese</option>
+			<option>Deli Sliced Meats</option>
+			<option>Fresh Hamburger Meat</option>
+			<option>Hot Dogs</option>
+			<option>Milk Section</option>
+			<option>Juice Section</option>
+			<option>Eggs / Bacon</option>
+			<option>Prepared Meals</option>
+			<option>Packaged Meats</option>
+							
+			</select>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input id="desired" type="checkbox">
+			</div>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input id="executed" type="checkbox">
+			</div>
+			</td>
+			<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>
+			</tr>
+					<tr>
+			<td>
+						<select class="form-control">
+			<option>Select Type</option>
+			<option>Premium Bread Display</option>
+				<option>Main Stream Bread Display</option>
+					<option>Breakfast Display</option>
+						<option>Box Cake Display</option>
+								<option>IWP Cake Disay</option>
+								<option>Thin/Bun Display</option>
+								<option>Roll Display</option>
+								<option>Combination</option>
+			</select>
+			</td>
+			<td>
+			<select class="form-control">
+			<option>Select Location</option>
+			<option>Cream Cheese</option>
+			<option>Deli Sliced Meats</option>
+			<option>Fresh Hamburger Meat</option>
+			<option>Hot Dogs</option>
+			<option>Milk Section</option>
+			<option>Juice Section</option>
+			<option>Eggs / Bacon</option>
+			<option>Prepared Meals</option>
+			<option>Packaged Meats</option>
+			</select>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>
+			</tr>
+					<tr>
+			<td>
+						<select class="form-control">
+			<option>Select Type</option>
+			<option>Premium Bread Display</option>
+				<option>Main Stream Bread Display</option>
+					<option>Breakfast Display</option>
+						<option>Box Cake Display</option>
+								<option>IWP Cake Disay</option>
+								<option>Thin/Bun Display</option>
+								<option>Roll Display</option>
+								<option>Combination</option>
+			</select>
+			</td>
+			<td>
+			<select class="form-control">
+			<option>Select Location</option>
+			<option>Cream Cheese</option>
+			<option>Deli Sliced Meats</option>
+			<option>Fresh Hamburger Meat</option>
+			<option>Hot Dogs</option>
+			<option>Milk Section</option>
+			<option>Juice Section</option>
+			<option>Eggs / Bacon</option>
+			<option>Prepared Meals</option>
+			<option>Packaged Meats</option>
+			</select>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>
+			</tr>
+					<tr>
+			<td>
+					<select class="form-control">
+			<option>Select Type</option>
+			<option>Premium Bread Display</option>
+				<option>Main Stream Bread Display</option>
+					<option>Breakfast Display</option>
+						<option>Box Cake Display</option>
+								<option>IWP Cake Disay</option>
+								<option>Thin/Bun Display</option>
+								<option>Roll Display</option>
+								<option>Combination</option>
+			</select>
+			</td>
+			<td>
+			<select class="form-control">
+			<option>Select Location</option>
+			<option>Cream Cheese</option>
+			<option>Deli Sliced Meats</option>
+			<option>Fresh Hamburger Meat</option>
+			<option>Hot Dogs</option>
+			<option>Milk Section</option>
+			<option>Juice Section</option>
+			<option>Eggs / Bacon</option>
+			<option>Prepared Meals</option>
+			<option>Packaged Meats</option>
+			</select>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>
+			</tr>
+					<tr>
+			<td>
+					<select class="form-control">
+			<option>Select Type</option>
+			<option>Premium Bread Display</option>
+				<option>Main Stream Bread Display</option>
+					<option>Breakfast Display</option>
+						<option>Box Cake Display</option>
+								<option>IWP Cake Disay</option>
+								<option>Thin/Bun Display</option>
+								<option>Roll Display</option>
+								<option>Combination</option>
+			</select>
+			</td>
+			<td>
+			<select class="form-control">
+			<option>Select Location</option>
+			<option>Cream Cheese</option>
+			<option>Deli Sliced Meats</option>
+			<option>Fresh Hamburger Meat</option>
+			<option>Hot Dogs</option>
+			<option>Milk Section</option>
+			<option>Juice Section</option>
+			<option>Eggs / Bacon</option>
+			<option>Prepared Meals</option>
+			<option>Packaged Meats</option>
+							
+			</select>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>
+			</tr>
+					<tr>
+			<td>
+						<select class="form-control">
+			<option>Select Type</option>
+			<option>Premium Bread Display</option>
+				<option>Main Stream Bread Display</option>
+					<option>Breakfast Display</option>
+						<option>Box Cake Display</option>
+								<option>IWP Cake Disay</option>
+								<option>Thin/Bun Display</option>
+								<option>Roll Display</option>
+								<option>Combination</option>
+			</select>
+			</td>
+			<td>
+			<select class="form-control">
+			<option>Select Location</option>
+			<option>Cream Cheese</option>
+			<option>Deli Sliced Meats</option>
+			<option>Fresh Hamburger Meat</option>
+			<option>Hot Dogs</option>
+			<option>Milk Section</option>
+			<option>Juice Section</option>
+			<option>Eggs / Bacon</option>
+			<option>Prepared Meals</option>
+			<option>Packaged Meats</option>
+			</select>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td>
+			<div class="input-group" style="margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>
+			</tr>
+			</tbody>
+			</table>
+			</div>
+			</div>
+			</div>
+			<div class=row>
+			<img id="addrow_permanent" src="images/plus_sign.png" style="float:right;margin-right:25px;"  />
+			</div>
+			
+			
+			
+			
+	<div class="row" >
+	<h3 style="text-align:center">Competitor Display Summary</h3>
+      <div class="col-xs-12">
+        <div class="table-responsive">
+          <table  class="table table-bordered table-condensed">
+            <thead >
+              <th>Company</th>
+              <th>Brand</th>
+              <th>Segment</th>
+              <th>Price Point</th>
+				<th>Fixture</th>  
+				<th>Location</th>	
+				  <th>Picture</th>
+              </thead>
+            <tbody>
+			<tr>
+				<td>
+			<select class="form-control">
+			<option>Select Company</option>
+			<option>Bimbo</option>
+				<option>Flowers</option>
+					<option>Pepperidge Farms</option>
+						<option>Private Label</option>
+								<option>Other</option>
+			</select>
+				</td>
+			<td>
+			<select class="form-control">
+			<option>Select Brand</option>
+			<option>Mrs. Bairds</option>
+				<option>Oroweat</option>
+					<option>Thomas</option>
+						<option>Private Label</option>
+							<option>Bimbo</option>
+								<option>Marinela</option>
+									<option>Sara Lee</option>
+			</select>
+			</td>
+				<td>
+			<select class="form-control">
+			<option>Select Segment</option>
+			<option>Sliced Bread</option>
+				<option>Buns and Rolls</option>
+					<option>Breakfast</option>
+						<option>Snack</option>
+								<option>SBG</option>
+			</select>
+				</td>
+				<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4">
+					</td>
+					<td>
+						<select class="form-control">
+			<option>Select Fixture</option>
+			<option>Cardboard Hutch</option>
+				<option>4-Way</option>
+					<option>Store Endcap/option>
+						<option>Need new Display</option>
+							</select>	
+						
+						</td>
+								<td><input type="text" class="form-control"></td>
+										<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>
+			</tr>
+						<tr>
+				<td>
+			<select class="form-control">
+			<option>Select Company</option>
+			<option>Bimbo</option>
+				<option>Flowers</option>
+					<option>Pepperidge Farms</option>
+						<option>Private Label</option>
+								<option>Other</option>
+			</select>
+				</td>
+			<td>
+			<select class="form-control">
+			<option>Select Brand</option>
+			<option>Mrs. Bairds</option>
+				<option>Oroweat</option>
+					<option>Thomas</option>
+						<option>Private Label</option>
+							<option>Bimbo</option>
+								<option>Marinela</option>
+									<option>Sara Lee</option>
+			</select>
+			</td>
+				<td>
+			<select class="form-control">
+			<option>Select Segment</option>
+			<option>Sliced Bread</option>
+				<option>Buns and Rolls</option>
+					<option>Breakfast</option>
+						<option>Snack</option>
+								<option>SBG</option>
+			</select>
+				</td>
+				<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4">
+					</td>
+					<td>
+						<select class="form-control">
+			<option>Select Fixture</option>
+			<option>Cardboard Hutch</option>
+				<option>4-Way</option>
+					<option>Store Endcap/option>
+						<option>Need new Display</option>
+							</select>	
+						
+						</td>
+								<td><input type="text" class="form-control"></td>
+										<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>
+			</tr>
+						<tr>
+				<td>
+			<select class="form-control">
+			<option>Select Company</option>
+			<option>Bimbo</option>
+				<option>Flowers</option>
+					<option>Pepperidge Farms</option>
+						<option>Private Label</option>
+								<option>Other</option>
+			</select>
+				</td>
+			<td>
+			<select class="form-control">
+			<option>Select Brand</option>
+			<option>Mrs. Bairds</option>
+				<option>Oroweat</option>
+					<option>Thomas</option>
+						<option>Private Label</option>
+							<option>Bimbo</option>
+								<option>Marinela</option>
+									<option>Sara Lee</option>
+			</select>
+			</td>
+				<td>
+			<select class="form-control">
+			<option>Select Segment</option>
+			<option>Sliced Bread</option>
+				<option>Buns and Rolls</option>
+					<option>Breakfast</option>
+						<option>Snack</option>
+								<option>SBG</option>
+			</select>
+				</td>
+				<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4">
+					</td>
+					<td>
+						<select class="form-control">
+			<option>Select Fixture</option>
+			<option>Cardboard Hutch</option>
+				<option>4-Way</option>
+					<option>Store Endcap/option>
+						<option>Need new Display</option>
+							</select>	
+						
+						</td>
+								<td><input type="text" class="form-control"></td>
+										<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>
+			</tr>
+						<tr>
+				<td>
+			<select class="form-control">
+			<option>Select Company</option>
+			<option>Bimbo</option>
+				<option>Flowers</option>
+					<option>Pepperidge Farms</option>
+						<option>Private Label</option>
+								<option>Other</option>
+			</select>
+				</td>
+			<td>
+			<select class="form-control">
+			<option>Select Brand</option>
+			<option>Mrs. Bairds</option>
+				<option>Oroweat</option>
+					<option>Thomas</option>
+						<option>Private Label</option>
+							<option>Bimbo</option>
+								<option>Marinela</option>
+									<option>Sara Lee</option>
+			</select>
+			</td>
+				<td>
+			<select class="form-control">
+			<option>Select Segment</option>
+			<option>Sliced Bread</option>
+				<option>Buns and Rolls</option>
+					<option>Breakfast</option>
+						<option>Snack</option>
+								<option>SBG</option>
+			</select>
+				</td>
+				<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4">
+					</td>
+					<td>
+						<select class="form-control">
+			<option>Select Fixture</option>
+			<option>Cardboard Hutch</option>
+				<option>4-Way</option>
+					<option>Store Endcap/option>
+						<option>Need new Display</option>
+							</select>	
+						
+						</td>
+								<td><input type="text" class="form-control"></td>
+										<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>
+			</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>	  		
+    </div>
+    <div class=row>
+			<img src="images/plus_sign.png" style="float:right;margin-right:25px;"  />
+			</div>	
+	<div class="row" style="width:700px;margin: 0 auto;">
+                    <div class="col-xs-12">
+					<h3 style="text-align:center">Store Survey</h3>
+        <div class="table-responsive">
+          <table  class="table table-bordered table-condensed">
+            <thead >
+              <th>#</th>
+              <th>Questions</th>
+              <th>Yes</th>
+              <th>No</th>           
+              </thead>
+            <tbody>
+			<tr>
+			<td>1</td>
+			<td>Is Thomas End Cap up?</td>
+			<td>
+			<div class="input-group" style="width:50%;margin: 0 auto;">
+ 
+        <input type="checkbox">
+			</div>
+			</td>
+			<td>
+			<div class="input-group" style="width:50%;margin: 0 auto;">
+           <input type="checkbox">
+			</div>
+		</td>
+			</tr>
+					<tr>
+			<td>2</td>
+			<td>Is the front end SBG display up?</td>
+			<td><div class="input-group" style="width:50%;margin: 0 auto;">
+      <input type="checkbox">
+			</div>
+			</td>
+			<td><div class="input-group" style="width:50%;margin: 0 auto;">
+      <input type="checkbox">
+			</div>
+		</td>
+			</tr>
+					<tr>
+			<td>3</td>
+			<td>Does Flowers have a bun display up?</td>
+			<td><div class="input-group" style="width:50%;margin: 0 auto;">
+     <input type="checkbox">
+			</div>
+			</td>
+			<td><div class="input-group" style="width:50%;margin: 0 auto;">
+    <input type="checkbox">
+			</div>
+		</td>
+			</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>	  	
+                  </div><!-- /.row-->
+					<div class="row" style="position:relative;">
+	 <a href="#customer" class="nextstep">Next Step</a>
+	 </div>
+				 
+                </div><!-- /.panel-body -->
+              </div><!-- /.panel -->
+            </section>
+			<!--AT THE SHELF-->
+        <section>
+			<a name="shelf"></a>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h2 class="panel-title">At The Shelf<span class="glyphicon glyphicon-globe pull-right"></span></h2>
+                </div>
+                <div class="panel-body">
+             <div class="left" >
+      <div class="row" style="margin-top:30px;margin-left:1px;margin-right:1px;height:120px">
+        <div class="col-xs-6 col-md-4 largeborder" style="height:100%">
+          <h4 style="text-align:center">Select time frame</h4>
+          <div style="float: right">
+            <label for="radio2"><input type="radio" name="time-filter" id="radio2" class="filter-radio" value="last_12_weeks">  Last 12 Weeks </label><br>
+            <label for="radio1"><input type="radio" name="time-filter" id="radio1" class="filter-radio" value="last_52_weeks" > Last 52 Weeks</label>
+          </div>
+          <div style= "float:left">
+            <label for="radio4"><input type="radio" name="time-filter" id="radio4" class="filter-radio" value="last_week">  Last Week </label><br>
+            <label for="radio3"><input type="radio" name="time-filter" id="radio3" class="filter-radio" value="last_4_weeks"> Last 4 Weeks</label>
+          
+
+          </div>
+        </div>
+     
+       <div class="col-xs-6 col-md-4 largeborder" style="height:100%">
+			<h4 style="text-align:center">Legend and Additional Options</h4>
+			<span style="background-color:#FF0000;font-weight:bolder;color:#FFFFFF"> Must Carry / Zero Gross Last 2 Weeks </span><br>
+			<span style="background-color:#FFFF00;font-weight:bolder"> Must Carry / Zero Scan Last 2 Weeks  </span><br>
+		  <label for="radio5"><input type="checkbox" name="show-order" id="radio5" class="order-radio" value="show_order"> Show Prompt Order</label>
+		</div>
+
+     
+             <div class="col-xs-6 col-md-4 largeborder" style="height:100%">
+          <h4 style="text-align:center">Store Information</h4>
+          <div>
+            Store Name: Walmart 1042<br>
+            Store Manager: Bill Smith<br>              
+            Store Address: 488 HWY 71 W, BASTROP, TX<br>
+            Phone Number: 512-111-1111
+          
+        </div>
+      </div>
+	</div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="table-responsive">
+          <table id="main-table" class="table table-bordered table-condensed">
+            <thead >
+              <th>+/-</th>
+              <th>Category/SKU</th>
+              <th>Unit Mix %</th>
+              <th>Avg Net U</th>
+              <th>NU Growth %</th>
+              <th>Ret %</th>
+              <th>Avg Ret U</th>
+              <!--<th>VCM/NU</th>-->
+              <th id="five-day" class="five-day-order">5 Day Order</th>
+              <th class="day-order">M</th>
+              <th class="day-order">T</th>
+              <th class="day-order">Th</th>
+              <th class="day-order">F</th>
+              <th class="day-order">Sat</th>
+              <th>Issues @ Last Visit</th>
+              <th>Issues Today</th>
+              <th>On-Hand</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+	  
+    </div>
+	</div>
+					<a name="perimeter"></a>	  
+				<div class="row" style="position:relative;">
+	 <a href="#perimeter" class="nextstep">Next Step</a>
+	 </div>
+				 
+                </div><!-- /.panel-body -->
+              </div><!-- /.panel -->
+            </section>    
+			<!-- END AT THE SHELF-0-->
+
+			
+			<!--CUSTOMER CONTACT-->
+			<a name="customer"></a>
+			<section>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Customer Contact<span class="glyphicon glyphicon-globe pull-right"></span></h2>
+                </div>
+                <div class="panel-body">
+                 <div class="form">
+		<form>
+		Store Employee Contact: <input class="contact" type="text" name="name"><br>
+		Store Employee Title: <input class="contact"  type="text" name="title"><br>
+		Does Store Manager know the IO's name? <input class="contact"  type="text" name="perception"><br>
+		Additional Feedback <input class="contact"  type="text" name="feedback">
+		</form>		
+		</div>
+		<div class="displays" style="margin-top: 30px">
+		<h3 style="text-align:center">Promotional Displays</h3>
+		<div class="row">
+      <div class="col-xs-12">
+        <div class="table-responsive">
+          <table class="table table-bordered table-condensed">
+            <thead >
+              <th>Brand</th>
+              <th>Segment</th>
+              <th>Price Point</th>
+              <th>Fixture</th>
+              <th>Location</th>
+              <th>Accepted?</th>
+              <th>Display Approver</th>
+              <th>Start Date</th>
+              <th>End Date</th>
+			
+                </thead>
+            <tbody>
+			<tr>
+			<td>
+			<select class="form-control">
+			<option>Select Brand</option>
+			<option>Mrs. Bairds</option>
+				<option>Oroweat</option>
+					<option>Thomas</option>
+						<option>Private Label</option>
+							<option>Bimbo</option>
+								<option>Marinela</option>
+									<option>Sara Lee</option>
+			</select>
+			</td>
+				<td>
+			<select class="form-control">
+			<option>Select Segment</option>
+			<option>Sliced Bread</option>
+				<option>Buns and Rolls</option>
+					<option>Breakfast</option>
+						<option>Snack</option>
+								<option>SBG</option>
+			</select>
+				</td>
+					<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4">
+					</td>
+						<td>
+						<select class="form-control">
+			<option>Select Fixture</option>
+			<option>Cardboard Hutch</option>
+				<option>4-Way</option>
+					<option>Store Endcap/option>
+						<option>Need new Display</option>
+							</select>	
+						
+						</td>
+							<td><input type="text" class="form-control"></td>
+								<td> <div class="input-group" style="width:50%;margin: 0 auto;">
+    <input type="checkbox">
+			</div></td>
+									<td><input type="text" class="form-control"></td>
+										<td><input type="text" class="form-control"></td>
+											<td><input type="text" class="form-control"></td>
+								
+			</tr>
+						<tr>
+			<td>
+			<select class="form-control">
+			<option>Select Brand</option>
+			<option>Mrs. Bairds</option>
+				<option>Oroweat</option>
+					<option>Thomas</option>
+						<option>Private Label</option>
+							<option>Bimbo</option>
+								<option>Marinela</option>
+									<option>Sara Lee</option>
+			</select>
+			</td>
+				<td>
+			<select class="form-control">
+			<option>Select Segment</option>
+			<option>Sliced Bread</option>
+				<option>Buns and Rolls</option>
+					<option>Breakfast</option>
+						<option>Snack</option>
+								<option>SBG</option>
+			</select>
+				</td>
+					<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"
+					</td>
+						<td>
+						<select class="form-control">
+			<option>Select Fixture</option>
+			<option>Cardboard Hutch</option>
+				<option>4-Way</option>
+					<option>Store Endcap/option>
+						<option>Need new Display</option>
+							</select>	
+						
+						</td>
+							<td><input type="text" class="form-control"></td>
+								<td> <div class="input-group" style="width:50%;margin: 0 auto;">
+    <input type="checkbox">
+			</div></div></td>
+									<td><input type="text" class="form-control"></td>
+										<td><input type="text" class="form-control"></td>
+											<td><input type="text" class="form-control"></td>
+										
+						<tr>
+			<td>
+			<select class="form-control">
+			<option>Select Brand</option>
+			<option>Mrs. Bairds</option>
+				<option>Oroweat</option>
+					<option>Thomas</option>
+						<option>Private Label</option>
+							<option>Bimbo</option>
+								<option>Marinela</option>
+									<option>Sara Lee</option>
+			</select>
+			</td>
+				<td>
+			<select class="form-control">
+			<option>Select Segment</option>
+			<option>Sliced Bread</option>
+				<option>Buns and Rolls</option>
+					<option>Breakfast</option>
+						<option>Snack</option>
+								<option>SBG</option>
+			</select>
+				</td>
+					<td><input type="number" class="form-control" name="currencyDollars" min="0" max="9999" size="4"
+					</td>
+						<td>
+						<select class="form-control">
+			<option>Select Fixture</option>
+			<option>Cardboard Hutch</option>
+				<option>4-Way</option>
+					<option>Store Endcap/option>
+						<option>Need new Display</option>
+							</select>	
+						
+						</td>
+							<td><input type="text" class="form-control"></td>
+								<td> <div class="input-group" style="width:50%;margin: 0 auto;">
+     <input type="checkbox">
+			</div></td>
+									<td><input type="text" class="form-control"></td>
+										<td><input type="text" class="form-control"></td>
+											<td><input type="text" class="form-control"></td>
+									
+			</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>	  		
+    </div>
+
+				  
+	
+				     <div class=row>
+			<img src="images/plus_sign.png" style="float:right;margin-right:25px;"  />
+			</div>
+                </div><!-- /.panel-body -->
+              </div><!-- /.panel -->
+            </section>
+			
+          </article>
+<div class="span2" style="display:block;width:150px; float:right; margin-bottom:10px">
+	<a href="mailto:IO@yahoo.com;PromptPlanner@bbumail.com?subject=Recap for Wal-Mart 0454&body= Out Of Stock:0 %0D%0A Out Of Code:0 %0D%0A Issues: Prompt order for MB Large White looks low; Heavy on Sara Lee Box Cake %0D%0A New Display: 9/21, Entenmann Little Bites"  class="btn btn-primary btn-block" >Submit</a>  
+	
+      </div>
+		  </div>
+    
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

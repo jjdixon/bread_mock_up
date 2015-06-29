@@ -1,0 +1,362 @@
+[
+  {
+    "Tour":"M",
+    "Customer_Name":"-----------------",
+    "Address":"-----------------",
+    "City":"-----------------",
+    "State":"---",
+    "# of Visits":"----",
+    "Serve Time":"----"
+  },
+  {
+    "Tour":"R",
+    "Customer_Name":"-----------------",
+    "Address":"-----------------",
+    "City":"-----------------",
+    "State":"---",
+    "# of Visits":"----",
+    "Serve Time":"----"
+  },
+  {
+    "Tour":"T",
+    "Customer_Name":"-----------------",
+    "Address":"-----------------",
+    "City":"-----------------",
+    "State":"---",
+    "# of Visits":"----",
+    "Serve Time":"----"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"-----------------",
+    "Address":"-----------------",
+    "City":"-----------------",
+    "State":"---",
+    "# of Visits":"----",
+    "Serve Time":"----"
+  },
+  {
+    "Tour":"T",
+    "Customer_Name":"BASTROP",
+    "Address":"305 INDUSTRIAL BLVD",
+    "City":"BASTROP",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"M",
+    "Customer_Name":"BREAD BASKET",
+    "Address":"FM 812 2287",
+    "City":"DALE",
+    "State":"TX",
+    "# of Visits":"2",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"M",
+    "Customer_Name":"BROOKSHIRE B 0034",
+    "Address":"1400 FANNIN",
+    "City":"COLUMBUS",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"M",
+    "Customer_Name":"BUC EES 0028",
+    "Address":"1700 HWY 71 E",
+    "City":"BASTROP",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"20"
+  },
+  {
+    "Tour":"R",
+    "Customer_Name":"EL RANCHO 0018",
+    "Address":"8752 RESEARCH BLVD",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"EL RANCHO 0024",
+    "Address":"6800 BERKMAN",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"FIESTA 0025",
+    "Address":"3909 N IH 35",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"R",
+    "Customer_Name":"FOREST BLUFF",
+    "Address":"14300 A FM 969",
+    "City":"DEL VALLE",
+    "State":"TX",
+    "# of Visits":"2",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"GAMA 1163 WHISTLE STOP GROCERY",
+    "Address":"834 E RUNDBERG",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"2",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"M",
+    "Customer_Name":"HARLANS 08",
+    "Address":"236 COLLEGE ST",
+    "City":"SCHULENBURG",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"20"
+  },
+  {
+    "Tour":"R",
+    "Customer_Name":"HEB 0091",
+    "Address":"2508 E RIVERSIDE DR",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"60"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"HEB 0161",
+    "Address":"7112 ED BLUESTEIN",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"60"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"HEB 0183",
+    "Address":"9414 N LAMAR BLVD",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"60"
+  },
+  {
+    "Tour":"M",
+    "Customer_Name":"HEB 0256",
+    "Address":"2105 MILAM ST",
+    "City":"COLUMBUS",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"60"
+  },
+  {
+    "Tour":"T",
+    "Customer_Name":"HEB 0475",
+    "Address":"1080 HWY 290 E",
+    "City":"ELGIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"60"
+  },
+  {
+    "Tour":"T",
+    "Customer_Name":"HEB 0582",
+    "Address":"400 HWY 71 W",
+    "City":"BASTROP",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"60"
+  },
+  {
+    "Tour":"R",
+    "Customer_Name":"HEB 0628",
+    "Address":"2512 E RIVERSIDE",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"2",
+    "Serve Time":"20"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"HEB 0639",
+    "Address":"1801 E 51ST ST",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"60"
+  },
+  {
+    "Tour":"R",
+    "Customer_Name":"LA MICHOACANA AUS   0001",
+    "Address":"1917 E 7TH ST",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"LA MICHOACANA AUS   0002",
+    "Address":"6908 CAMERON RD",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"R",
+    "Customer_Name":"SONIC 1562 CONWAY GRP",
+    "Address":"7112 ED BLUESTEIN BL",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"1",
+    "Serve Time":"20"
+  },
+  {
+    "Tour":"T",
+    "Customer_Name":"SONIC 1984 CONWAY GRP",
+    "Address":"1134 HWY 290",
+    "City":"ELGIN",
+    "State":"TX",
+    "# of Visits":"1",
+    "Serve Time":"20"
+  },
+  {
+    "Tour":"T",
+    "Customer_Name":"SONIC 2112 KEN HILL",
+    "Address":"1254 E AUSTIN",
+    "City":"GIDDINGS",
+    "State":"TX",
+    "# of Visits":"1",
+    "Serve Time":"20"
+  },
+  {
+    "Tour":"M",
+    "Customer_Name":"SONIC 2378 MANN HILL",
+    "Address":"717 E TRAVIS",
+    "City":"LA GRANGE",
+    "State":"TX",
+    "# of Visits":"1",
+    "Serve Time":"20"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"SONIC 3356 CONWAY GRP",
+    "Address":"2706 GONZALEZ",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"1",
+    "Serve Time":"20"
+  },
+  {
+    "Tour":"R",
+    "Customer_Name":"SONIC 4057 CONWAY GRP",
+    "Address":"11215 HWY 290 E",
+    "City":"MANOR",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"20"
+  },
+  {
+    "Tour":"M",
+    "Customer_Name":"SONIC 5417 CONWAY GRP",
+    "Address":"1481 STATE HWY 71 W",
+    "City":"WYLDWOOD",
+    "State":"TX",
+    "# of Visits":"1",
+    "Serve Time":"20"
+  },
+  {
+    "Tour":"R",
+    "Customer_Name":"TARGET 0095",
+    "Address":"8601 RESEARCH BLVD",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"TARGET 1542",
+    "Address":"5621 N IH 35",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"30"
+  },
+  {
+    "Tour":"T",
+    "Customer_Name":"WALMART 0473",
+    "Address":"US HWY 290/2374 E AU",
+    "City":"GIDDINGS",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"45"
+  },
+  {
+    "Tour":"M",
+    "Customer_Name":"WALMART 0503",
+    "Address":"2103 MILAM ST",
+    "City":"COLUMBUS",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"45"
+  },
+  {
+    "Tour":"M",
+    "Customer_Name":"WALMART 1042",
+    "Address":"488 HWY 71 W",
+    "City":"BASTROP",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"75"
+  },
+  {
+    "Tour":"W",
+    "Customer_Name":"WALMART 1185",
+    "Address":"1030 NORWOOD PARK BL",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"75"
+  },
+  {
+    "Tour":"T",
+    "Customer_Name":"WALMART 3169",
+    "Address":"11923 US HWY 290 E",
+    "City":"MANOR",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"60"
+  },
+  {
+    "Tour":"T",
+    "Customer_Name":"WALMART 3170",
+    "Address":"1320 W HWY 290",
+    "City":"ELGIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"45"
+  },
+  {
+    "Tour":"R",
+    "Customer_Name":"WALMART 4554",
+    "Address":"2525 W ANDERSON LN",
+    "City":"AUSTIN",
+    "State":"TX",
+    "# of Visits":"4",
+    "Serve Time":"60"
+  }
+]

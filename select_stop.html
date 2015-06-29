@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Select Stop</title>
+
+  <link rel="stylesheet" href="css/bootstrap.lumen.min.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/main-selectstop.js"></script>
+</head>
+<body >
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand"><img src="images/Seven_Logo.png"></a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li >
+            <a href="index.html">Dashboard</a>
+          </li>
+          <li>
+            <a href="#">Success Stories</a>
+          </li>
+          <li>
+            <a href="#">Upcoming Schedule</a>
+          </li>
+          <li>
+            <a href="#">Competitor Information</a>
+          </li>
+          <li>
+            <a href="#">Recent Displays</a>
+          </li>
+		
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+
+      </div>
+    </div>
+  </div><!-- /.navbar -->
+  <div class="main-wrapper">
+    <div class="container">
+      <header class="page-header">
+        <h1>Project Seven</h1>
+      </header>
+      <div class="row">
+        <div class="col-xs-9">
+          <article>
+            <section>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Select Stop<span class="glyphicon glyphicon-globe pull-right"></span></h2>
+                </div>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <h2 class="center-text"></h2>
+                    </div>
+                  </div><!-- /.row -->
+				  	<div class="row">
+					<img src="images/StoreGraphs.png" alt="" class="image-graph center" /><br>
+					</div>
+					<div class="row">
+
+      <div class="col-xs-12">
+        <div class="table-responsive">
+          <table  class="table table-bordered table-condensed" style="background-color:#FFFFFF">
+            <thead >
+              <th>Store Name</th>
+              <th>Address</th>
+              <th>Date of Last Visit</th>
+              <th>Visits Per Month</th>    
+			  <th>Visits Left This Round</th>
+			  <th>Visited?</th>
+              </thead>
+            <tbody>
+			
+			<tr class="selected">
+			<td>WALMART 1042</td>
+			<td>488 HWY 71 W, BASTROP, TX</td>
+			<td>July 2, 2014</td>
+			<td>4</td>
+			<td>4</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td>BROOKSHIRE B 0034</td>
+			<td>1400 FANNIN, COLUMBUS, TX</td>
+			<td>July 2, 2014</td>
+			<td>4</td>
+			<td>4</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td>BUC EES 0028</td>
+			<td>1700 HWY 71 E, BASTROP, TX</td>
+			<td>July 2, 2014</td>
+			<td>2</td>
+			<td>2</td>
+			<td>NO</td>
+			</tr>
+			<tr >
+			<td>HEB 0256</td>
+			<td>2105 MILAM ST, COLUMBUS, TX</td>
+			<td>July 10, 2014</td>
+			<td>4</td>
+			<td>4</td>
+			<td>NO</td>
+			</tr>
+			<tr>
+			<td>WALMART 0503 SC</td>
+			<td>2103 MILAM ST, COLUMBUS, TX</td>
+			<td>July 10, 2014</td>
+			<td>4</td>
+			<td>4</td>
+			<td>NO</td>
+			</tr>
+				<tr>
+			<td>BREAD BASKET </td>
+			<td>FM 812 2287, DALE, TX</td>
+			<td>July 10, 2014</td>
+			<td>2</td>
+			<td>2</td>
+			<td>NO</td>
+			</tr>
+					<tr>
+			<td>SONIC 2378 MANN HILL </td>
+			<td>717 E TRAVIS, LA GRANGE, TX</td>
+			<td>July 10, 2014</td>
+			<td>1</td>
+			<td>1</td>
+			<td>NO</td>
+			</tr>
+		
+		
+            </tbody>
+          </table>
+        </div>
+      </div>
+	  </div>
+	  <div class="row" style="margin-bottom:7px;display:none;">
+	 <div class="center" style="height:100%;border: 1px solid black;width:35%;">
+          <h3 style="text-align:center">Selection Type</h4>
+          <div style="float:right;margin-right:3px">
+          <label for="radio1"><input type="radio" name="time-filter" id="radio1" class="filter-radio" value="custom"> Custom Tour</label>
+		  </div>
+		  <div style="margin-left:3px">
+			 <label for="radio2"><input type="radio" name="time-filter" id="radio2" class="filter-radio" value="predefined" >  Predefined Tour </label>
+            
+          </div>
+          
+          
+
+          </div>
+        </div>
+	  <div class="row hidden" id="addstop">
+      <div class="col-xs-12">
+        <div class="table-responsive">
+          <table id="main-table" class="table table-bordered table-condensed">
+            <thead >
+			  <th style="text-align:center; border: 1px solid black;">Select</th>
+			  <th style="text-align:center; border: 1px solid black;">Customer</th>
+			  <th style="text-align:center; border: 1px solid black;">Address</th>
+			  <th style="text-align:center; border: 1px solid black;">City</th>
+			  <th style="text-align:center; border: 1px solid black;">State</th>
+			  <th style="text-align:center; border: 1px solid black;">Vists Per Month</th>
+			  <th style="text-align:center; border: 1px solid black;">Service Time</th>
+              
+        
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+	<div class="span2" style="display:block;width:150px; float:right; margin-bottom:10px">
+	<a href="#"  class="btn btn-primary btn-block update" >Update</a>  
+      </div>
+    </div>
+	  <div class="row">
+	  <div class="span2" id="addstopbtn" style="display:block;width:150px;float: left; margin-bottom:10px">
+	<a href="#"  class="btn btn-success btn-block" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add Stop</a>  
+      </div>
+	    	<div class="span2" style="display:block;width:150px; float:right; margin-bottom:10px">
+	<a href="walmart.html"  class="btn btn-primary btn-block" >Begin Store Visit</a>  
+      </div>
+    </div>
+				 
+                </div><!-- /.panel-body -->
+              </div><!-- /.panel -->
+            </section>
+  
+            <section>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h2 class="panel-title">My Account Priorities <span class="glyphicon glyphicon-th-list pull-right"></span></h2>
+                </div>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                      <header class="center-text">
+                                            <h4>WALMART</h4>
+                      </header>
+                      <ol>
+                        <li>Back to school</li>
+                        <li>Thomas Endcap</li>
+                        <li>Bimbo PDQ</li>
+                        <li>Sara Lee PDQ</li>
+                      </ol>
+                      <a href="#" class="pull-right">More&hellip;</a>
+                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-3 col-xs-6">
+                      <header class="center-text">
+                        <h4>HEB</h4>
+                      </header>
+                      <ol>
+                        <li>New Thomas Muffins 9/15</li>
+                        <li>Hispanic Heritage!</li>
+                        <li>Coupon for Marinela Box Cake</li>
+                        <li>$2 off Tear Pad/li>
+                      </ol>
+                      <a href="#" class="pull-right">More&hellip;</a>
+                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-3 col-xs-6">
+                      <header class="center-text">
+                        <h4>TARGET</h4>
+                      </header>
+                      <ol>
+                        <li>Little Bites Shared Endcap</li>
+                        <li>Seasonal Space: Halloween LB</li>
+                        <li>Cartwheel Program</li>
+                        <li>Thomas Endcap</li>
+                      </ol>
+                      <a href="#" class="pull-right">More&hellip;</a>
+                    </div><!-- /.col-md-3 -->
+                    <div class="col-md-3 col-xs-6">
+                      <header class="center-text">
+                        <h4>KROGER</h4>
+                      </header>
+                      <ol>
+                        <li>Feature: SS Cake Display</li>
+                        <li>Oro Wide Pans</li>
+                        <li>PL in stock</li>
+                        <li>Thomas Muffin Display</li>
+                      </ol>
+                      <a href="#" class="pull-right">More&hellip;</a>
+                    </div><!-- /.col-md-3 -->
+                  </div><!-- /.row -->
+                </div><!-- /.panel-body -->
+              </div><!-- /.panel -->
+            </section>
+          </article>
+        </div>
+        <div class="col-xs-3">
+          <aside>
+			<!--<button type="button" class="btn btn-success">Select Today's Tour</button>-->
+           <!-- <div class="panel panel-danger">
+              <div class="panel-heading">
+                <h2 class="panel-title">Alerts<span class="glyphicon glyphicon-exclamation-sign pull-right"></span></h2>
+              </div>
+              <div class="panel-body">
+                <ul>
+                  <li>
+                    <p>3% increase in Mod Voids for Wal-Mart 1234</p>
+                    <hr/>
+                  </li>
+                  <li>
+                    <p>No Breakfast displays in HEB 1234, 5678 for 2 week Muffin Promo</p>
+                    <hr/>
+                  </li>
+                  <li>
+                    <p>Next SKU deactivation goes live 9/22, click <a href="#">here</a> for a list</p>
+                  </li>
+                </ul>
+              </div>
+            </div>-->
+          </aside>
+          <aside>
+                                   <div class="panel panel-info">
+              <div class="panel-heading">
+                <h2 class="panel-title">Attention Required<span class="glyphicon glyphicon-bullhorn pull-right"></span></h2>
+              </div>
+              <div class="panel-body">
+                <h3>Work With Refresh</h3>
+                <ul>
+                  <li>
+                    <p>Walmart 1025 in next 7 Days</p>
+                  </li>
+                  <li>
+                    <p>HEB 0345 in next 10 Days</p>
+                  </li>
+				   <li>
+                    <p>Target 0123 in next 10 Days</p>
+                  </li>
+                </ul>
+
+                <h3>Missed Visits</h3>
+                <ul>
+                  <li>
+                    <p>Joe's Convienence Mart has not been visited in over 90 days</p>
+                  </li>
+				  <li>
+                    <p>Dairy Queen 0003 has not been visited in over 90 days</p>
+                  </li>
+                </ul>
+                <a href="#" class="pull-right">More&hellip;</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
