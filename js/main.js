@@ -10,6 +10,7 @@ $(document).on('ready', function() {
 function formTableData(data, custom, alltours,simulateDate) {
     var level, firstrow, tour;
     var rows = [];
+	var switchNum = 0;
     firstrow = true;
     if (data) {
         data.forEach(function(tour) {
