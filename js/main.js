@@ -173,15 +173,15 @@ $(document).on('click', '#simulate', function(e) {
             dataType: "json",
             url: url,
             success: function(data) {
-                $('#main-table tbody').empty().append(formTableData(data, boo, true,1));
+                $('#main-table tbody').empty().append(formTableData(data, boo, false,1));
             },
             error: function(err) {
-                $('#main-table tbody').empty().append(formTableData("", boo,true,1));
+                $('#main-table tbody').empty().append(formTableData("", boo,false,1));
             }
         });
     } else {
         json = data[$(this).val()];
-        $('#main-table tbody').empty().append(formTableData(json, boo, true,1));
+        $('#main-table tbody').empty().append(formTableData(json, boo, false,1));
     }
 });
 
