@@ -1,11 +1,12 @@
+	var today = new Date();
 $(document).on('ready', function() {
     $('input[value="predefined"]').trigger('click');
-	var today = new Date();
+
 	document.getElementById('date').innerHTML += today;
 });
 
 function formTableData(data, custom) {
-    var level, firstrow;
+    var level, firstrow, tour;
     var rows = [];
     firstrow = true;
     if (data) {
@@ -31,9 +32,16 @@ function formTableData(data, custom) {
                 }
                 firstrow = false;
             } else {
+				switch (today.getDay() {
+				case 1: tour = "M";
+				case 2: tour = "R"
+				default: tour = "M";
+				}
+				if(tour_name == tour){
                 row_html = '<tr class="level" data-level="' + level + '">' + ((level == 1) ? '<td> <button class="btn btn-default btn-expand"><span class="glyphicon glyphicon-plus"></span></button></td>' : '<td> </td>') + '<td class="tour_name">' + tour_name + '</td>' + '<td class="customer_name">' + customer_name + '</td>' + '<td class="address">' + address + '</td>' + '<td class="city">' + city + '</td>' + '<td class="state">' + state + '</td>' + '<td class="visits">' + visits + '</td>' + '<td class="time">' + time + '</td>' + '</tr>';
                 firstrow = false;
                 rows.push(row_html);
+				}
             }
         });
         return rows.join();
