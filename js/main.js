@@ -1,5 +1,7 @@
 $(document).on('ready', function() {
     $('input[value="predefined"]').trigger('click');
+	var today = new Date();
+	document.getElementById('date').innerHTML += today;
 });
 
 function formTableData(data, custom) {
