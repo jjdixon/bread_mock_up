@@ -49,7 +49,7 @@ function formTableData(data, custom, alltours,simulateDate) {
 				case 2: tour = "R";
 				case 3: tour = "T";
 				case 4: tour = "W";
-				default: tour = "M";
+				//default: tour = "M";
 				}
 				console.log(tour);
 				if(tour_name == tour){
@@ -168,7 +168,7 @@ $(document).on('click', '#showtours', function(e) {
 $(document).on('click', '#simulate', function(e) {
     var json;
     var boo;
-	document.getElementById('date').innerHTML += tomorrow.toDateString();
+	document.getElementById('date').innerHTML.empty() += "Today is " + tomorrow.toDateString();
     if (location.host) {
      
             row_html = '<th style="text-align:center; border: 1px solid black;">+/-</th>' + '<th style="text-align:center; border: 1px solid black;">Tour</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Visits Per Month</th>' + '<th style="text-align:center; border: 1px solid black;">Service Time</th>';
