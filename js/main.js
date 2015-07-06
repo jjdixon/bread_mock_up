@@ -5,7 +5,7 @@ $(document).on('ready', function() {
 	document.getElementById('date').innerHTML += today;
 });
 
-function formTableData(data, custom) {
+function formTableData(data, custom, alltours) {
     var level, firstrow, tour;
     var rows = [];
     firstrow = true;
@@ -32,6 +32,12 @@ function formTableData(data, custom) {
                 }
                 firstrow = false;
             } else {
+				if(alltours){
+				row_html = '<tr class="level" data-level="' + level + '">' + ((level == 1) ? '<td> <button class="btn btn-default btn-expand"><span class="glyphicon glyphicon-plus"></span></button></td>' : '<td> </td>') + '<td class="tour_name">' + tour_name + '</td>' + '<td class="customer_name">' + customer_name + '</td>' + '<td class="address">' + address + '</td>' + '<td class="city">' + city + '</td>' + '<td class="state">' + state + '</td>' + '<td class="visits">' + visits + '</td>' + '<td class="time">' + time + '</td>' + '</tr>';
+                firstrow = false;
+                rows.push(row_html);
+				}
+				else{
 				switch (today.getDay()) {
 				case 1: tour = "M";
 				case 2: tour = "R"
@@ -41,6 +47,7 @@ function formTableData(data, custom) {
                 row_html = '<tr class="level" data-level="' + level + '">' + ((level == 1) ? '<td> <button class="btn btn-default btn-expand"><span class="glyphicon glyphicon-plus"></span></button></td>' : '<td> </td>') + '<td class="tour_name">' + tour_name + '</td>' + '<td class="customer_name">' + customer_name + '</td>' + '<td class="address">' + address + '</td>' + '<td class="city">' + city + '</td>' + '<td class="state">' + state + '</td>' + '<td class="visits">' + visits + '</td>' + '<td class="time">' + time + '</td>' + '</tr>';
                 firstrow = false;
                 rows.push(row_html);
+				}
 				}
             }
         });
@@ -69,15 +76,15 @@ $(document).on('change', '.filter-radio', function(e) {
             dataType: "json",
             url: url,
             success: function(data) {
-                $('#main-table tbody').empty().append(formTableData(data, boo));
+                $('#main-table tbody').empty().append(formTableData(data, boo, false));
             },
             error: function(err) {
-                $('#main-table tbody').empty().append(formTableData("", boo));
+                $('#main-table tbody').empty().append(formTableData("", boo,false));
             }
         });
     } else {
         json = data[$(this).val()];
-        $('#main-table tbody').empty().append(formTableData(json, boo));
+        $('#main-table tbody').empty().append(formTableData(json, boo,false));
     }
 });
 $(document).on('click', '.btn-expand', function(e) {
@@ -120,4 +127,31 @@ $(document).on('click', 'tr', function(e) {
 
 $(document).on('click', '.btn-success', function(e) {
 	$('.hidden').removeClass('hidden');
+});
+
+$(document).on('click', '#showtours', function(e) {
+    var json;
+    var boo;
+    if (location.host) {
+     
+            row_html = '<th style="text-align:center; border: 1px solid black;">+/-</th>' + '<th style="text-align:center; border: 1px solid black;">Tour</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Visits Per Month</th>' + '<th style="text-align:center; border: 1px solid black;">Service Time</th>';
+            $('#main-table thead').empty().append(row_html);
+            boo = false;
+            var url = "data/tours.json";
+        
+        $.ajax({
+            type: "GET",
+            dataType: "json",
+            url: url,
+            success: function(data) {
+                $('#main-table tbody').empty().append(formTableData(data, boo, true));
+            },
+            error: function(err) {
+                $('#main-table tbody').empty().append(formTableData("", boo,true));
+            }
+        });
+    } else {
+        json = data[$(this).val()];
+        $('#main-table tbody').empty().append(formTableData(json, boo, true));
+    }
 });
