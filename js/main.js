@@ -39,12 +39,13 @@ function formTableData(data, custom, alltours,simulateDate) {
 				}
 				else{
 				console.log(today.getDay() + simulateDate);
-				switch ((today.getDay()+simulateDate)) {
+				switchNum = today.getDay() + simulateDate;
+				switch (swtichNum) {
 				case 1: tour = "M";
 				case 2: tour = "R";
 				case 3: tour = "T";
 				case 4: tour = "W";
-				//default: tour = "M";
+				default: tour = "M";
 				}
 				console.log(tour);
 				if(tour_name == tour){
