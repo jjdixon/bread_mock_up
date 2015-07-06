@@ -38,7 +38,7 @@ function formTableData(data, custom, alltours,simulateDate) {
                 rows.push(row_html);
 				}
 				else{
-				console.log(today.getDay() + simulateDate)
+				console.log(today.getDay() + simulateDate);
 				switch (today.getDay()+simulateDate) {
 				case 1: tour = "M";
 				case 2: tour = "R";
@@ -46,6 +46,7 @@ function formTableData(data, custom, alltours,simulateDate) {
 				case 4: tour = "W";
 				default: tour = "M";
 				}
+				console.log(tour);
 				if(tour_name == tour){
                 row_html = '<tr class="level" data-level="' + level + '">' + ((level == 1) ? '<td> <button class="btn btn-default btn-expand"><span class="glyphicon glyphicon-plus"></span></button></td>' : '<td> </td>') + '<td class="tour_name">' + tour_name + '</td>' + '<td class="customer_name">' + customer_name + '</td>' + '<td class="address">' + address + '</td>' + '<td class="city">' + city + '</td>' + '<td class="state">' + state + '</td>' + '<td class="visits">' + visits + '</td>' + '<td class="time">' + time + '</td>' + '</tr>';
                 firstrow = false;
