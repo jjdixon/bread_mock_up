@@ -45,8 +45,8 @@ function formTableData(data, custom, alltours,simulateDate) {
 				switchNum = today.getDay() + simulateDate;
 				console.log(switchNum);
 				switch (switchNum) {
-				case 1: tour = "M";
-				case 2: tour = "R";
+				case today.getDay(): tour = "M";
+				case today.getDay() + 1: tour = "R";
 				case 3: tour = "T";
 				case 4: tour = "W";
 				//default: tour = "M";
