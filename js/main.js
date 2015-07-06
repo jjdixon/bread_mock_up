@@ -1,4 +1,6 @@
 	var today = new Date();
+	var tomorrow = new Date(today);
+	tomorrow.setDate(today.getDate()+1);
 $(document).on('ready', function() {
     $('input[value="predefined"]').trigger('click');
 
@@ -38,8 +40,9 @@ function formTableData(data, custom, alltours,simulateDate) {
                 rows.push(row_html);
 				}
 				else{
-				console.log(today.getDay() + simulateDate);
+				
 				switchNum = today.getDay() + simulateDate;
+				console.log(switchNum);
 				switch (swtichNum) {
 				case 1: tour = "M";
 				case 2: tour = "R";
@@ -164,6 +167,7 @@ $(document).on('click', '#showtours', function(e) {
 $(document).on('click', '#simulate', function(e) {
     var json;
     var boo;
+	document.getElementById('date').innerHTML += tomorrow.toDateString();
     if (location.host) {
      
             row_html = '<th style="text-align:center; border: 1px solid black;">+/-</th>' + '<th style="text-align:center; border: 1px solid black;">Tour</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Visits Per Month</th>' + '<th style="text-align:center; border: 1px solid black;">Service Time</th>';
