@@ -38,7 +38,7 @@ function formTableData(data, custom, alltours,simulateDate) {
                 rows.push(row_html);
 				}
 				else{
-				console.log("got here: " + (today.getDay() + simulateDate))
+				console.log(today.getDay() + simulateDate)
 				switch (today.getDay()+simulateDate) {
 				case 1: tour = "M";
 				case 2: tour = "R";
