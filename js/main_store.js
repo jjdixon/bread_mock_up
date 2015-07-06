@@ -216,7 +216,19 @@ $(document).on('click', '.btn-expand', function(e) {
   }
 });
 
+$(document).on('click', '#workview', function(e) {
+	//document.getElementById("tabs").toggleClass('hidden');
+	$('#tabs').toggleClass('hidden');
+	$('#shelfdata').toggleClass('hidden');
+	//document.getElementById("shelfdata").toggleClass('hidden');
+});
 
+$(document).on('click', '#normalview', function(e) {
+	//document.getElementById("tabs").toggleClass('hidden');
+	$('#tabs').toggleClass('hidden');
+	$('#shelfdata').toggleClass('hidden');
+	//document.getElementById("shelfdata").toggleClass('hidden');
+});
 
 function closewindow() {   
 	$.modal.close();
