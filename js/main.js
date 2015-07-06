@@ -32,7 +32,7 @@ function formTableData(data, custom) {
                 }
                 firstrow = false;
             } else {
-				switch (today.getDay() {
+				switch (today.getDay()) {
 				case 1: tour = "M";
 				case 2: tour = "R"
 				default: tour = "M";
