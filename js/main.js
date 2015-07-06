@@ -2,10 +2,10 @@
 $(document).on('ready', function() {
     $('input[value="predefined"]').trigger('click');
 
-	document.getElementById('date').innerHTML += today;
+	document.getElementById('date').innerHTML += today.toDateString();
 });
 
-function formTableData(data, custom, alltours) {
+function formTableData(data, custom, alltours,simulateDate) {
     var level, firstrow, tour;
     var rows = [];
     firstrow = true;
@@ -38,9 +38,11 @@ function formTableData(data, custom, alltours) {
                 rows.push(row_html);
 				}
 				else{
-				switch (today.getDay()) {
+				switch (today.getDay()+simulateDate) {
 				case 1: tour = "M";
-				case 2: tour = "R"
+				case 2: tour = "R";
+				case 3: tour = "T";
+				case 4: tour = "W";
 				default: tour = "M";
 				}
 				if(tour_name == tour){
@@ -76,15 +78,15 @@ $(document).on('change', '.filter-radio', function(e) {
             dataType: "json",
             url: url,
             success: function(data) {
-                $('#main-table tbody').empty().append(formTableData(data, boo, false));
+                $('#main-table tbody').empty().append(formTableData(data, boo, false,0));
             },
             error: function(err) {
-                $('#main-table tbody').empty().append(formTableData("", boo,false));
+                $('#main-table tbody').empty().append(formTableData("", boo,false,0));
             }
         });
     } else {
         json = data[$(this).val()];
-        $('#main-table tbody').empty().append(formTableData(json, boo,false));
+        $('#main-table tbody').empty().append(formTableData(json, boo,false,0));
     }
 });
 $(document).on('click', '.btn-expand', function(e) {
@@ -144,14 +146,42 @@ $(document).on('click', '#showtours', function(e) {
             dataType: "json",
             url: url,
             success: function(data) {
-                $('#main-table tbody').empty().append(formTableData(data, boo, true));
+                $('#main-table tbody').empty().append(formTableData(data, boo, true,0));
             },
             error: function(err) {
-                $('#main-table tbody').empty().append(formTableData("", boo,true));
+                $('#main-table tbody').empty().append(formTableData("", boo,true,0));
             }
         });
     } else {
         json = data[$(this).val()];
-        $('#main-table tbody').empty().append(formTableData(json, boo, true));
+        $('#main-table tbody').empty().append(formTableData(json, boo, true,0));
     }
 });
+
+$(document).on('click', '#simulate', function(e) {
+    var json;
+    var boo;
+    if (location.host) {
+     
+            row_html = '<th style="text-align:center; border: 1px solid black;">+/-</th>' + '<th style="text-align:center; border: 1px solid black;">Tour</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Visits Per Month</th>' + '<th style="text-align:center; border: 1px solid black;">Service Time</th>';
+            $('#main-table thead').empty().append(row_html);
+            boo = false;
+            var url = "data/tours.json";
+        
+        $.ajax({
+            type: "GET",
+            dataType: "json",
+            url: url,
+            success: function(data) {
+                $('#main-table tbody').empty().append(formTableData(data, boo, true,1));
+            },
+            error: function(err) {
+                $('#main-table tbody').empty().append(formTableData("", boo,true,1));
+            }
+        });
+    } else {
+        json = data[$(this).val()];
+        $('#main-table tbody').empty().append(formTableData(json, boo, true,1));
+    }
+});
+
