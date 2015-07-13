@@ -3,10 +3,18 @@ $(document).on('ready', function(){
 
   $('input[value="last_4_weeks"]').trigger('click');
  // $('#priorities').trigger('click');
-
+	
  setTimeout(function() {
         $("#priorities").trigger('click');
     },5);
+	
+	
+	var canvas = document.getElementById('golden');
+	var ctx = canvas.getContext("2d")
+	ctx.beginPath();
+	ctx.moveTo(0,0);
+	ctx.lineTo(300,150);
+	ctx.stroke();
 
 });
  		
@@ -252,3 +260,4 @@ newhtml= '<tr><td><select class="form-control"><option>Select Type</option><opti
 '<span class="glyphicon glyphicon-camera"></span></td></tr>';
 $('#permanent-table tbody').append(newhtml);	
 });
+
