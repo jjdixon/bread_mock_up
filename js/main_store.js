@@ -325,7 +325,7 @@ $(document).on('click','.desired', function(e){
 	}
 	else {
 	
-	alert(document.getElementById(location+'desired'));
+	alert(document.getElementById(location+'desired').classList);
 	//document.getElementById(location+'desired').classList.add("hidden");
 	}
 	
