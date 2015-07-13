@@ -300,10 +300,10 @@ function intializePermanentDisplayTable(){
 }
 $(document).on('click','.desired', function(e){
 	var loc = ""
-	var re = /\D*([0-9]+)/;
+	var re = /\D+([0-9]+)/;
 	currentID= $(this).attr('id');
 	loc =  re.exec(currentID);
-	alert(loc[0]);
+	alert(loc);
 	var x = goldenPath["Breakfast Meats"][0]-14;
 	var y = goldenPath["Breakfast Meats"][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
