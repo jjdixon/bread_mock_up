@@ -318,12 +318,13 @@ $(document).on('click','.desired', function(e){
 	locID =  re.exec(currentID)[1];
 	location = $('#location'+locID).val();
 	
-	if($(this).prop('checked') && !($(location+'desiredURL').length)){
+	if($(this).prop('checked') && !($(location+'desired').length)){
 	var x = goldenPath[location][0]-14;
 	var y = goldenPath[location][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" id="'+location+'desired" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
 	}
 	else {
+	alert("got here");
 	$(location+'desired').toggleClass('hidden');
 	//document.getElementById(location+'desired').classList.add("hidden");
 	}
