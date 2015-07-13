@@ -9,7 +9,7 @@ $(document).on('ready', function(){
     },5);
 	
 	
-	var canvas = document.getElementById("myCanvas");
+	/*var canvas = document.getElementById("myCanvas");
 	var ctx = canvas.getContext("2d");
 	var x = 0;
 	var y = 0;
@@ -27,7 +27,7 @@ $(document).on('ready', function(){
 		ctx.stroke();
 		y=y+10;
 	
-	}
+	}*/
 });
  		
 
