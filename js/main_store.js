@@ -327,6 +327,7 @@ $(document).on('click','.desired', function(e){
 	//document.getElementById(location+'desired').classList.remove("hidden");
 	//}
 	else{
+	alert("got here");
 	document.getElementById(location+'desired').classList.toggle("hidden");
 	}
 	
