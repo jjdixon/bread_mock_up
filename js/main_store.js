@@ -321,7 +321,7 @@ $(document).on('click','.desired', function(e){
 	if($(this).prop('checked') && !($(location+'desired').length)){
 	var x = goldenPath[location][0]-14;
 	var y = goldenPath[location][1]-14;
-	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" id="'+location+'desired" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
+	document.getElementById("golden").innerHTML += '<img class="" src="'+desiredURL+'" id="'+location+'desired" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
 	}
 	else {
 	alert("got here");
