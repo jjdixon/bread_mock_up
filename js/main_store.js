@@ -318,10 +318,14 @@ $(document).on('click','.desired', function(e){
 	locID =  re.exec(currentID)[1];
 	location = $('#location'+locID).val();
 	
-	alert($(this).prop('checked'))
+	if($(this).prop('checked')){
 	var x = goldenPath[location][0]-14;
 	var y = goldenPath[location][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" id="'+location+'desired" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
+	}
+	else{
+	document.getElementById(location+'desired').classList.add("hidden");
+	}
 	
 });
 
