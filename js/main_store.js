@@ -303,32 +303,38 @@ function intializePermanentDisplayTable(){
 	$('#permanent-table tbody').append(goldenHTML);
 }
 
-function returnLocation(e){
+/*function returnLocation(e){
 	var locID,location;
 	var re = /\D+([0-9]+)/;
-	currentID= e.trigger.id;
+	currentID= $(this).attr('id');
 	locID =  re.exec(currentID)[1];
 	location = $('#location'+locID).val();
 	return location;
-}
+}*/
 $(document).on('click','.desired', function(e){
-	var myLoc;
-	myLoc = returnLocation(e);
+	var locID,location;
+	var re = /\D+([0-9]+)/;
+	currentID= $(this).attr('id');
+	locID =  re.exec(currentID)[1];
+	location = $('#location'+locID).val();
 	
 	alert($(this).prop('checked'))
-	var x = goldenPath[myLoc][0]-14;
-	var y = goldenPath[myLoc][1]-14;
+	var x = goldenPath[location][0]-14;
+	var y = goldenPath[location][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" id="'+location+'desired" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
 	
 });
 
 $(document).on('click','.executed', function(e){
-	var myLoc;
-	myLoc = returnLocation(e);
+	var locID,location;
+	var re = /\D+([0-9]+)/;
+	currentID= $(this).attr('id');
+	locID =  re.exec(currentID)[1];
+	location = $('#location'+locID).val();
 
 
-	var x = goldenPath[myLoc][0]-14;
-	var y = goldenPath[myLoc][1]-14;
+	var x = goldenPath[location][0]-14;
+	var y = goldenPath[location][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+executedURL+'" id="'+location+'executed" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
 	
 });
