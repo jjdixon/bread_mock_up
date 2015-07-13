@@ -288,6 +288,7 @@ FOR GENERATING GOLDEN PATH INTERACTIVE MAP
 *****************************/
 
 function intializePermanentDisplayTable(){
+	var goldenHTML = "";
 	for(i=0; i < 7; i++){
 		goldenHTML +='<tr><td><select class="form-control"><option>Select Type</option><option>Premium Bread Display</option><option>Main Stream Bread Display</option><option>Breakfast Display</option><option>Box Cake Display</option>'+
 		'<option>IWP Cake Disay</option><option>Thin/Bun Display</option><option>Roll Display</option><option>Combination</option></select></td><td><select class="form-control" id="location'+i+'"><option>Select Location</option>'+
