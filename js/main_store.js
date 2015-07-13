@@ -9,7 +9,7 @@ $(document).on('ready', function(){
     },5);
 	
 	
-	var canvas = document.getElementById('golden');
+	var canvas = document.getElementById('myCanvas');
 	var ctx = canvas.getContext("2d")
 	ctx.beginPath();
 	ctx.moveTo(0,0);
