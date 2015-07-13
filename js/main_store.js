@@ -306,7 +306,7 @@ function intializePermanentDisplayTable(){
 function returnLocation(e){
 	var locID,location;
 	var re = /\D+([0-9]+)/;
-	currentID= $(this).attr('id');
+	currentID= e.trigger.id;
 	locID =  re.exec(currentID)[1];
 	location = $('#location'+locID).val();
 	return location;
