@@ -3,7 +3,7 @@ var desiredURL = "/images/desiredStar.PNG";
 var executedURL = "/images/executedStar.PNG";
 var starOffset = 14;
 
-var goldenPath = { Breakfast Meats: [52,194] }
+var goldenPath = { Breakfast Meats: [52,194] };
 
 $(document).on('ready', function(){
 	
