@@ -10,12 +10,24 @@ $(document).on('ready', function(){
 	
 	
 	var canvas = document.getElementById("myCanvas");
-	var ctx = canvas.getContext("2d")
-	ctx.beginPath();
-	ctx.moveTo(0,0);
-	ctx.lineTo(300,150);
-	ctx.stroke();
-
+	var ctx = canvas.getContext("2d");
+	var x = 0;
+	var y = 0;
+	while( x < 640){
+		ctx.beginPath();
+		ctx.moveTo(x,0);
+		ctx.lineTo(x,480);
+		ctx.stroke();
+		x=x+10;
+	}
+	while(y < 480){
+		ctx.beginPath();
+		ctx.moveTo(0,y);
+		ctx.lineTo(640,y);
+		ctx.stroke();
+		y=y+10;
+	
+	}
 });
  		
 
