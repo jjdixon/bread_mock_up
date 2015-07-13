@@ -305,8 +305,8 @@ $(document).on('click','.desired', function(e){
 	locID =  re.exec(currentID)[1];
 	location = $('#location'+locID).val();
 	alert(location) 
-	var x = goldenPath["Breakfast Meats"][0]-14;
-	var y = goldenPath["Breakfast Meats"][1]-14;
+	var x = goldenPath[location][0]-14;
+	var y = goldenPath[location][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
 	
 })
