@@ -1,6 +1,6 @@
 
-var desiredURL = "/images/desiredStar.PNG";
-var executedURL = "/images/executedStar.PNG";
+var desiredURL = "images/desiredStar.png";
+var executedURL = "images/executedStar.png";
 var starOffset = 14;
 
 var goldenPath = { BreakfastMeats: [52,194] };
@@ -281,11 +281,16 @@ $('#permanent-table tbody').append(newhtml);
 });
 
 /***************************
-FOR GENERATING GOLDEN PATH
+FOR GENERATING GOLDEN PATH INTERACTIVE MAP
 *****************************/
+
+function intializePermanentDisplayTable(){
+
+
+}
 $(document).on('click','#desired', function(e){
-	var x = goldenPath["BreakfastMeats"][0];
-	var y = goldenPath["BreakfastMeats"][1];
+	var x = goldenPath["BreakfastMeats"][0]-14;
+	var y = goldenPath["BreakfastMeats"][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
 	
 })
