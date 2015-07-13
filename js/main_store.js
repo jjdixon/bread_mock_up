@@ -35,6 +35,7 @@ $(document).on('ready', function(){
 		y=y+10;
 	
 	}*/
+	intializePermanentDisplayTable();
 });
  		
 
@@ -261,12 +262,14 @@ function closewindow() {
 	$.modal.close();
     return false;
 }
+
+/** OLD GOLDEN PATH 
 $(document).on('change', '#desired', function(e) {
 document.getElementById("goldenpath").src="images/Golden_Path_2.jpg";
 });
 $(document).on('change', '#executed', function(e) {
 document.getElementById("goldenpath").src="images/Golden_Path_3.jpg";
-});
+});*/
 
  $(document).on('click', '#addrow_permanent', function(e) {
 newhtml= '<tr><td><select class="form-control"><option>Select Type</option><option>Premium Bread Display</option><option>Main Stream Bread Display'+
@@ -285,10 +288,16 @@ FOR GENERATING GOLDEN PATH INTERACTIVE MAP
 *****************************/
 
 function intializePermanentDisplayTable(){
-
-
+	for(i=0; i < 7; i++){
+		goldenHTML +='<tr><td><select class="form-control"><option>Select Type</option><option>Premium Bread Display</option><option>Main Stream Bread Display</option><option>Breakfast Display</option><option>Box Cake Display</option>'+
+		'<option>IWP Cake Disay</option><option>Thin/Bun Display</option><option>Roll Display</option><option>Combination</option></select></td><td><select class="form-control" id="location'+i+'"><option>Select Location</option>'+
+		'<option>Breakfast Meats</option><option>Cream Cheese</option><option>Deli Sliced Meats</option><option>Fresh Hamburger Meat</option><option>Hot Dogs</option><option>Milk Section</option><option>Juice Section</option><option>Eggs / Bacon</option><option>Prepared Meals</option>'+
+		'<option>Packaged Meats</option></select></td><td><div class="input-group" style="margin: 0 auto;"><input class="desired" id="desired'+i+'" type="checkbox"></div></td><td><div class="input-group" style="margin: 0 auto;"><input class="executed" id="executed'+i+'" type="checkbox">'+
+		'</div></td><td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td></tr>';
+	}
+	$('#permanent-table tbody').append(goldenHTML);
 }
-$(document).on('click','#desired', function(e){
+$(document).on('click','.desired', function(e){
 	var x = goldenPath["BreakfastMeats"][0]-14;
 	var y = goldenPath["BreakfastMeats"][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
