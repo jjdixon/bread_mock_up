@@ -3,7 +3,7 @@ var desiredURL = "images/desiredStar.png";
 var executedURL = "images/executedStar.png";
 var starOffset = 14;
 
-var goldenPath = { BreakfastMeats: [52,194] };
+var goldenPath = { "Breakfast Meats": [52,194] };
 
 $(document).on('ready', function(){
 	
@@ -299,9 +299,13 @@ function intializePermanentDisplayTable(){
 	$('#permanent-table tbody').append(goldenHTML);
 }
 $(document).on('click','.desired', function(e){
-	alert($(this).attr('id'));
-	var x = goldenPath["BreakfastMeats"][0]-14;
-	var y = goldenPath["BreakfastMeats"][1]-14;
+	var loc = ""
+	var re = /.(\d)/;
+	currentID= $(this).attr('id');
+	loc =  re.exec(currentID);
+	alert(loc);
+	var x = goldenPath["Breakfast Meats"][0]-14;
+	var y = goldenPath["Breakfast Meats"][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
 	
 })
