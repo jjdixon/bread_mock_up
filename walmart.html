@@ -429,8 +429,8 @@
 					</div>
                    <script>
 function showCoords(event) {
-    var x = event.clientX;
-    var y = event.clientY;
+    var x = event.clientX-$('#golden").offset().left;
+    var y = event.clientY-$('#golden").offset().top;
     var coords = "X coords: " + x + ", Y coords: " + y;
     alert(coords);
 }
