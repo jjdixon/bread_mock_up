@@ -299,7 +299,7 @@ function intializePermanentDisplayTable(){
 	$('#permanent-table tbody').append(goldenHTML);
 }
 $(document).on('click','.desired', function(e){
-	alert($(this).value);
+	alert(e.target.id);
 	var x = goldenPath["BreakfastMeats"][0]-14;
 	var y = goldenPath["BreakfastMeats"][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
