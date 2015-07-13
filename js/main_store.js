@@ -324,8 +324,8 @@ $(document).on('click','.desired', function(e){
 	document.getElementById("golden").innerHTML += '<img class="" src="'+desiredURL+'" id="'+location+'desired" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
 	}
 	else {
-	alert("got here");
-	$(location+'desired').toggleClass('hidden');
+	
+	alert($(location+'desired').attr('id'));
 	//document.getElementById(location+'desired').classList.add("hidden");
 	}
 	
