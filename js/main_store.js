@@ -323,10 +323,11 @@ $(document).on('click','.desired', function(e){
 	var y = goldenPath[location][1]-14;
 	document.getElementById("golden").innerHTML += '<img class="" src="'+desiredURL+'" id="'+location+'desired" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
 	}
-	else {
-	
-	//alert(document.getElementById(location+'desired').classList);
-	document.getElementById(location+'desired').classList.add("hidden");
+	//else if(document.getElementById(location+'desired').classList.contains("hidden")){
+	//document.getElementById(location+'desired').classList.remove("hidden");
+	//}
+	else{
+	document.getElementById(location+'desired').classList.toggle("hidden");
 	}
 	
 });
