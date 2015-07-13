@@ -3,7 +3,10 @@ var desiredURL = "images/desiredStar.png";
 var executedURL = "images/executedStar.png";
 var starOffset = 14;
 
-var goldenPath = { "Breakfast Meats": [52,194] };
+var goldenPath = { "Breakfast Meats": [52,194], "Cream Cheese": [52,120], "OJ": [73,120], "Milk-Table": [122,41], "Milk-Breakfast": [154,41], "Eggs-Table": [262,45], "Eggs-Perimeter": [282,14], "Fresh Meats-Thin": [410,45],
+					"Fresh Meats-Bun": [493,45], "Sliced Meats-Thin": [532,40], "Sliced Meats-Bun": [564,40], "Delicatessen-Thin": [606,70], "Delicatessen-Bun": [606,119], "Promo End Cap": [300,84], "Prepared Meats": [576,154]
+					
+ };
 
 $(document).on('ready', function(){
 	
@@ -292,8 +295,9 @@ function intializePermanentDisplayTable(){
 	for(i=0; i < 7; i++){
 		goldenHTML +='<tr><td><select class="form-control"><option>Select Type</option><option>Premium Bread Display</option><option>Main Stream Bread Display</option><option>Breakfast Display</option><option>Box Cake Display</option>'+
 		'<option>IWP Cake Disay</option><option>Thin/Bun Display</option><option>Roll Display</option><option>Combination</option></select></td><td><select class="form-control" id="location'+i+'"><option>Select Location</option>'+
-		'<option>Breakfast Meats</option><option>Cream Cheese</option><option>Deli Sliced Meats</option><option>Fresh Hamburger Meat</option><option>Hot Dogs</option><option>Milk Section</option><option>Juice Section</option><option>Eggs / Bacon</option><option>Prepared Meals</option>'+
-		'<option>Packaged Meats</option></select></td><td><div class="input-group" style="margin: 0 auto;"><input class="desired" id="desired'+i+'" type="checkbox"></div></td><td><div class="input-group" style="margin: 0 auto;"><input class="executed" id="executed'+i+'" type="checkbox">'+
+		'<option>Breakfast Meats</option><option>Cream Cheese</option><option>OJ</option><option>Milk-Table</option><option>Milk-Breakfast</option><option>Eggs-Table</option><option>Eggs-Perimeter</option><option>Fresh Meats-Thin</option><option>Fresh Meats-Bun</option>'+
+		'<option>Sliced Meats-Thin</option><option>Sliced Meats-Bun</option><option>Delicatessen-Thin</option><option>Delicatessen-Bun</option><option>Promo End Cap</option><option>Prepared Meats</option></select></td><td><div class="input-group" style="margin: 0 auto;">'+
+		'<input class="desired" id="desired'+i+'" type="checkbox"></div></td><td><div class="input-group" style="margin: 0 auto;"><input class="executed" id="executed'+i+'" type="checkbox">'+
 		'</div></td><td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td></tr>';
 	}
 	$('#permanent-table tbody').append(goldenHTML);
@@ -304,9 +308,22 @@ $(document).on('click','.desired', function(e){
 	currentID= $(this).attr('id');
 	locID =  re.exec(currentID)[1];
 	location = $('#location'+locID).val();
-	alert(location) 
+
 	var x = goldenPath[location][0]-14;
 	var y = goldenPath[location][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+desiredURL+'" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
 	
-})
+});
+
+$(document).on('click','.executed', function(e){
+	var locID,location;
+	var re = /\D+([0-9]+)/;
+	currentID= $(this).attr('id');
+	locID =  re.exec(currentID)[1];
+	location = $('#location'+locID).val();
+
+	var x = goldenPath[location][0]-14;
+	var y = goldenPath[location][1]-14;
+	document.getElementById("golden").innerHTML += '<img src="'+executedURL+'" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
+	
+});
