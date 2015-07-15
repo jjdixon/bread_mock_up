@@ -345,8 +345,8 @@ $(document).on('click','.executed', function(e){
 	
 	//If desired is check, uncheck it.
 	if ($('#desired'+locID).prop('checked')) { 
-	$('#desired'+locID).prop('checked',false)
-	$('#'+location+'desired').toggleClass('hidden')
+	$('#desired'+locID).prop('checked',false);
+	$('#'+location+'desired').toggleClass('hidden');
 	}
 	
 	if($(this).prop('checked') && (document.getElementById(location+'executed') == null)){
