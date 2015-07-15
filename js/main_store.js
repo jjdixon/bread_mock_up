@@ -311,6 +311,8 @@ function intializePermanentDisplayTable(){
 	location = $('#location'+locID).val();
 	return location;
 }*/
+
+/*Adding Desired Star*/
 $(document).on('click','.desired', function(e){
 	var locID,location;
 	var re = /\D+([0-9]+)/;
@@ -333,16 +335,25 @@ $(document).on('click','.desired', function(e){
 	
 });
 
+/*Adding Executed Star*/
 $(document).on('click','.executed', function(e){
 	var locID,location;
 	var re = /\D+([0-9]+)/;
 	currentID= $(this).attr('id');
 	locID =  re.exec(currentID)[1];
 	location = $('#location'+locID).val();
-
-
+	
+	//If desired is check, uncheck it.
+	if $('#'+dessired+locID).prop('checked') { $('#'+dessired+locID).prop('checked') = false}
+	
+	if($(this).prop('checked') && (document.getElementById(location+'executed') == null)){
 	var x = goldenPath[location][0]-14;
 	var y = goldenPath[location][1]-14;
 	document.getElementById("golden").innerHTML += '<img src="'+executedURL+'" id="'+location+'executed" style= "position:absolute;top:'+y+'px;left:'+x+'px;" />';
+	}
+		else{
+	
+	document.getElementById(location+'executed').classList.toggle("hidden");
+	}
 	
 });
