@@ -344,7 +344,10 @@ $(document).on('click','.executed', function(e){
 	location = $('#location'+locID).val();
 	
 	//If desired is check, uncheck it.
-	if ($('#desired'+locID).prop('checked')) { $('#desired'+locID).prop('checked',false)}
+	if ($('#desired'+locID).prop('checked')) { 
+	$('#desired'+locID).prop('checked',false)
+	$('#'+location+'desired').toggleClass('hidden')
+	}
 	
 	if($(this).prop('checked') && (document.getElementById(location+'executed') == null)){
 	var x = goldenPath[location][0]-14;
