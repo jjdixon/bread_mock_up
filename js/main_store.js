@@ -71,7 +71,7 @@ function formWorkWithTable(data) {
 		lin = product.Lin
 		table = product.Table
 		
-		row_html = ((prod == "SEG") ? (((line != 0) || (line!= 25)) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">' ) : '<tr><td>'+prod)+'</td>'+
+		row_html = ((prod == "SEG") ? (((line != 0) && (line!= 25)) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">' ) : '<tr><td>'+prod)+'</td>'+
 		'<td>'+onhands+'</td>'+
 		'<td>'+net+'</td>'+
 		'<td>'+ret+'</td>'+
