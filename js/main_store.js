@@ -39,7 +39,7 @@ $(document).on('ready', function(){
 	
 	}*/
 	intializePermanentDisplayTable();
-	loadJSON('data/mainstream.json');
+	loadJSON('data/mainstream.json','MS');
 });
  		
 
@@ -233,8 +233,9 @@ function formTableData(data) {
   }
 }
 
-function loadJSON(url){
+function loadJSON(url,table){
 	var json;
+	//console.log("got here");
 	if(location.host) {
 	$.ajax({
 		type: "GET",
@@ -243,8 +244,8 @@ function loadJSON(url){
 		success: function(data) {
 			var tables = formWorkWithTable(data);
 		
-			$('#MSleft tbody').empty().append(tables[0]);
-			$('#MSright tbody').empty().append(tables[1]);
+			$('#'+table+'left tbody').empty().append(tables[0]);
+			$('#'+table+'right tbody').empty().append(tables[1]);
 		},
 		error: function err() {
 		
