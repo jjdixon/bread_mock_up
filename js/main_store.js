@@ -94,9 +94,9 @@ function formWorkWithTable(data) {
 		'<td>'+net+'</td>'+
 		'<td>'+ret+'</td>'+
 		'<td>'+retu+'</td>'+
-		'<td>'+netdol+'</td>'+
-		'<td><input class="workwithinput linear" type="text" id="'+""+table+line+'" value="0"></td>'+
-		'<td id="'+""+table+line+'">'+'0'+'</td></tr>'
+		'<td id="'+"net"+table+line+'">'+netdol+'</td>'+
+		'<td><input class="workwithinput linear" type="text" id="'+"lin"+table+line+'" value="0"></td>'+
+		'<td id="'+"linper"+table+line+'">'+'0'+'</td></tr>'
 		
 		if(line<25 && table == 1){
 		rows_t1.push(row_html);
@@ -460,3 +460,12 @@ $(document).on('click','.executed', function(e){
 	}
 	
 });
+
+/*CUSTOM FUNCTIONALITY FOR WORK WITH*/
+$(document).on('change','.linear',function(e){
+	var re= /\D+([0-9]+)/;
+	var id = re.exec($(this).attr('id');
+	var netdollars = $('#net'+id).innerHTML;
+	document.getElementById("linper"+id).innerHTML = netdollars;
+});
+
