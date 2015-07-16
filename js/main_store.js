@@ -90,13 +90,13 @@ function formWorkWithTable(data) {
 		}
 		
 		row_html = ((prod == "SEG") ? (((line != 0) && next_table) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : '<tr><td>'+prod)+'</td>'+
-		'<td>'+onhands+'</td>'+
+		'<td><input type="text"></td>'+
 		'<td>'+net+'</td>'+
 		'<td>'+ret+'</td>'+
 		'<td>'+retu+'</td>'+
 		'<td>'+netdol+'</td>'+
-		'<td>'+lin+'</td>'+
-		'<td>'+'0'+'</td></tr>'
+		'<td><input type="text" id="'+""+table+line+'" value="0"></td>'+
+		'<td id="'+""+table+line+'">'+'0'+'</td></tr>'
 		
 		if(line<25 && table == 1){
 		rows_t1.push(row_html);
