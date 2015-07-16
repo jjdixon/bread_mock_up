@@ -155,10 +155,11 @@ background-color: #FFFF00;
 
 .seg-cell {
 background-color: #33CCFF;
+font-size:12px;
 }
 
 .mc-row{
-background-color: #858585;
+background-color: #B9B9B9;
 }
 
 .workwithinput {
