@@ -39,6 +39,7 @@ $(document).on('ready', function(){
 	
 	}*/
 	intializePermanentDisplayTable();
+	loadJSON('data/mainstream.json');
 });
  		
 
@@ -196,6 +197,25 @@ function formTableData(data) {
   }
 }
 
+function loadJSON(url){
+	var json;
+	if(location.host) {
+	$.ajax({
+		type: "GET",
+		datatype: "json",
+		url: url,
+		success: function(data) {
+			var tables = formWorkWithTable(data);
+		
+			$('#MSleft tbody').empty().append(tables[0]));
+			$('#MSright tbody').empty().append(tables[1]));
+		},
+		error: function err() {
+		
+		}
+		});
+	}
+}
 
 $(document).on('change', '.filter-radio', function(e) {
   var json;
@@ -214,7 +234,7 @@ $(document).on('change', '.filter-radio', function(e) {
         //Call with empty string to put No Data
         $('#main-table tbody').empty().append(formTableData(""));
 		
-$('[data-toggle="popover"]').popover();
+		$('[data-toggle="popover"]').popover();
       }
     });
 
