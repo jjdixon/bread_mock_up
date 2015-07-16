@@ -140,3 +140,8 @@ position:relative;
 .focus:hover:after {
     opacity:1;
 }
+
+/*Work With Table CSS*/
+.WorkWith {
+	padding:2px;
+}
