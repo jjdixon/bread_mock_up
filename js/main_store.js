@@ -115,6 +115,7 @@ function formWorkWithTable(data) {
 		});
 		
 	}
+	console.log(table1_lines,table1_blanks,table2_lines,table2_blanks)
 	if((table1_lines+table1_blanks) < (table2_lines+table2_blanks)){
 	for(i=table1_lines+table1_blanks; i <= table2_lines+table2_blanks; i++){
 	rows_t1.push(blank_row);
