@@ -466,6 +466,7 @@ $(document).on('change','.linear',function(e){
 	var re= /\D+([0-9]+)/;
 	var id = re.exec($(this).attr('id'));
 	var netdollars = document.getElementById('net'+id[1]).innerHTML;
+	console.log(netdollars,parseInt(netdollars),$(this).text(),parseInt($(this).text()));
 	document.getElementById("linper"+id[1]).innerHTML = (parseInt(netdollars)/parseInt($(this).text())).toFixed(2);
 });
 
