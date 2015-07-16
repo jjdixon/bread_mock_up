@@ -57,6 +57,9 @@ function formWorkWithTable(data) {
 	var prod,cat,seg,mc,onhands,net,ret,retu,netdol,lin, row_html;
 	var line = 0;
 	var blank_row = '<tr><td colspan="8" style="line-hieght:16px;">&nbsp;</td></tr>'
+	var table1_lines = 0;
+	var next_table = true;
+	var first_seg = true;
 	if(data){
 		data.forEach(function(product){
 		prod = product.Prod;
@@ -70,8 +73,11 @@ function formWorkWithTable(data) {
 		netdol = product.NetDol
 		lin = product.Lin
 		table = product.Table
-		
-		row_html = ((prod == "SEG") ? (((line != 0) && (line!= 25)) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">' ) : '<tr><td>'+prod)+'</td>'+
+		if((table==2) && next_table) { 
+		table1_lines = line;
+		next_table = false;
+		}
+		row_html = ((prod == "SEG") ? (((line != 0) && (line!= 25)) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : '<tr><td>'+prod)+'</td>'+
 		'<td>'+onhands+'</td>'+
 		'<td>'+net+'</td>'+
 		'<td>'+ret+'</td>'+
@@ -87,6 +93,7 @@ function formWorkWithTable(data) {
 		rows_t2.push(row_html);
 		}
 		line++;
+		first_seg = false;
 		});
 		
 	}
