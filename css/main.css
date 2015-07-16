@@ -157,6 +157,10 @@ background-color: #FFFF00;
 background-color: #33CCFF;
 }
 
+.mc-row{
+background-color: #858585;
+}
+
 .workwithinput {
 width:50px;
 padding:0px;

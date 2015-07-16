@@ -89,7 +89,7 @@ function formWorkWithTable(data) {
 		table2_blanks++;
 		}
 		
-		row_html = ((prod == "SEG") ? (((line != 0) && next_table) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : '<tr><td>'+prod)+'</td>'+
+		row_html = ((prod == "SEG") ? (((line != 0) && next_table) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : ((mc=="Y") ? '<tr class="mc-row"><td>'+prod)+'</td>' : '<tr><td>'+prod)+'</td>') +
 		'<td><input class="workwithinput" type="text"></td>'+
 		'<td>'+net+'</td>'+
 		'<td>'+ret+'</td>'+
@@ -468,6 +468,11 @@ $(document).on('keyup','.linear',function(e){
 	var netdollars = document.getElementById('net'+id[1]).innerHTML;
 	var linearft = document.getElementById('lin'+id[1]).value;
 	//console.log(linearft,parseInt(linearft),netdollars,parseInt(netdollars),$('#lin'+id[1]).val());
+	if(linearft == 0){
+	document.getElementById("linper"+id[1]).innerHTML = 0;
+	}
+	else{
 	document.getElementById("linper"+id[1]).innerHTML = Math.floor(parseInt(netdollars)/parseInt(linearft));
+	}
 });
 
