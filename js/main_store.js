@@ -115,7 +115,7 @@ function formWorkWithTable(data) {
 		});
 		
 	}
-	for(i=table1_lines+table1_blanks; i <= 25; i++){
+	for(i=table1_lines+table1_blanks-1; i <= 25; i++){
 	rows_t1.push(blank_row);
 	}
 	for(x=table2_lines+table2_blanks; x <= 25; x++){
