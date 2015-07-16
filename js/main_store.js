@@ -109,10 +109,10 @@ function formWorkWithTable(data) {
 		});
 		
 	}
-	for(i=table1_blanks-1, i <= 25, i++){
+	for(i=table1_blanks-1; i <= 25; i++){
 	rows_t1.push(blank_row);
 	}
-	for(x=table2_blanks-1, x <= 25, x++){
+	for(x=table2_blanks-1; x <= 25; x++){
 	rows_t2.push(blank_row);
 	}
 	
