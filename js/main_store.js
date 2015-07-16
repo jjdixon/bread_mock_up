@@ -462,12 +462,12 @@ $(document).on('click','.executed', function(e){
 });
 
 /*CUSTOM FUNCTIONALITY FOR WORK WITH*/
-$(document).on('change','.linear',function(e){
+$(document).on('upkey','.linear',function(e){
 	var re= /\D+([0-9]+)/;
 	var id = re.exec($(this).attr('id'));
 	var netdollars = document.getElementById('net'+id[1]).innerHTML;
 	var linearft = document.getElementById('lin'+id[1]).value;
-	console.log(linearft,parseInt(linearft),netdollars,parseInt(netdollars),$('#lin'+id[1]).val());
+	//console.log(linearft,parseInt(linearft),netdollars,parseInt(netdollars),$('#lin'+id[1]).val());
 	document.getElementById("linper"+id[1]).innerHTML = Math.floor(parseInt(netdollars)/parseInt(linearft));
 });
 
