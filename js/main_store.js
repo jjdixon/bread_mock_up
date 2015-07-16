@@ -56,7 +56,7 @@ function formWorkWithTable(data) {
 	var rows_t2=[];
 	var prod,cat,seg,mc,onhands,net,ret,retu,netdol,lin, row_html;
 	var line = 0;
-	var blank_row = '<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>'
+	var blank_row = '<tr><td>  </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>'
 	if(data){
 		data.forEach(function(product){
 		prod = product.Prod;
@@ -71,7 +71,7 @@ function formWorkWithTable(data) {
 		lin = product.Lin
 		table = product.Table
 		
-		row_html = ((prod == "SEG") ? ((line != 0) ? blank_row : '<tr class="seg-row"><td class = "seg-cell">'+prod) : '<tr><td>'+prod)+'</td>'+
+		row_html = ((prod == "SEG") ? ((line != 0) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">' ) : '<tr><td>'+prod)+'</td>'+
 		'<td>'+onhands+'</td>'+
 		'<td>'+net+'</td>'+
 		'<td>'+ret+'</td>'+
