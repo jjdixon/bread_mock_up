@@ -89,14 +89,14 @@ function formWorkWithTable(data) {
 		table2_blanks++;
 		}
 		
-		row_html = ((prod == "SEG") ? (((line != 0) && next_table) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : ((mc=="Y") ? '<tr class="mc-row"><td>'+prod+'</td>' : '<tr><td>'+prod+'</td>') +
+		row_html = ((prod == "SEG") ? (((line != 0) && next_table) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : ((mc=="Y") ? '<tr class="mc-row"><td>'+prod+'</td>' : '<tr><td>'+prod+'</td>')) +
 		'<td><input class="workwithinput" type="text"></td>'+
 		'<td>'+net+'</td>'+
 		'<td>'+ret+'</td>'+
 		'<td>'+retu+'</td>'+
 		'<td id="'+"net"+table+line+'">'+netdol+'</td>'+
 		'<td><input class="workwithinput linear" type="text" id="'+"lin"+table+line+'" value="0"></td>'+
-		'<td id="'+"linper"+table+line+'">'+'0'+'</td></tr>'
+		'<td id="'+"linper"+table+line+'">'+'0'+'</td></tr>';
 		
 		if(line<25 && table == 1){
 		rows_t1.push(row_html);
