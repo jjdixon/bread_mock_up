@@ -56,7 +56,7 @@ function formWorkWithTable(data) {
 	var rows_t2=[];
 	var prod,cat,seg,mc,onhands,net,ret,retu,netdol,lin, row_html;
 	var line = 0;
-	var blank_row = '<tr><td colspan="8" style="line-hieght:18px;">&nbsp;</td></tr>'
+	var blank_row = '<tr><td colspan="8" style="line-height:18px;">&nbsp;</td></tr>'
 	var table1_lines = 0;
 	var table2_lines = 0;
 	var next_table = true;
