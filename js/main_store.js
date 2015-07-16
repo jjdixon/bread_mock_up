@@ -67,6 +67,7 @@ function formWorkWithTable(data) {
 		data.forEach(function(product){
 		prod = product.Prod;
 		cat = product.Cat;
+		catid = cat.substr(cat.length - 3);
 		seg = product.Seg;
 		mc = product.MC;
 		onhands = product["On Hands"];
@@ -94,9 +95,9 @@ function formWorkWithTable(data) {
 		'<td>'+net+'</td>'+
 		'<td>'+ret+'</td>'+
 		'<td>'+retu+'</td>'+
-		'<td id="'+"net"+table+line+'">'+netdol+'</td>'+
-		'<td><input class="workwithinput linear" type="text" id="'+"lin"+table+line+'" value="0"></td>'+
-		'<td id="'+"linper"+table+line+'">'+'0'+'</td></tr>';
+		'<td id="'+"net"+catid+table+line+'">'+netdol+'</td>'+
+		'<td><input class="workwithinput linear" type="text" id="'+"lin"+catid+table+line+'" value="0"></td>'+
+		'<td id="'+"linper"+catid+table+line+'">'+'0'+'</td></tr>';
 		
 		if(line<25 && table == 1){
 		rows_t1.push(row_html);
@@ -464,9 +465,10 @@ $(document).on('click','.executed', function(e){
 
 /*CUSTOM FUNCTIONALITY FOR WORK WITH*/
 $(document).on('keyup','.linear',function(e){
-console.log("got here");
-	var re= /\D+([0-9]+)/;
+
+	var re= /\D+(\D\D[0-9]+)/;
 	var id = re.exec($(this).attr('id'));
+	console.log(id[1]);
 	var netdollars = document.getElementById('net'+id[1]).innerHTML;
 	var linearft = document.getElementById('lin'+id[1]).value;
 	//console.log(linearft,parseInt(linearft),netdollars,parseInt(netdollars),$('#lin'+id[1]).val());
