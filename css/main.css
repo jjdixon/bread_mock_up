@@ -142,6 +142,6 @@ position:relative;
 }
 
 /*Work With Table CSS*/
-.WorkWith>thead>th, .WorkWith>tr, .WorkWith>td {
+.WorkWith>thead>tr>th, .WorkWith>tbody>tr, .WorkWith>tbody>tr>td {
 	padding:2px;
 }
