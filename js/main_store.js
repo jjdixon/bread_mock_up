@@ -58,8 +58,9 @@ function formWorkWithTable(data) {
 	var line = 0;
 	var blank_row = '<tr><td colspan="8" style="line-hieght:16px;">&nbsp;</td></tr>'
 	var table1_lines = 0;
+	var table2_lines = 0;
 	var next_table = true;
-		var table1_blanks = 0;
+	var table1_blanks = 0;
 	var table2_blanks = 0;
 	var first = true;
 	if(data){
@@ -76,7 +77,7 @@ function formWorkWithTable(data) {
 		lin = product.Lin
 		table = product.Table
 		if((table==2) && first) { 
-		table1_lines = line;
+		
 		next_table = false;
 		first = false;
 		}
@@ -103,16 +104,21 @@ function formWorkWithTable(data) {
 		else {
 		rows_t2.push(row_html);
 		}
-		line++;
+		if(table == 1) {
+		table1_lines++;
+		}
+		else {
+		table2_lines++;
+		}
 		
 		next_table =true
 		});
 		
 	}
-	for(i=table1_lines+table1_blanks-1; i <= 25; i++){
+	for(i=table1_lines+table1_blanks; i <= 25; i++){
 	rows_t1.push(blank_row);
 	}
-	for(x=50-table1_lines+table2_blanks-1; x <= 25; x++){
+	for(x=table2_lines+table2_blanks; x <= 25; x++){
 	rows_t2.push(blank_row);
 	}
 	
