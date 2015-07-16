@@ -40,6 +40,11 @@ $(document).on('ready', function(){
 	}*/
 	intializePermanentDisplayTable();
 	loadJSON('data/mainstream.json','MS');
+	loadJSON("data/buns.json","MSb");
+	loadJSON("data/premium.json","P");
+	loadJSON("data/breakfast.json","B");
+	loadJSON("data/sbg.json","SBG");
+	loadJSON("data/imports.json","Imp");
 });
  		
 
