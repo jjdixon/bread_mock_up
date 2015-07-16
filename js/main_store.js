@@ -110,18 +110,21 @@ function formWorkWithTable(data) {
 		else {
 		table2_lines++;
 		}
-		
+		line++;
 		next_table =true
 		});
 		
 	}
-	for(i=table1_lines; i <= 25; i++){
+	if((table1_lines+table1_blanks) < (table2_lines+table2_blanks)){
+	for(i=table1_lines+table1_blanks; i <= table2_lines+table2_blanks; i++){
 	rows_t1.push(blank_row);
 	}
-	for(x=table2_lines; x <= 25; x++){
+	}
+	else if((table1_lines+table1_blanks) > (table2_lines+table2_blanks)){
+	for(x=table2_lines+table2_blanks; x <= table1_lines+table1_blanks; x++){
 	rows_t2.push(blank_row);
 	}
-	
+	}
 	return [rows_t1.join(),rows_t2.join()]
 }
 
