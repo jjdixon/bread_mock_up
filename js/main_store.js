@@ -49,6 +49,49 @@ function log(msg) {
   }, 0);
 }
 
+
+function formWorkWithTable(data) {
+	var rows_t1=[];
+	var rows_t2=[];
+	var prod,cat,seg,mc,onhands,net,ret,retu,netdol,lin, row_html;
+	var line = 0;
+	var blank_row = '<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>'
+	if(data){
+		data.forEach(function(product){
+		prod = product.Prod;
+		cat = product.Cat;
+		seg = product.Seg;
+		mc = product.MC;
+		onhands = product["On Hands"];
+		net = product.Net
+		ret = product.Ret
+		retu = product.RetU
+		netdol = product.NetDol
+		lin = product.Lin
+		table = product.Table
+		
+		row_html = ((prod == "SEG") ? ((line != 0) ? blank_row : '<tr class="seg-row"><td class = "seg-cell">'+prod) : '<tr><td>'+prod)+'</td>'+
+		'<td>'+onhands+'</td>'+
+		'<td>'+net+'</td>'+
+		'<td>'+ret+'</td>'+
+		'<td>'+retu+'</td>'+
+		'<td>'+netdol+'</td>'+
+		'<td>'+lin+'</td>'+
+		'<td>'+'0'+'</td></tr>'
+		
+		if(line<25){
+		rows_t1.push(row_html);
+		}
+		else {
+		rows_t2.push(row.html);
+		}
+		line++;
+		});
+		
+	}
+	return [rows_t1.join(),rows_t2.join()]
+}
+
 function formTableData(data) {
   var rows = [];
   var zeroScan = " zeroscan";
