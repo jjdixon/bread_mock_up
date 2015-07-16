@@ -467,7 +467,7 @@ $(document).on('change','.linear',function(e){
 	var id = re.exec($(this).attr('id'));
 	var netdollars = document.getElementById('net'+id[1]).innerHTML;
 	var linearft = document.getElementById('lin'+id[1]).value;
-	console.log(linearft,parseInt(linearft),netdollars,parseInt(netdollars));
-	document.getElementById("linper"+id[1]).innerHTML = (parseInt(netdollars)/parseInt($(this).text())).toFixed(2);
+	console.log(linearft,parseInt(linearft),netdollars,parseInt(netdollars),$('#lin'+id).val();
+	document.getElementById("linper"+id[1]).innerHTML = (parseInt(netdollars)/parseInt(linearft)).toFixed(2);
 });
 
