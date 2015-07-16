@@ -207,8 +207,8 @@ function loadJSON(url){
 		success: function(data) {
 			var tables = formWorkWithTable(data);
 		
-			$('#MSleft tbody').empty().append(tables[0]));
-			$('#MSright tbody').empty().append(tables[1]));
+			$('#MSleft tbody').empty().append(tables[0]);
+			$('#MSright tbody').empty().append(tables[1]);
 		},
 		error: function err() {
 		
