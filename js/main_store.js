@@ -466,7 +466,7 @@ $(document).on('click','.executed', function(e){
 /*CUSTOM FUNCTIONALITY FOR WORK WITH*/
 $(document).on('keyup','.linear',function(e){
 
-	var re= /\D+(\D\D[0-9]+)/;
+	var re= /\D+(\D\D\D[0-9]+)/;
 	var id = re.exec($(this).attr('id'));
 	console.log(id[1]);
 	var netdollars = document.getElementById('net'+id[1]).innerHTML;
