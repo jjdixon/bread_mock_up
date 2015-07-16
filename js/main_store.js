@@ -59,7 +59,9 @@ function formWorkWithTable(data) {
 	var blank_row = '<tr><td colspan="8" style="line-hieght:16px;">&nbsp;</td></tr>'
 	var table1_lines = 0;
 	var next_table = true;
-	var first_seg = true;
+		var table1_blanks = 0;
+	var table2_blanks = 0;
+	var first = true;
 	if(data){
 		data.forEach(function(product){
 		prod = product.Prod;
@@ -73,11 +75,20 @@ function formWorkWithTable(data) {
 		netdol = product.NetDol
 		lin = product.Lin
 		table = product.Table
-		if((table==2) && next_table) { 
+		if((table==2) && first) { 
 		table1_lines = line;
 		next_table = false;
+		first = false;
 		}
-		row_html = ((prod == "SEG") ? (((line != 0) && (line!= 25)) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : '<tr><td>'+prod)+'</td>'+
+		
+		if((table == 1) && (prod =="SEG")){
+		table1_blanks++;
+		}
+		else if((table == 2) && (prod=="SEG")){
+		table2_blanks++;
+		}
+		
+		row_html = ((prod == "SEG") ? (((line != 0) && next_table) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : '<tr><td>'+prod)+'</td>'+
 		'<td>'+onhands+'</td>'+
 		'<td>'+net+'</td>'+
 		'<td>'+ret+'</td>'+
@@ -93,10 +104,18 @@ function formWorkWithTable(data) {
 		rows_t2.push(row_html);
 		}
 		line++;
-		first_seg = false;
+		
+		next_table =true
 		});
 		
 	}
+	for(i=table1_blanks-1, i <= 25, i++){
+	rows_t1.push(blank_row);
+	}
+	for(x=table2_blanks-1, x <= 25, x++){
+	rows_t2.push(blank_row);
+	}
+	
 	return [rows_t1.join(),rows_t2.join()]
 }
 
