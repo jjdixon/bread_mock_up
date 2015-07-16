@@ -89,7 +89,7 @@ function formWorkWithTable(data) {
 		table2_blanks++;
 		}
 		
-		row_html = ((prod == "SEG") ? (((line != 0) && next_table) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : ((mc=="Y") ? '<tr class="mc-row"><td>'+prod)+'</td>' : '<tr><td>'+prod)+'</td>') +
+		row_html = ((prod == "SEG") ? (((line != 0) && next_table) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : ((mc=="Y") ? '<tr class="mc-row"><td>'+prod+'</td>' : '<tr><td>'+prod+'</td>') +
 		'<td><input class="workwithinput" type="text"></td>'+
 		'<td>'+net+'</td>'+
 		'<td>'+ret+'</td>'+
