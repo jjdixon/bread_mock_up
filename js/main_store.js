@@ -84,7 +84,7 @@ function formWorkWithTable(data) {
 		rows_t1.push(row_html);
 		}
 		else {
-		rows_t2.push(row.html);
+		rows_t2.push(row_html);
 		}
 		line++;
 		});
