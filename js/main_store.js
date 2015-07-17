@@ -38,7 +38,7 @@ $(document).on('ready', function(){
 		y=y+10;
 	
 	}*/
-	/*$('.btn1').on('click', function(e) {
+	$('.btn1').on('click', function(e) {
     
     $('.main:visible').fadeOut('300',function(e){
             if($(this).next('.main').length > 0) {
@@ -49,7 +49,7 @@ $(document).on('ready', function(){
                 $('.main:first-of-type').fadeIn('300');
             }
     });
-	});*/
+	});
 	intializePermanentDisplayTable();
 	loadJSON('data/mainstream.json','MS');
 	loadJSON("data/buns.json","MSb");
