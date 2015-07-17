@@ -487,5 +487,5 @@ $(document).on('keyup','.linear',function(e){
 });
 
 function nextStep(){
-	$('.main').next('.main:first').show()
+	$('.main').nextAll('.main:first').show()
 }
