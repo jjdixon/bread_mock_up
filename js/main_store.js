@@ -294,7 +294,7 @@ $(document).on('change', '.filter-radio', function(e) {
     });
 
   } else {
-    json = data[$(this).val()];
+    //json = data[$(this).val()];
     $('#main-table tbody').empty().append(formTableData(json));
   }
 });
