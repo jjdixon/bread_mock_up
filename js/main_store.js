@@ -497,6 +497,3 @@ $(document).on('keyup','.linear',function(e){
 	}
 });
 
-function nextStep(){
-	$('.main').nextAll('.main:first').show()
-}
