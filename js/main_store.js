@@ -266,7 +266,7 @@ function loadJSON(url,table){
 			$('#'+table+'right tbody').empty().append(tables[1]);
 		},
 		error: function err() {
-		
+		console.log("json failed");
 		}
 		});
 	}
@@ -288,7 +288,7 @@ $(document).on('change', '.filter-radio', function(e) {
       error: function(err) {
         //Call with empty string to put No Data
         $('#main-table tbody').empty().append(formTableData(""));
-		
+		console.log("json failed");
 		$('[data-toggle="popover"]').popover();
       }
     });
