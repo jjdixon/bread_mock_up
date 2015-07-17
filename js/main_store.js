@@ -38,6 +38,7 @@ $(document).on('ready', function(){
 		y=y+10;
 	
 	}*/
+	$('.main:not([class="active"])').hide();
 	intializePermanentDisplayTable();
 	loadJSON('data/mainstream.json','MS');
 	loadJSON("data/buns.json","MSb");
