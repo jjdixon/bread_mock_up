@@ -486,3 +486,6 @@ $(document).on('keyup','.linear',function(e){
 	}
 });
 
+function nextStep(){
+	$(".main.active").next().show()
+}
