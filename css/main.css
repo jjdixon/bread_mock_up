@@ -167,6 +167,6 @@ width:50px;
 padding:0px;
 }
 
-.main:not(:first-of-type) {
+.panel .panel-primary .main:not(:first-of-type) {
     display: none;
 }
