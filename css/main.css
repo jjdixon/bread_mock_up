@@ -166,3 +166,7 @@ background-color: #B9B9B9;
 width:50px;
 padding:0px;
 }
+
+.main:not(:first-of-type) {
+    display: none;
+}

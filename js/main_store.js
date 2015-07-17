@@ -38,7 +38,18 @@ $(document).on('ready', function(){
 		y=y+10;
 	
 	}*/
-	$('.main:not(.active)').hide();
+	$('.btn1').on('click', function(e) {
+    
+    $('.main:visible').fadeOut('300',function(e){
+            if($(this).next('.main').length > 0) {
+                $(this).next('.main').fadeIn('300');
+              
+            } else {
+                 
+                $('.main:first-of-type').fadeIn('300');
+            }
+    });
+	});
 	intializePermanentDisplayTable();
 	loadJSON('data/mainstream.json','MS');
 	loadJSON("data/buns.json","MSb");
