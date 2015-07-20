@@ -51,6 +51,7 @@ $(document).on('ready', function(){
     });
 	});
 	intializePermanentDisplayTable();
+	initializeCompetitorDisplayTable()
 	loadJSON('data/mainstream.json','MS');
 	loadJSON("data/buns.json","MSb");
 	loadJSON("data/premium.json","P");
@@ -409,16 +410,45 @@ FOR GENERATING GOLDEN PATH INTERACTIVE MAP
 *****************************/
 
 function intializePermanentDisplayTable(){
+	var brandHTML = '<td><select class="form-control"><option>Select Brand</option>	<option>Mrs. Bairds</option><option>Oroweat</option>'+
+					'<option>Thomas</option><option>Private Label</option><option>Bimbo</option><option>Marinela</option><option>Sara Lee</option>'+
+			'</select></td>';
+	var segHTML = '<td><select class="form-control"><option>Select Segment</option><option>Sliced Bread</option><option>Buns and Rolls</option>'+
+					'<option>Breakfast</option><option>Snack</option><option>SBG</option></select></td>';
+	var fixtureHTML = '<td><select class="form-control"><option>Select Fixture</option><option>Cardboard Hutch</option><option>4-Way</option>'+
+					'<option>Store Endcap/option><option>Need new Display</option></select>';
+	var pictureHTML = '<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>'
 	var goldenHTML = "";
 	for(i=0; i < 7; i++){
-		goldenHTML +='<tr><td><select class="form-control"><option>Select Type</option><option>Premium Bread Display</option><option>Main Stream Bread Display</option><option>Breakfast Display</option><option>Box Cake Display</option>'+
-		'<option>IWP Cake Disay</option><option>Thin/Bun Display</option><option>Roll Display</option><option>Combination</option></select></td><td><select class="form-control" id="location'+i+'"><option>Select Location</option>'+
+		goldenHTML +='<tr><td><select class="form-control" id="location'+i+'"><option>Select Location</option>'+
 		'<option>Breakfast Meats</option><option>Cream Cheese</option><option>OJ</option><option>Milk-Table</option><option>Milk-Breakfast</option><option>Eggs-Table</option><option>Eggs-Perimeter</option><option>Fresh Meats-Thin</option><option>Fresh Meats-Bun</option>'+
-		'<option>Sliced Meats-Thin</option><option>Sliced Meats-Bun</option><option>Delicatessen-Thin</option><option>Delicatessen-Bun</option><option>Promo End Cap</option><option>Prepared Meats</option></select></td><td><div class="input-group" style="margin: 0 auto;">'+
+		'<option>Sliced Meats-Thin</option><option>Sliced Meats-Bun</option><option>Delicatessen-Thin</option><option>Delicatessen-Bun</option><option>Promo End Cap</option><option>Prepared Meats</option></select></td>'+brandHTML+segHTML+fixtureHTML+'<td><div class="input-group" style="margin: 0 auto;">'+
 		'<input class="desired" id="desired'+i+'" type="checkbox"></div></td><td><div class="input-group" style="margin: 0 auto;"><input class="executed" id="executed'+i+'" type="checkbox">'+
-		'</div></td><td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td></tr>';
+		'</div></td>'+pictureHTML+'</tr>';
 	}
 	$('#permanent-table tbody').append(goldenHTML);
+}
+
+function initializeCompetitorDisplayTable(){
+	var compHTML = "";
+	var locHTML = '<td><select class="form-control"><option>Select Location</option>'+
+		'<option>Breakfast Meats</option><option>Cream Cheese</option><option>OJ</option><option>Milk-Table</option><option>Milk-Breakfast</option><option>Eggs-Table</option><option>Eggs-Perimeter</option><option>Fresh Meats-Thin</option><option>Fresh Meats-Bun</option>'+
+		'<option>Sliced Meats-Thin</option><option>Sliced Meats-Bun</option><option>Delicatessen-Thin</option><option>Delicatessen-Bun</option><option>Promo End Cap</option><option>Prepared Meats</option></select></td>';
+	var brandHTML = '<td><select class="form-control"><option>Select Brand</option>	<option>Mrs. Bairds</option><option>Oroweat</option>'+
+					'<option>Thomas</option><option>Private Label</option><option>Bimbo</option><option>Marinela</option><option>Sara Lee</option>'+
+			'</select></td>';
+	var segHTML = '<td><select class="form-control"><option>Select Segment</option><option>Sliced Bread</option><option>Buns and Rolls</option>'+
+					'<option>Breakfast</option><option>Snack</option><option>SBG</option></select></td>';
+	var fixtureHTML = '<td><select class="form-control"><option>Select Fixture</option><option>Cardboard Hutch</option><option>4-Way</option>'+
+					'<option>Store Endcap/option><option>Need new Display</option></select>';
+	var pictureHTML = '<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>';
+						
+						
+	for(i=0; i < 4; i++) {
+		compHTML += '<tr>'+locHTML + brandHTML+segHTML+fixtureHTML+pictureHTML+'</tr>';
+	
+	}
+	$('#comp-table tbody').append(compHTML);
 }
 
 /*function returnLocation(e){
