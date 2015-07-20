@@ -12,6 +12,7 @@
 body {
   margin-top: 50px;
   background:url(../images/bg-slider.jpg) no-repeat; background-size:100%;
+  padding-bottom: 60px;
 }
 
 ul {
