@@ -40,13 +40,13 @@ $(document).on('ready', function(){
 	}*/
 	$('.btn1').on('click', function(e) {
     
-    $('.main:visible').fadeOut('300',function(e){
+    $('.main:visible').fadeOut('500',function(e){
             if($(this).next('.main').length > 0) {
-                $(this).next('.main').fadeIn('300');
+                $(this).next('.main').fadeIn('500');
               
             } else {
                  
-                $('.main:first-of-type').fadeIn('300');
+                $('.main:first-of-type').fadeIn('500');
             }
     });
 	});
@@ -480,7 +480,10 @@ $(document).on('click','.executed', function(e){
 	
 });
 
-/*CUSTOM FUNCTIONALITY FOR WORK WITH*/
+
+/************************************
+CUSTOM FUNCTIONALITY FOR WORK WITH
+************************************/
 $(document).on('keyup','.linear',function(e){
 
 	var re= /\D+(\D\D\D[0-9]+)/;
