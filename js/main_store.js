@@ -500,3 +500,32 @@ $(document).on('keyup','.linear',function(e){
 	}
 });
 
+/*********************************
+COMMENT BOX*****************
+******************************/
+$(document).on('click','.btn-comment',function(e) {
+    $('.comment-box').toggleClass('active');
+});
+var today = new Date();
+$(document).on('submit', 'form.add-comment', function(e) {
+    e.preventDefault();
+    var $comment_input = $(this).find('input'),
+        commentText = $comment_input.val(),
+        comment = "<li><p>&lt;" +today.toDateString()+" "+today.getHours()+":"+today.getMinutes()+":"+today.getSeconds()+"&gt; " + commentText + "</p></li>";
+    $('.comment-box ul').append(comment);
+    scrollCommentsToBottom();
+    $comment_input.val('').focus();
+});
+
+
+var scrollCommentsToBottom = function() {
+    // scrolls comment list to bottom
+    el = $('.comment-box ul');
+    el.animate({
+        scrollTop: el.prop("scrollHeight")
+    }, 400);
+};
+
+$(document).ready(function() {
+    scrollCommentsToBottom();
+});

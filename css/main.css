@@ -173,3 +173,41 @@ padding:0px;
 .main:not(:first-of-type) {
     display: none;
 }
+
+/*COMMENT BOX *******/
+.comment-box {
+    position: fixed;
+    right: 35%;
+    bottom: -100%;
+    border: 1px solid #000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    width: 800px;
+    padding: 15px;
+	padding-bottom: 50px;
+    opacity: 0;
+    visibility: none;
+    transition: all 400ms;
+	background-color: white;
+}
+.comment-box.active {
+    bottom: 0;
+    visibility: visible;
+    opacity: 1;
+}
+.comment-box h2 {
+    margin-top: 0;
+}
+.comment-box ul {
+    list-style: none;
+    max-height: 250px;
+    overflow: auto;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+}
+.comment-box ul p {
+    border-bottom: 1px solid;
+}
+form.add-comment .form-control {
+    width: calc(100% - 60px);
+}

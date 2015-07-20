@@ -150,17 +150,23 @@
     </div>
   </div><!-- /.navbar -->
   <!-- nav bar bottom -->
-  <div class="navbar navbar-default navbar-fixed-bottom">
-	<div class="row" style="width:250px; float:right; margin-bottom:10px">
-		<div class="col-md-6">
+  <div class="navbar navbar-default navbar-fixed-bottom" >
+	<div class="row" >
+		<div class="col-md-10 text-center">
+		<button class="btn-comment btn btn-primary">Comment</button>
+		</div>
+		<div class="col-md-1">
 		<button  class="btn1 btn btn-primary btn-block">Next Step</button>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-1">
 		<a href="mailto:IO@yahoo.com;PromptPlanner@bbumail.com?subject=Recap for Wal-Mart 0454&body= Out Of Stock:0 %0D%0A Out Of Code:0 %0D%0A Issues: Prompt order for MB Large White looks low; Heavy on Sara Lee Box Cake %0D%0A New Display: 9/21, Entenmann Little Bites"  class="btn btn-primary btn-block" >Submit</a>  
 		</div>
 	</div>
 	
   </div>
+  <!-- end bottom nav bar-->
+  
+ 
   <div class="main-wrapper">
     <div class="container">
       <header class="page-header">
@@ -1658,6 +1664,30 @@ function showCoords(event) {
 			
           </article>
 		  
+		  <!--COMMENT BOX-->
+<div class="comment-box">
+    <h2>
+        Comments
+        <button class="btn-comment pull-right btn btn-secondary">X</button>
+    </h2>
+    <ul>
+        <li>
+            <p>Example Comment</p>
+        </li>
+        <li>
+            <p>Example Comment</p>
+        </li>
+
+    </ul>
+    <form action="" class="add-comment form-inline">
+        <div class="form-group clearfix">
+            <input type="text" class="form-control pull-left" placeholder="Add Comment..."/>
+            <button class="btn btn-primary pull-right" type="submit">Add</button>
+        </div>
+    </form>
+</div>
+<!-- End Comment Box -->
+
 	<!--OLD SUBMIT
 	<div class="span2" style="display:block;width:250px; float:right; margin-bottom:10px">
 	<div class="row">
