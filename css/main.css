@@ -181,7 +181,7 @@ padding:0px;
     bottom: -100%;
     border: 1px solid #000;
     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-    width: 800px;
+    width: 600px;
     padding: 15px;
 	padding-bottom: 50px;
     opacity: 0;
@@ -209,5 +209,6 @@ padding:0px;
     border-bottom: 1px solid;
 }
 form.add-comment .form-control {
-    width: calc(100% - 60px);
+    /*width: calc(100% - 60px);*/
+	width:500px;
 }
