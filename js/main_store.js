@@ -536,9 +536,10 @@ COMMENT BOX*****************
 $(document).on('click','.btn-comment',function(e) {
     $('.comment-box').toggleClass('active');
 });
-var today = new Date();
+
 $(document).on('submit', 'form.add-comment', function(e) {
     e.preventDefault();
+	var today = new Date();
     var $comment_input = $(this).find('input'),
         commentText = $comment_input.val(),
         comment = "<li><p>&lt;" +today.toDateString()+" "+today.getHours()+":"+today.getMinutes()+":"+today.getSeconds()+"&gt; " + commentText + "</p></li>";
