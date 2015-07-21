@@ -50,6 +50,18 @@ $(document).on('ready', function(){
             }
     });
 	});
+	$('.btn2').on('click', function(e) {
+    
+    $('.main:visible').fadeOut('500',function(e){
+            if($(this).prev('.main').length > 0) {
+                $(this).prev('.main').fadeIn('500');
+              
+            } else {
+                 
+                $('.main:first-of-type').fadeIn('500');
+            }
+    });
+	});
 	intializePermanentDisplayTable();
 	initializeCompetitorDisplayTable()
 	loadJSON('data/mainstream.json','MS');
