@@ -8,6 +8,7 @@ $(document).on('ready', function() {
 	  $('#banner-fade').bjqs({
             height      : 320,
             width       : 620,
+			automatic 	: false;
             responsive  : true
           });
 });
