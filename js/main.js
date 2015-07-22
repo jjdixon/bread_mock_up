@@ -233,7 +233,7 @@ function formSurveyTable(data){
 	if(data){
 		data.forEach(function(entry){
 		tableHTML += '<tr><td><a href="'+((entry.Type == "Tracker") ? '"comacsurvey.html"' : '"pricesurvey.html">')+entry.Title+'</a></td><td>'+entry.Type+'</td><td>'+entry.Start_Date+'</td><td>'+entry.Close_Date+
-		'</td><td>'+entry.Author;
+		'</td><td>'+entry.Author+'</td></tr>';
 		rows.push(tableHTML);
 		});
 	}
