@@ -217,7 +217,7 @@ function loadSurveyJSON(url,tableID){
 		success: function(data) {
 			var tableHTML = formSurveyTable(data);
 			
-			$('#'+tableID).empty().append(tableHTML);
+			$('#'+tableID+' tbody').empty().append(tableHTML);
 		},
 		error: function  err() {
 		console.log("json failed");
