@@ -130,6 +130,8 @@ $(document).on('click', '.btn-expand', function(e) {
         rows.hide();
     }
 });
+
+/*
 $(document).on('click', 'tr', function(e) {
     if ($('input[value="predefined"]').checked) {
         if ($(this).hasClass('selected')) {
@@ -145,7 +147,7 @@ $(document).on('click', 'tr', function(e) {
             $(this).addClass('selected');
         }
     }
-});
+});*/
 
 $(document).on('click', '.btn-success', function(e) {
 	$('.hidden').removeClass('hidden');
