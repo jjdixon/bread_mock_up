@@ -5,6 +5,13 @@ $(document).on('ready', function() {
     $('input[value="predefined"]').trigger('click');
 
 	document.getElementById('date').innerHTML += today.toDateString();
+	    $('#banner-fade').bjqs({
+            height      : 320,
+            width       : 620,
+            responsive  : true
+          });
+
+        });
 });
 
 function formTableData(data, custom, alltours,simulateDate) {
