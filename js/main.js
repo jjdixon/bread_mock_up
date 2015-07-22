@@ -16,7 +16,7 @@ $(document).on('ready', function() {
 	 $('[data-toggle="tooltip"]').tooltip()	  
 	 loadSurveyJSON('data/surveys.json','surveys_open');
 	  loadSurveyJSON('data/surveys.json','surveys_closed');
-	  loadPricingJOSN('data/pricing.json','pricing_table');
+	  loadPricingJSON('data/pricing.json','pricing_table');
 });
 
 
