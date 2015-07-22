@@ -227,7 +227,8 @@ function loadSurveyJSON(url,tableID){
 }
 
 function formSurveyTable(data){
-	var tableHTML,rows;
+	var tableHTML;
+	var rows=[];
 	
 	if(data){
 		data.forEach(function(entry){
