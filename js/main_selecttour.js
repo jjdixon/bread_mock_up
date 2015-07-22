@@ -9,7 +9,7 @@ $(document).on('ready', function() {
 		  
 	 $('[data-toggle="tooltip"]').tooltip()	  
 
-}
+});
 
 function formTableData(data, custom, alltours,simulateDate) {
     var level, firstrow, tourName;
