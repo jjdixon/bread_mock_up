@@ -17,7 +17,7 @@ $(document).on('ready', function() {
 	 loadSurveyJSON('data/surveys.json','surveys_open');
 	  loadSurveyJSON('data/surveys.json','surveys_closed');
 });
-});
+
 
 function formTableData(data, custom, alltours,simulateDate) {
     var level, firstrow, tourName;
