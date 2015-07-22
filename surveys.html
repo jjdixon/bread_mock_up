@@ -26,10 +26,10 @@
       </div>
       <div class="navbar-collapse collapse" id="navbar-main">
         <ul class="nav navbar-nav">
-          <li class="active">
+          <li >
             <a href="index.html">Dashboard</a>
           </li>
-          <li>
+          <li class="active">
             <a href="surveys.html">Surveys</a>
           </li>
           <li>
@@ -55,7 +55,7 @@
   <div class="main-wrapper">
     <div class="container">
       <header class="page-header">
-        <h1>Welcome Market Excellence Manager!</h1>
+        <h1>Surveys</h1>
       </header>
       <div class="row">
         <div class="col-xs-9">
@@ -63,75 +63,49 @@
             <section>
               <div class="panel panel-primary "><!--removed dimmed-->
                 <div class="panel-heading">
-                  <h2 class="panel-title">My Market Area <span class="glyphicon glyphicon-globe pull-right"></span></h2>
+                  <h2 class="panel-title">Open Surveys <span class="glyphicon glyphicon-globe pull-right"></span></h2>
                 </div>
                 <div class="panel-body ">
-                  <!--<div class="row">
-                    <div class="col-xs-12">
-                      <h2 class="center-text">Overall Rank: 39/87 <span class="text-danger">(-1)</span></h2>
-                    </div>
-                  </div> /.row -->
-				  
-				 <div id="banner-fade" class="center">
-					<ul class="bjqs">
-						<li><img src="images/netSales.png"></li>
-						<li><img src="images/netUnits.png"></li>
-						<li><img src="images/Returns.png"></li>
-					</ul>
-				</div>
+					<div class="row">
+					<table id="surveys_open" class="table table-bordered table-condensed">
+						<thead>
+							<th>Title</th>
+							<th>Type</th>
+							<th>Start Date</th>
+							<th>Close Date</th>
+							<th>Author</th>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+					</div>
                 </div><!-- /.panel-body -->
               </div><!-- /.panel -->
             </section>
-            <section>
-              <div class="panel panel-primary "><!--removed accountability-->
+			<section>
+              <div class="panel panel-primary "><!--removed dimmed-->
                 <div class="panel-heading">
-                  <h2 class="panel-title">Important Tracking <span class="glyphicon glyphicon-record pull-right"></span></h2>
+                  <h2 class="panel-title">Completed Surveys in past 7 days <span class="glyphicon glyphicon-globe pull-right"></span></h2>
                 </div>
-                <div class="panel-body">
-                  <div class="row">
-                    <div class="col-md-3 ">
-                      <header class="center-text">
-                       
-						<h4>Core Compliance        </h4>
-                      </header>
-                      <div class="graph">
-                        <img src="images/speedometer.png" alt="" class="img-graph" data-toggle="tooltip" data-placement="top"
-						title="Based on Must Carry list established by DoS"/>
-                      </div>
-                    </div><!-- /.col-md-3 -->
-					<div class="col-md-3 ">
-                      <header class="center-text">
-                        <h4>Mod Voids            </h4>
-                      </header>
-                      <div class="graph">
-                        <img src="images/speedometer_rev.png" alt="" class="img-graph" data-toggle="tooltip" data-placement="top"
-						title="Tracks total Mod Voids for available accounts. Manually updated by admin."/>
-                      </div>
-                    </div><!-- /.col-md-3 -->
-                    <div class="col-md-3 ">
-                      <header class="center-text">
-                      <h4>Permanent Displays</h4> 
-                      </header>
-                      <div class="graph">
-                        <img src="images/speedometer.png" alt="" class="img-graph" data-toggle="tooltip" data-placement="top"
-						title="Based on desired displays identified during the ME store visit."/>
-                      </div>
-                    </div><!-- /.col-md-3 -->
-                    <div class="col-md-3 ">
-                      <header class="center-text">
-                        <h4>ME Compliance             </h4>
-                      </header>
-                      <div class="graph">
-                        <img src="images/speedometer.png" alt="" class="img-graph" data-toggle="tooltip" data-placement="top"
-						title="Based on the number of expected store visits over a predefined period of time."/>
-                      </div>
-                    </div><!-- /.col-md-3 -->
-                    
-                  </div><!-- /.row -->
-				  
+                <div class="panel-body ">
+                 	<div class="row">
+					<table id="surveys_closed" class="table table-bordered table-condensed">
+						<thead>
+							<th>Title</th>
+							<th>Type</th>
+							<th>Start Date</th>
+							<th>Close Date</th>
+							<th>Author</th>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+					</div>
+		
                 </div><!-- /.panel-body -->
               </div><!-- /.panel -->
             </section>
+
             <section>
               <div class="panel panel-primary "><!--removed focus-->
                 <div class="panel-heading">

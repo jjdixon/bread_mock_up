@@ -12,6 +12,11 @@ $(document).on('ready', function() {
 			showcontrols : false,
             responsive  : true
           });
+		  
+	 $('[data-toggle="tooltip"]').tooltip()	  
+	 loadSurveyJSON('data/surveys.json','surveys_open');
+	  loadSurveyJSON('data/surveys.json','surveys_closed');
+});
 });
 
 function formTableData(data, custom, alltours,simulateDate) {
@@ -199,4 +204,39 @@ $(document).on('click', '#simulate', function(e) {
         $('#main-table tbody').empty().append(formTableData(json, boo, false,1));
     }
 });
+
+/*******************
+CREATE SURVEY TABLES
+******************/
+function loadSurveyJSON(url,tableID){
+	var json;
+	$.ajax({
+		type: "GET",
+		datatype: "json",
+		url: url,
+		success: function(data) {
+			var tableHTML = formSurveyTable(data);
+			
+			$('#'+tableID).empy().append(tableHTML);
+		}.
+		error: function  err() {
+		console.log("json failed");
+		}
+		});
+		
+}
+
+function formSurveyTable(data){
+	var tableHTML,rows;
+	
+	if(data){
+		data.forEach(function(entry){
+		tableHTML += '<tr><td><a href="'+((entry.Type == "Tracker") ? '"comacsurvey.html"' : '"pricesurvey.html">')+entry.Title+'</a></td><td>'+entry.Type+'</td><td>'+entry.Start_Date+'</td><td>'+entry.Close_Date+
+		'</td><td>'+entry.Author;
+		rows.push(tableHTML);
+		});
+	}
+	return rows.join();
+}
+
 
