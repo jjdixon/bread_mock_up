@@ -9,6 +9,7 @@ $(document).on('ready', function() {
             height      : 320,
             width       : 620,
 			automatic 	: false,
+			showcontrols : false,
             responsive  : true
           });
 });
