@@ -217,7 +217,7 @@ function loadSurveyJSON(url,tableID){
 		success: function(data) {
 			var tableHTML = formSurveyTable(data);
 			
-			$('#'+tableID).empy().append(tableHTML);
+			$('#'+tableID).empty().append(tableHTML);
 		},
 		error: function  err() {
 		console.log("json failed");
