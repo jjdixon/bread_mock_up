@@ -3,7 +3,7 @@ var desiredURL = "images/desiredStar.png";
 var executedURL = "images/executedStar.png";
 var starOffset = 14;
 
-var goldenPath = { "Breakfast Meats": [52,194], "Cream Cheese": [52,120], "OJ": [73,120], "Milk-Table": [122,41], "Milk-Breakfast": [154,41], "Eggs-Table": [262,45], "Eggs-Perimeter": [282,14], "Fresh Meats-Thin": [410,45],
+var goldenPath = { "Breakfast Meats": [52,194], "Cream Cheese": [52,120], "OJ": [73,120], "Milk": [122,41], "Milk-Breakfast": [154,41], "Eggs-Table": [262,45], "Eggs-Perimeter": [282,14], "Fresh Meats-Thin": [410,45],
 					"Fresh Meats-Bun": [493,45], "Sliced Meats-Thin": [532,40], "Sliced Meats-Bun": [564,40], "Delicatessen-Thin": [606,70], "Delicatessen-Bun": [606,119], "Promo End Cap": [300,84], "Prepared Meats": [576,154]
 					
  };
@@ -434,17 +434,17 @@ function intializePermanentDisplayTable(){
 	var brandHTML; 
 	var segHTML; 
 	var fixtureHTML = '<td><select class="form-control"><option>Select Fixture</option><option>Cardboard Hutch</option><option>4-Way</option>'+
-					'<option>Store Endcap/option><option>Need new Display</option></select>';
+					'<option>Store Endcap</option><option>Need new Display</option></select>';
 	var pictureHTML = '<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>'
 	var goldenHTML = "";
 	for(i=0; i < 7; i++){
 		brandHTML ='<td id="brand'+i+'"><select class="form-control brand" id="brandSelect'+i+'"><option>Select Brand</option>	<option>Mrs. Bairds</option><option>Oroweat</option>'+
-					'<option>Thomas</option><option>Natures Harvest</option><option>Bimbo</option><option>Marinela</option><option>Sara Lee</option>'+
+					'<option>Thomas</option><option>Natures Harvest</option><option>Bimbo</option><option>Marinela</option><option>Sara Lee</option><option>Entenmanns</option>'+
 			'</select></td>';
 		segHTML = '<td id="seg'+i+'"><select class="form-control permDisplays" id="segSelect'+i+'"><option>Select Segment</option><option>Sliced Bread</option><option>Buns and Rolls</option>'+
 					'<option>Breakfast</option><option>Snack</option><option>SBG</option></select></td>';
 		goldenHTML +='<tr><td><select class="form-control locationSelect" id="location'+i+'"><option>Select Location</option>'+
-		'<option>Breakfast Meats</option><option>Cream Cheese</option><option>OJ</option><option>Milk-Table</option><option>Milk-Breakfast</option><option>Eggs</option><option>Fresh Meats-Thin</option><option>Fresh Meats-Bun</option>'+
+		'<option>Breakfast Meats</option><option>Cream Cheese</option><option>OJ</option><option>Milk</option><option>Eggs</option><option>Fresh Meats-Thin</option><option>Fresh Meats-Bun</option>'+
 		'<option>Sliced Meats-Thin</option><option>Sliced Meats-Bun</option><option>Delicatessen-Thin</option><option>Delicatessen-Bun</option><option>Promo End Cap</option><option>Prepared Meats</option></select></td>'+brandHTML+segHTML+fixtureHTML+'<td><div class="input-group" style="margin: 0 auto;">'+
 		'<input class="desired" id="desired'+i+'" type="checkbox"></div></td><td><div class="input-group" style="margin: 0 auto;"><input class="executed" id="executed'+i+'" type="checkbox">'+
 		'</div></td>'+pictureHTML+'</tr>';
@@ -463,7 +463,7 @@ function initializeCompetitorDisplayTable(){
 	var segHTML = '<td><select class="form-control"><option>Select Segment</option><option>Sliced Bread</option><option>Buns and Rolls</option>'+
 					'<option>Breakfast</option><option>Snack</option><option>SBG</option></select></td>';
 	var fixtureHTML = '<td><select class="form-control"><option>Select Fixture</option><option>Cardboard Hutch</option><option>4-Way</option>'+
-					'<option>Store Endcap/option><option>Need new Display</option></select>';
+					'<option>Store Endcap</option><option>Need new Display</option></select>';
 	var pictureHTML = '<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>';
 						
 						
