@@ -431,7 +431,7 @@ function intializePermanentDisplayTable(){
 	var pictureHTML = '<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>'
 	var goldenHTML = "";
 	for(i=0; i < 7; i++){
-		brandHTML ='<td id="brand'+i+'"><select class="form-control permDisplays" id="brandSelect'+i+'><option>Select Brand</option>	<option>Mrs. Bairds</option><option>Oroweat</option>'+
+		brandHTML ='<td id="brand'+i+'"><select class="form-control permDisplays" id="brandSelect'+i+'"><option>Select Brand</option>	<option>Mrs. Bairds</option><option>Oroweat</option>'+
 					'<option>Thomas</option><option>Private Label</option><option>Bimbo</option><option>Marinela</option><option>Sara Lee</option>'+
 			'</select></td>';
 		segHTML = '<td id="seg'+i+'"><select class="form-control permDisplays" id="segSelect'+i+'"><option>Select Segment</option><option>Sliced Bread</option><option>Buns and Rolls</option>'+
