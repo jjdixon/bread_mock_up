@@ -14,48 +14,6 @@
     "Table":1
   },
   {
-    "Prod":"TR SFT TACO TORT10P",
-    "Cat":"Other",
-    "Seg":"Tia Rosa",
-    "MC":"N",
-    "On Hands":"0",
-    "Net":11,
-    "Ret":1.45,
-    "RetU":0,
-    "NetDol":17,
-    "Lin":"0",
-    "PerLin":"",
-    "Table":1
-  },
-  {
-    "Prod":"TR BURRITO TORT 8P20",
-    "Cat":"Other",
-    "Seg":"Tia Rosa",
-    "MC":"N",
-    "On Hands":"0",
-    "Net":10,
-    "Ret":9.67,
-    "RetU":1,
-    "NetDol":20,
-    "Lin":"0",
-    "PerLin":"",
-    "Table":1
-  },
-  {
-    "Prod":"TR YELLOW CORN TORT",
-    "Cat":"Other",
-    "Seg":"Tia Rosa",
-    "MC":"N",
-    "On Hands":"0",
-    "Net":19,
-    "Ret":1.04,
-    "RetU":0,
-    "NetDol":26,
-    "Lin":"0",
-    "PerLin":"",
-    "Table":1
-  },
-  {
     "Prod":"TR HOMSTY TORT 10P14",
     "Cat":"Other",
     "Seg":"Tia Rosa",
@@ -84,6 +42,48 @@
     "Table":1
   },
   {
+    "Prod":"TR YELLOW CORN TORT",
+    "Cat":"Other",
+    "Seg":"Tia Rosa",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":19,
+    "Ret":1.04,
+    "RetU":0,
+    "NetDol":26,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":1
+  },
+  {
+    "Prod":"TR SFT TACO TORT10P",
+    "Cat":"Other",
+    "Seg":"Tia Rosa",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":11,
+    "Ret":1.45,
+    "RetU":0,
+    "NetDol":17,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":1
+  },
+  {
+    "Prod":"TR BURRITO TORT 8P20",
+    "Cat":"Other",
+    "Seg":"Tia Rosa",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":10,
+    "Ret":9.67,
+    "RetU":1,
+    "NetDol":20,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":1
+  },
+  {
     "Prod":"TR MEGATHIN CHIP",
     "Cat":"Other",
     "Seg":"Tia Rosa",
@@ -98,20 +98,6 @@
     "Table":1
   },
   {
-    "Prod":"TR WICWW TORT 10P16Z",
-    "Cat":"Other",
-    "Seg":"Tia Rosa",
-    "MC":"N",
-    "On Hands":"0",
-    "Net":6,
-    "Ret":3.13,
-    "RetU":0,
-    "NetDol":10,
-    "Lin":"0",
-    "PerLin":"",
-    "Table":1
-  },
-  {
     "Prod":"TR WHITE CORN TORT30",
     "Cat":"Other",
     "Seg":"Tia Rosa",
@@ -121,6 +107,20 @@
     "Ret":24.68,
     "RetU":1,
     "NetDol":8,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":1
+  },
+  {
+    "Prod":"TR WICWW TORT 10P16Z",
+    "Cat":"Other",
+    "Seg":"Tia Rosa",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":6,
+    "Ret":3.13,
+    "RetU":0,
+    "NetDol":10,
     "Lin":"0",
     "PerLin":"",
     "Table":1
@@ -154,34 +154,6 @@
     "Table":2
   },
   {
-    "Prod":"BOB TN 12\" WWCST 10Z",
-    "Cat":"Other",
-    "Seg":"Boboli",
-    "MC":"N",
-    "On Hands":"0",
-    "Net":1,
-    "Ret":53.85,
-    "RetU":0,
-    "NetDol":1,
-    "Lin":"0",
-    "PerLin":"",
-    "Table":2
-  },
-  {
-    "Prod":"BOB LG SAUCE 3P15Z",
-    "Cat":"Other",
-    "Seg":"Boboli",
-    "MC":"N",
-    "On Hands":"0",
-    "Net":0,
-    "Ret":0,
-    "RetU":0,
-    "NetDol":0,
-    "Lin":"0",
-    "PerLin":"",
-    "Table":2
-  },
-  {
     "Prod":"BOB 12 OG TNCST 10Z",
     "Cat":"Other",
     "Seg":"Boboli",
@@ -191,6 +163,20 @@
     "Ret":74.67,
     "RetU":2,
     "NetDol":8,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":2
+  },
+  {
+    "Prod":"BOB TN 12\" WWCST 10Z",
+    "Cat":"Other",
+    "Seg":"Boboli",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":1,
+    "Ret":53.85,
+    "RetU":0,
+    "NetDol":1,
     "Lin":"0",
     "PerLin":"",
     "Table":2
@@ -208,5 +194,19 @@
     "Lin":"0",
     "PerLin":"",
     "Table":2
-  }  
+  },
+  {
+    "Prod":"BOB LG SAUCE 3P15Z",
+    "Cat":"Other",
+    "Seg":"Boboli",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":0,
+    "Ret":0,
+    "RetU":0,
+    "NetDol":0,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":2
+  }
 ]
