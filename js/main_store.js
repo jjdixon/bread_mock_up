@@ -636,9 +636,36 @@ NAV FUNCTIONS*************************
 ****************************************/
 $(document).on('click','#shelfLink',function (e) {
 	$('.main:visible').fadeOut('500',function(e){
-           
-                $('#shelf').fadeIn('500');
-            
-            
+      $('#shelf').fadeIn('500');
+    });
+});
+
+$(document).on('click','#behindLink',function (e) {
+	$('.main:visible').fadeOut('500',function(e){
+      $('#behind').fadeIn('500');
+    });
+});
+
+$(document).on('click','#salesLink',function (e) {
+	$('.main:visible').fadeOut('500',function(e){
+      $('#sales').fadeIn('500');
+    });
+});
+
+$(document).on('click','#backLink',function (e) {
+	$('.main:visible').fadeOut('500',function(e){
+      $('#backroom').fadeIn('500');
+    });
+});
+
+$(document).on('click','#perimeterLink',function (e) {
+	$('.main:visible').fadeOut('500',function(e){
+      $('#perimeter').fadeIn('500');
+    });
+});
+
+$(document).on('click','#customerLink',function (e) {
+	$('.main:visible').fadeOut('500',function(e){
+      $('#contact').fadeIn('500');
     });
 });
