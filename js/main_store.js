@@ -44,12 +44,13 @@ $(document).on('ready', function(){
             if($(this).next('.main').length > 0) {
                 $(this).next('.main').fadeIn('500');
 				console.log($(this).next('.main').attr('id'));
-				if($(this).next('.main').attr('id')== 'sales'){
+				if($(this).next('.main').attr('id')== 'salesID'){
 				setTimeout(function() {
 				$("#priorities").trigger('click');
 					},5);
 	
 				}
+				$('#modvoid').addClass('active');
             } else {
                  
                 $('.main:first-of-type').fadeIn('500');
