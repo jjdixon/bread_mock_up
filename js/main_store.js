@@ -43,7 +43,12 @@ $(document).on('ready', function(){
     $('.main:visible').fadeOut('500',function(e){
             if($(this).next('.main').length > 0) {
                 $(this).next('.main').fadeIn('500');
-              
+				if($(this).next('.main').attr('id')== 'sales'){
+				setTimeout(function() {
+				$("#priorities").trigger('click');
+					},5);
+	
+				}
             } else {
                  
                 $('.main:first-of-type').fadeIn('500');
