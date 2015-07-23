@@ -72,13 +72,13 @@ $(document).on('ready', function(){
 	intializePermanentDisplayTable();
 	initializeCompetitorDisplayTable()
 	loadJSON('data/mainstream.json','MS');
-	loadJSON("data/buns.json","MSb");
-	loadJSON("data/premium.json","P");
-	loadJSON("data/breakfast.json","B");
-	loadJSON("data/sbg.json","SBG");
-	loadJSON("data/imports.json","Imp");
-	loadJSON("data/privatelabel.json","PL");
-	loadJSON("data/other.json","Other");
+	//loadJSON("data/buns.json","MSb");
+	//loadJSON("data/premium.json","P");
+	//loadJSON("data/breakfast.json","B");
+	//loadJSON("data/sbg.json","SBG");
+	//loadJSON("data/imports.json","Imp");
+	//loadJSON("data/privatelabel.json","PL");
+	//loadJSON("data/other.json","Other");
 });
  		
 
@@ -93,6 +93,7 @@ function log(msg) {
 function formWorkWithTable(data) {
 	var rows_t1=[];
 	var rows_t2=[];
+	var row_t3=[];
 	var prod,cat,seg,mc,onhands,net,ret,retu,netdol,lin, row_html;
 	var line = 0;
 	var blank_row = '<tr><td colspan="8" style="line-height:19px;">&nbsp;</td></tr>'
@@ -129,6 +130,13 @@ function formWorkWithTable(data) {
 		table2_blanks++;
 		}
 		
+		if(table == 0){
+		row_html= '<tr><td>'+net+'</td><td>'+ret+'</td><td>'+retu+'</td><td id="'+"net"+catid+table+'">'+netdol+'</td>'+
+		'<td><input class="workwithinput linear" type="text" id="'+"lin"+catid+table+'" value="0"></td>'+
+		'<td id="'+"linper"+catid+table+'">'+'0'+'</td></tr>';	
+		rows_t3.push(row.html);
+		}
+		else {
 		row_html = ((prod == "SEG") ? (((line != 0) && next_table) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : ((mc=="Y") ? '<tr class="mc-row"><td>'+prod+'</td>' : '<tr><td>'+prod+'</td>')) +
 		'<td><input class="workwithinput" type="text"></td>'+
 		'<td>'+net+'</td>'+
@@ -152,6 +160,7 @@ function formWorkWithTable(data) {
 		}
 		line++;
 		next_table =true
+		}
 		});
 		
 	}
@@ -166,7 +175,7 @@ function formWorkWithTable(data) {
 	rows_t2.push(blank_row);
 	}
 	}
-	return [rows_t1.join(),rows_t2.join()]
+	return [rows_t1.join(),rows_t2.join(),rows_t3.join()]
 }
 
 function formTableData(data) {
@@ -286,6 +295,7 @@ function loadJSON(url,table){
 		
 			$('#'+table+'left tbody').empty().append(tables[0]);
 			$('#'+table+'right tbody').empty().append(tables[1]);
+			$('#'+table+'main tbody').empty().append(tables[2]);
 		},
 		error: function err() {
 		console.log("json failed");
