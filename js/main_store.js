@@ -540,7 +540,7 @@ $(document).on('keyup','.linear',function(e){
 	document.getElementById("linper"+id[1]).innerHTML = 0;
 	}
 	else{
-	document.getElementById("linper"+id[1]).innerHTML = Math.floor(parseInt(netdollars)/parseInt(linearft));
+	document.getElementById("linper"+id[1]).innerHTML = Math.floor(parseInt(netdollars.replace(/,/g,""))/parseInt(linearft));
 	}
 });
 
