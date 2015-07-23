@@ -48,9 +48,9 @@ $(document).on('ready', function(){
 				setTimeout(function() {
 				$("#priorities").trigger('click');
 					},5);
-	
-				}
 				$('#modvoid').addClass('active');
+				}
+				
             } else {
                  
                 $('.main:first-of-type').fadeIn('500');
