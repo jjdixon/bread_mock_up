@@ -115,3 +115,11 @@ $(document).on('click', '.btn-success', function(e) {
 $(document).on('click', '.update', function(e) {
 	$('#addstop').addClass('hidden');
 });
+
+$(document).on('click','.walmart',function(e){
+	$('#storePic').attr('src','images/mod_store.png');
+});
+
+$(document).on('click','.normalStore',function(e){
+	$('#storePic').attr('src','images/normal_store.png');
+});
