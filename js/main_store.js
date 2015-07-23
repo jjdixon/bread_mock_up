@@ -134,7 +134,7 @@ function formWorkWithTable(data) {
 		row_html= '<tr><td>'+net+'</td><td>'+ret+'</td><td>'+retu+'</td><td id="'+"net"+catid+table+'">'+netdol+'</td>'+
 		'<td><input class="workwithinput linear" type="text" id="'+"lin"+catid+table+'" value="0"></td>'+
 		'<td id="'+"linper"+catid+table+'">'+'0'+'</td></tr>';	
-		rows_t3.push(row.html);
+		rows_t3.push(row_html);
 		}
 		else {
 		row_html = ((prod == "SEG") ? (((line != 0) && next_table) ? blank_row+'<tr class="seg-row"><td class = "seg-cell">'+seg : '<tr class="seg-row"><td class = "seg-cell">'+seg+'</td>' ) : ((mc=="Y") ? '<tr class="mc-row"><td>'+prod+'</td>' : '<tr><td>'+prod+'</td>')) +
