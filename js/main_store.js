@@ -483,11 +483,11 @@ $(document).on('change','.locationSelect', function(e){
 	var currentID = $(this).attr('id');
 	locID = re.exec(currentID)[1]
 	location = $('#location'+locID).val();
-	if(location == "Breakfast Meats" || "Cream Cheese" || "Eggs"){
+	if(location == "Breakfast Meats" || location == "Cream Cheese" || location == "Eggs"){
 	document.getElementById('brand'+locID).innerHTML = brkMeatsBrand;
 	document.getElementById('seg'+locID).innerHTML= brkMeatsSeg;
 	}
-	else if(location == "OJ" || "Milk-Breakfast"){
+	else if(location == "OJ" || location == "Milk-Breakfast"){
 	document.getElementById('brand'+locID).innerHTML = juiceBrand;
 	document.getElementById('seg'+locID).innerHTML= juiceSeg;
 	}
