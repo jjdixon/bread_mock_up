@@ -436,7 +436,7 @@ function intializePermanentDisplayTable(){
 			'</select></td>';
 		segHTML = '<td id="seg'+i+'"><select class="form-control permDisplays" id="segSelect'+i+'"><option>Select Segment</option><option>Sliced Bread</option><option>Buns and Rolls</option>'+
 					'<option>Breakfast</option><option>Snack</option><option>SBG</option></select></td>';
-		goldenHTML +='<tr><td><select class="form-control location" id="location'+i+'"><option>Select Location</option>'+
+		goldenHTML +='<tr><td><select class="form-control locationSelect" id="location'+i+'"><option>Select Location</option>'+
 		'<option>Breakfast Meats</option><option>Cream Cheese</option><option>OJ</option><option>Milk-Table</option><option>Milk-Breakfast</option><option>Eggs-Table</option><option>Eggs-Perimeter</option><option>Fresh Meats-Thin</option><option>Fresh Meats-Bun</option>'+
 		'<option>Sliced Meats-Thin</option><option>Sliced Meats-Bun</option><option>Delicatessen-Thin</option><option>Delicatessen-Bun</option><option>Promo End Cap</option><option>Prepared Meats</option></select></td>'+brandHTML+segHTML+fixtureHTML+'<td><div class="input-group" style="margin: 0 auto;">'+
 		'<input class="desired" id="desired'+i+'" type="checkbox"></div></td><td><div class="input-group" style="margin: 0 auto;"><input class="executed" id="executed'+i+'" type="checkbox">'+
@@ -474,7 +474,7 @@ function getID(x) {
 	return locID;
 }
 
-$(document).on('change','.location', function(e){
+$(document).on('change','.locationSelect', function(e){
 	var brkMeatsBrand = '<select class="form-control"><option>Select Brand</option><option>Thomas</option><option>Sara Lee</option></select>'
 	var brkMeatsSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option></select>'
 	
