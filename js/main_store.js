@@ -476,19 +476,20 @@ function getID(x) {
 
 $(document).on('change','.location', function(e){
 	var brkMeatsBrand = '<select class="form-control"><option>Select Brand</option><option>Thomas</option><option>Sara Lee</option></select>'
-	var brkMetasSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option></select>'
+	var brkMeatsSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option></select>'
 	
 	
 	var currentID = $(this).attr('id');
 	locID = getID($(this).attr('id');
-	location = $('#location'+locID).val();
+	location = $('#location'+locID).val());
 	if(location == "Breakfast Meats"){
 	document.getElementById('brand'+locID).innerHTML = brkMeatsBrand;
+	document.getElementById('segment'+locID).innerHTML= brkMeatsSeg;
 	
 	}
 	});
 
-$(document).on('change','.brand', function(e){
+/*$(document).on('change','.brand', function(e){
 	
 	var brkMetasSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option></select>'
 	
@@ -500,7 +501,7 @@ $(document).on('change','.brand', function(e){
 	document.getElementById('brand'+locID).innerHTML = brkMeatsBrand;
 	
 	}
-});
+});*/
 
 /*function returnLocation(e){
 	var locID,location;
