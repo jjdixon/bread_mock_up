@@ -70,6 +70,8 @@ $(document).on('ready', function(){
 	loadJSON("data/breakfast.json","B");
 	loadJSON("data/sbg.json","SBG");
 	loadJSON("data/imports.json","Imp");
+	loadJSON("data/privatelabel.json","PL");
+	loadJSON("data/other.json","Other");
 });
  		
 
