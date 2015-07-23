@@ -472,7 +472,7 @@ function getID(x) {
 	var re = /\D+([0-9]+)/;
 	locID = re.exec(x)[1]
 	return locID;
-]
+}
 
 $(document).on('change','.location', function(e){
 	var brkMeatsBrand = '<select class="form-control"><option>Select Brand</option><option>Thomas</option><option>Sara Lee</option></select>'
@@ -487,6 +487,20 @@ $(document).on('change','.location', function(e){
 	
 	}
 	});
+
+$(document).on('change','.brand', function(e){
+	
+	var brkMetasSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option></select>'
+	
+	
+	var currentID = $(this).attr('id');
+	locID = getID($(this).attr('id');
+	location = $('#location'+locID).val();
+	if(location == "Breakfast Meats"){
+	document.getElementById('brand'+locID).innerHTML = brkMeatsBrand;
+	
+	}
+});
 
 /*function returnLocation(e){
 	var locID,location;
