@@ -480,8 +480,8 @@ $(document).on('change','.location', function(e){
 	
 	
 	var currentID = $(this).attr('id');
-	locID = getID($(this).attr('id');
-	location = $('#location'+locID).val());
+	locID = getID($(this).attr('id'));
+	location = $('#location'+locID).val();
 	if(location == "Breakfast Meats"){
 	document.getElementById('brand'+locID).innerHTML = brkMeatsBrand;
 	document.getElementById('segment'+locID).innerHTML= brkMeatsSeg;
