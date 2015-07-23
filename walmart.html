@@ -154,6 +154,7 @@
 	<div class="row" >
 		<div class="col-md-9 text-center">
 		<button class="btn-comment btn btn-primary">Comment</button>
+		<button class="btn-modvoid btn btn-primary">Mod Voids</button>
 		</div>
 		<div class="col-md-1">
 		<button  class="btn2 btn btn-primary btn-block">Prev Step</button>
@@ -1598,7 +1599,28 @@ function showCoords(event) {
           </article>
 		  
 		  <!--COMMENT BOX-->
-<div class="comment-box">
+<div id="comment" class="comment-box">
+    <h2>
+        Comments
+        <button class="btn-comment pull-right btn btn-secondary">X</button>
+    </h2>
+    <ul>
+        <li>
+            <p>Example Comment</p>
+        </li>
+        <li>
+            <p>Example Comment</p>
+        </li>
+
+    </ul>
+    <form action="" class="add-comment form-inline">
+        <div class="form-group clearfix">
+            <input type="text" class="form-control pull-left" placeholder="Add Comment..."/>
+            <button class="btn btn-primary pull-right" type="submit">Add</button>
+        </div>
+    </form>
+</div>
+<div id="modvoid" class="comment-box">
     <h2>
         Comments
         <button class="btn-comment pull-right btn btn-secondary">X</button>

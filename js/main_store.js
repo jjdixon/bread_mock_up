@@ -598,7 +598,11 @@ $(document).on('keyup','.linear',function(e){
 COMMENT BOX*****************
 ******************************/
 $(document).on('click','.btn-comment',function(e) {
-    $('.comment-box').toggleClass('active');
+    $('#comment').toggleClass('active');
+});
+
+$(document).on('click','.btn-modvoid',function(e) {
+    $('#modvoid').toggleClass('active');
 });
 
 $(document).on('submit', 'form.add-comment', function(e) {
