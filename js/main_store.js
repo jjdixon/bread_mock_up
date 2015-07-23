@@ -599,10 +599,12 @@ COMMENT BOX*****************
 ******************************/
 $(document).on('click','.btn-comment',function(e) {
     $('#comment').toggleClass('active');
+	 $('#modvoid').removeClass('active');
 });
 
 $(document).on('click','.btn-modvoid',function(e) {
     $('#modvoid').toggleClass('active');
+	$('#comment').removeClass('active');
 });
 
 $(document).on('submit', 'form.add-comment', function(e) {
