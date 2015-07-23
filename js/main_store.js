@@ -93,7 +93,7 @@ function log(msg) {
 function formWorkWithTable(data) {
 	var rows_t1=[];
 	var rows_t2=[];
-	var row_t3=[];
+	var rows_t3=[];
 	var prod,cat,seg,mc,onhands,net,ret,retu,netdol,lin, row_html;
 	var line = 0;
 	var blank_row = '<tr><td colspan="8" style="line-height:19px;">&nbsp;</td></tr>'
