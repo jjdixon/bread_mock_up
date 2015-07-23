@@ -424,17 +424,19 @@ FOR GENERATING GOLDEN PATH INTERACTIVE MAP
 *****************************/
 
 function intializePermanentDisplayTable(){
-	var brandHTML = '<td><select class="form-control"><option>Select Brand</option>	<option>Mrs. Bairds</option><option>Oroweat</option>'+
-					'<option>Thomas</option><option>Private Label</option><option>Bimbo</option><option>Marinela</option><option>Sara Lee</option>'+
-			'</select></td>';
-	var segHTML = '<td><select class="form-control"><option>Select Segment</option><option>Sliced Bread</option><option>Buns and Rolls</option>'+
-					'<option>Breakfast</option><option>Snack</option><option>SBG</option></select></td>';
+	var brandHTML; 
+	var segHTML; 
 	var fixtureHTML = '<td><select class="form-control"><option>Select Fixture</option><option>Cardboard Hutch</option><option>4-Way</option>'+
 					'<option>Store Endcap/option><option>Need new Display</option></select>';
 	var pictureHTML = '<td style="text-align: center;vertical-align:middle;"><span class="glyphicon glyphicon-camera"></span></td>'
 	var goldenHTML = "";
 	for(i=0; i < 7; i++){
-		goldenHTML +='<tr><td><select class="form-control" id="location'+i+'"><option>Select Location</option>'+
+		brandHTML ='<td id="brand'+i+'"><select class="form-control permDisplays" id="brandSelect'+i+'><option>Select Brand</option>	<option>Mrs. Bairds</option><option>Oroweat</option>'+
+					'<option>Thomas</option><option>Private Label</option><option>Bimbo</option><option>Marinela</option><option>Sara Lee</option>'+
+			'</select></td>';
+		segHTML = '<td id="seg'+i+'"><select class="form-control permDisplays" id="segSelect'+i+'"><option>Select Segment</option><option>Sliced Bread</option><option>Buns and Rolls</option>'+
+					'<option>Breakfast</option><option>Snack</option><option>SBG</option></select></td>';
+		goldenHTML +='<tr><td><select class="form-control permDisplays" id="location'+i+'"><option>Select Location</option>'+
 		'<option>Breakfast Meats</option><option>Cream Cheese</option><option>OJ</option><option>Milk-Table</option><option>Milk-Breakfast</option><option>Eggs-Table</option><option>Eggs-Perimeter</option><option>Fresh Meats-Thin</option><option>Fresh Meats-Bun</option>'+
 		'<option>Sliced Meats-Thin</option><option>Sliced Meats-Bun</option><option>Delicatessen-Thin</option><option>Delicatessen-Bun</option><option>Promo End Cap</option><option>Prepared Meats</option></select></td>'+brandHTML+segHTML+fixtureHTML+'<td><div class="input-group" style="margin: 0 auto;">'+
 		'<input class="desired" id="desired'+i+'" type="checkbox"></div></td><td><div class="input-group" style="margin: 0 auto;"><input class="executed" id="executed'+i+'" type="checkbox">'+
@@ -464,6 +466,21 @@ function initializeCompetitorDisplayTable(){
 	}
 	$('#comp-table tbody').append(compHTML);
 }
+
+$(document).on('change','.permDisplays', function(e){
+	var brkMeatsBrand = '<select class="form-control"><option>Select Brand</option><option>Thomas</option><option>Sara Lee</option></select>'
+	var brkMetasSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option></select>'
+	
+	var locID, location;
+	var re = /\D+([0-9]+)/;
+	var currentID = $(this).attr('id');
+	locID = re.exec(currentID)[1]
+	location = $('#location'+locID).val();
+	if(location == "Breakfast Meats"){
+	document.getElementById('brand'+locID).innerHTML = brkMeatsBrand;
+	
+	}
+	});
 
 /*function returnLocation(e){
 	var locID,location;
