@@ -14,9 +14,9 @@ $(document).on('ready', function(){
   $('input[value="last_4_weeks"]').trigger('click');
  // $('#priorities').trigger('click');
 	
- setTimeout(function() {
+ /*setTimeout(function() {
         $("#priorities").trigger('click');
-    },5);
+    },5);*/
 	
 	
 	/*var canvas = document.getElementById("myCanvas");
@@ -653,7 +653,7 @@ $(document).on('click','#behindLink',function (e) {
 
 $(document).on('click','#salesLink',function (e) {
 	$('.main:visible').fadeOut('500',function(e){
-      $('#sales').fadeIn('500');
+      $('#salesID').fadeIn('500');
     });
 });
 
