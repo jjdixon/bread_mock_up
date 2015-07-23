@@ -630,3 +630,15 @@ var scrollCommentsToBottom = function() {
 $(document).ready(function() {
     scrollCommentsToBottom();
 });
+
+/***************************************
+NAV FUNCTIONS*************************
+****************************************/
+$(document).on('click','#shelfLink',function (e) {
+	$('.main:visible').fadeOut('500',function(e){
+           
+                $('#shelf').fadeIn('500');
+            
+            
+    });
+});
