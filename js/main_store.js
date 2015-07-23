@@ -43,6 +43,7 @@ $(document).on('ready', function(){
     $('.main:visible').fadeOut('500',function(e){
             if($(this).next('.main').length > 0) {
                 $(this).next('.main').fadeIn('500');
+				console.log($(this).next('.main').attr('id'));
 				if($(this).next('.main').attr('id')== 'sales'){
 				setTimeout(function() {
 				$("#priorities").trigger('click');
@@ -671,6 +672,6 @@ $(document).on('click','#perimeterLink',function (e) {
 
 $(document).on('click','#customerLink',function (e) {
 	$('.main:visible').fadeOut('500',function(e){
-      $('#contact').fadeIn('500');
+      $('#contactID').fadeIn('500');
     });
 });
