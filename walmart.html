@@ -1621,11 +1621,11 @@ function showCoords(event) {
     </form>
 </div>
 <div id="modvoid" class="comment-box active">
-    <h2>
+    <h2 style="color:red">
         Mod Voids
         <button class="btn-comment pull-right btn btn-secondary">X</button>
     </h2>
-   <p> The following items are currently reported as voids:</p>
+   <p style="color:red"> The following items are currently reported as voids:</p>
    <table class=="table table-bordered table-condensed">
    <thead>
    <th>Item Description</th>
@@ -1672,12 +1672,11 @@ function showCoords(event) {
 		</tr>
 	</tbody>
    </table>
-    <form action="" class="add-comment form-inline">
+  
         <div class="form-group clearfix">
-            <input type="text" class="form-control pull-left" placeholder="Add Comment..."/>
-            <button class="btn btn-primary pull-right" type="submit">Add</button>
+               <button class="btn-modvoid btn btn-primary pull-right" style="float:right">Acknowledge</button>
         </div>
-    </form>
+    
 </div>
 <!-- End Comment Box -->
 
