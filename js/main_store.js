@@ -467,20 +467,15 @@ function initializeCompetitorDisplayTable(){
 	$('#comp-table tbody').append(compHTML);
 }
 
-function getID(x) {
-	var locID, location;
-	var re = /\D+([0-9]+)/;
-	locID = re.exec(x)[1]
-	return locID;
-}
+
 
 $(document).on('change','.locationSelect', function(e){
 	var brkMeatsBrand = '<select class="form-control"><option>Select Brand</option><option>Thomas</option><option>Sara Lee</option></select>'
 	var brkMeatsSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option></select>'
-	
-	
+	var locID, location;
+	var re = /\D+([0-9]+)/;
 	var currentID = $(this).attr('id');
-	locID = getID($(this).attr('id'));
+	locID = re.exec(currentID)[1]
 	location = $('#location'+locID).val();
 	if(location == "Breakfast Meats"){
 	document.getElementById('brand'+locID).innerHTML = brkMeatsBrand;
