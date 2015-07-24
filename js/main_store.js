@@ -401,6 +401,10 @@ $(document).on('click', '#workview', function(e) {
 	//document.getElementById("tabs").toggleClass('hidden');
 	$('#tabs').toggleClass('hidden');
 	$('#shelfdata').toggleClass('hidden');
+	$('#normalview').addClass('btn-primary');
+	$('#normalview').removeClass('btn-default');
+	$('#workview').removeClass('btn-primary');
+	$('#workview').addClass('btn-default');
 	//document.getElementById("shelfdata").toggleClass('hidden');
 });
 
@@ -408,6 +412,10 @@ $(document).on('click', '#normalview', function(e) {
 	//document.getElementById("tabs").toggleClass('hidden');
 	$('#tabs').toggleClass('hidden');
 	$('#shelfdata').toggleClass('hidden');
+	$('#normalview').removeClass('btn-primary');
+	$('#normalview').addClass('btn-default');
+	$('#workview').addClass('btn-primary');
+	$('#workview').removeClass('btn-default');
 	//document.getElementById("shelfdata").toggleClass('hidden');
 });
 
