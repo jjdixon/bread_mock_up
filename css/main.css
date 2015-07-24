@@ -226,6 +226,7 @@ form.add-comment .form-control {
     opacity: 0;
     visibility: none;
     transition: all 400ms;
+	background-color: white;
 }
 .repo-box.active {
     /*bottom: 0;*/
