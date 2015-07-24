@@ -246,3 +246,7 @@ form.add-comment .form-control {
 .repo-box ol  {
     border-bottom: 1px solid;
 }
+
+.repo-box a {
+	color: ##158cba;
+}
