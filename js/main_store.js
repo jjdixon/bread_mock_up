@@ -694,3 +694,24 @@ $(document).on('click','#customerLink',function (e) {
       $('#contactID').fadeIn('500');
     });
 });
+
+/***********************************************
+REPO FUNCTIONALITY******************************
+***********************************************/
+$(document).on('click','.btn-repo',function(e) {
+    $('.repo-box').toggleClass('active');
+});
+
+
+
+var scrollRepoToBottom = function() {
+    // scrolls comment list to bottom
+    el = $('.repo-box ul');
+    el.animate({
+        scrollTop: el.prop("scrollHeight")
+    }, 400);
+};
+
+$(document).ready(function() {
+    scrollRepoToBottom();
+});

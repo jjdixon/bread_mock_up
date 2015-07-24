@@ -212,3 +212,37 @@ form.add-comment .form-control {
     /*width: calc(100% - 60px);*/
 	width:500px;
 }
+
+/*REPO BOX*****/
+.repo-box {
+    position: fixed;
+    right: -100%;
+    /*bottom: -100%;*/
+    top: 20%;
+    border: 1px solid #000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    width: 250px;
+    padding: 15px;
+    opacity: 0;
+    visibility: none;
+    transition: all 400ms;
+}
+.repo-box.active {
+    /*bottom: 0;*/
+    right: 0%;   
+    visibility: visible;
+    opacity: 1;
+}
+.repo-box h2 {
+    margin-top: 0;
+}
+.repoList {
+    max-height: 300;
+    overflow: auto;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+}
+.repo-box ol  {
+    border-bottom: 1px solid;
+}
