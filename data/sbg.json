@@ -1,5 +1,19 @@
 [
   {
+    "Prod":"MAIN",
+    "Cat":"Sweet Baked Goods",
+    "Seg":"MAIN",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":1098,
+    "Ret":7.1,
+    "RetU":78,
+    "NetDol":1634,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":0
+  },
+  {
     "Prod":"SEG",
     "Cat":"Sweet Baked Goods",
     "Seg":"Entenmann's LB",

@@ -72,13 +72,13 @@ $(document).on('ready', function(){
 	intializePermanentDisplayTable();
 	initializeCompetitorDisplayTable()
 	loadJSON('data/mainstream.json','MS');
-	//loadJSON("data/buns.json","MSb");
-	//loadJSON("data/premium.json","P");
-	//loadJSON("data/breakfast.json","B");
-	//loadJSON("data/sbg.json","SBG");
-	//loadJSON("data/imports.json","Imp");
-	//loadJSON("data/privatelabel.json","PL");
-	//loadJSON("data/other.json","Other");
+	loadJSON("data/buns.json","MSb");
+	loadJSON("data/premium.json","P");
+	loadJSON("data/breakfast.json","B");
+	loadJSON("data/sbg.json","SBG");
+	loadJSON("data/imports.json","Imp");
+	loadJSON("data/privatelabel.json","PL");
+	loadJSON("data/other.json","Other");
 });
  		
 

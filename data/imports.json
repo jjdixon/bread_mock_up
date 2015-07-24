@@ -1,5 +1,19 @@
 [
   {
+    "Prod":"MAIN",
+    "Cat":"Imports",
+    "Seg":"MAIN",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":1014,
+    "Ret":5.52,
+    "RetU":56,
+    "NetDol":2236,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":0
+  },
+  {
     "Prod":"SEG",
     "Cat":"Imports",
     "Seg":"Bim Bars",

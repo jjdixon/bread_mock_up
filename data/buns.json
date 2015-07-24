@@ -1,5 +1,19 @@
 [
   {
+    "Prod":"MAIN",
+    "Cat":"Mainstream Buns",
+    "Seg":"MAIN",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":974,
+    "Ret":10.67,
+    "RetU":104,
+    "NetDol":1830,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":0
+  },
+  {
     "Prod":"SEG",
     "Cat":"Mainstream Buns",
     "Seg":"BP Buns & Coneys",

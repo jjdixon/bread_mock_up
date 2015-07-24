@@ -1,5 +1,19 @@
 [
   {
+    "Prod":"MAIN",
+    "Cat":"Breakfast",
+    "Seg":"MAIN ",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":854,
+    "Ret":14.52,
+    "RetU":124,
+    "NetDol":1642,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":0
+  },
+  {
     "Prod":"SEG",
     "Cat":"Breakfast",
     "Seg":"Breakfast Bread",

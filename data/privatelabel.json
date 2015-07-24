@@ -1,5 +1,19 @@
 [
   {
+    "Prod":"MAIN",
+    "Cat":"Private Label",
+    "Seg":"MAIN",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":"9,298",
+    "Ret":1.61,
+    "RetU":150,
+    "NetDol":"6,882",
+    "Lin":"0",
+    "PerLin":"",
+    "Table":0
+  },
+  {
     "Prod":"SEG",
     "Cat":"Private Label",
     "Seg":"Great Value",

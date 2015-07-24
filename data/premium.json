@@ -1,5 +1,19 @@
 [
   {
+    "Prod":"MAIN",
+    "Cat":"Premium",
+    "Seg":"MAIN",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":556,
+    "Ret":14.39,
+    "RetU":80,
+    "NetDol":1206,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":0
+  },
+  {
     "Prod":"SEG",
     "Cat":"Premium",
     "Seg":"Oroweat Wipepans",
@@ -45,7 +59,7 @@
     "Prod":"OR WG 100%WW WP 24Z",
     "Cat":"Premium",
     "Seg":"Oroweat Wipepans",
-    "MC":"Y",
+    "MC":"N",
     "On Hands":"0",
     "Net":27,
     "Ret":25.36,
@@ -185,7 +199,7 @@
     "Prod":"AR/BB/OR CTY 100WW24",
     "Cat":"Premium",
     "Seg":"Oroweat Wipepans",
-    "MC":"N",
+    "MC":"Y",
     "On Hands":"0",
     "Net":1,
     "Ret":41.18,

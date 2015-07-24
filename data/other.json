@@ -1,5 +1,19 @@
 [
   {
+    "Prod":"MAIN",
+    "Cat":"Other",
+    "Seg":"MAIN",
+    "MC":"N",
+    "On Hands":"0",
+    "Net":330,
+    "Ret":3.03,
+    "RetU":10,
+    "NetDol":502,
+    "Lin":"0",
+    "PerLin":"",
+    "Table":0
+  },
+  {
     "Prod":"SEG",
     "Cat":"Other",
     "Seg":"Tia Rosa",
