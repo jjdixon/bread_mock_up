@@ -8,7 +8,7 @@ function formTableData(data, custom) {
     firstrow = true;
     if (data) {
         data.forEach(function(tour) {
-            var tour_name, customer_name, address, city, state, visits, time,type comment;
+            var tour_name, customer_name, address, city, state, visits, time,type, comment;
             tour_name = tour["Tour"];
             customer_name = tour["Customer_Name"];
             address = tour["Address"];
