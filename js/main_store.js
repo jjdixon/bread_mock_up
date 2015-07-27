@@ -718,4 +718,3 @@ $(document).ready(function() {
     scrollRepoToBottom();
 });
 
-S
