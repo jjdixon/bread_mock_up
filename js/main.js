@@ -275,5 +275,11 @@ function formPricingTable(data){
 	return rows.join();
 }
 
-
+/********************************************
+priorities scolling
+********************************************/
+$(document).on('click','.next-priority',function(e) {
+    $('#priority1').toggleClass('active');
+	 $('#priority2').toggleClass('active');
+});
 

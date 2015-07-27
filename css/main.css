@@ -256,3 +256,12 @@ form.add-comment .form-control {
 background-color: yellow;
 color: black;
 }
+
+.priorities {
+visibility: none;
+
+}
+
+.priorities.active{
+visibility: visible;
+}
