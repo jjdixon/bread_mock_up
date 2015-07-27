@@ -1,5 +1,6 @@
 $(document).on('ready', function() {
     $('input[value="custom"]').trigger('click');
+	 $('[data-toggle="tooltip"]').tooltip()	
 });
 
 function formTableData(data, custom) {
