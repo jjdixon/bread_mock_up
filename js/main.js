@@ -287,7 +287,7 @@ $(document).on('click','.next-priority',function(e) {
 	else{
 	$('#priority2').fadeOut('500',function(e){
 	$('#priority1').fadeIn('500');
-	 
+	 });
 	 }
 });
 
