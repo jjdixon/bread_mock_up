@@ -738,7 +738,7 @@ $(document).on('click','.btn-repo',function(e) {
 
 var scrollRepoToBottom = function() {
     // scrolls comment list to bottom
-    el = $('.repo-box ul');
+    el = $('.repo-list');
     el.animate({
         scrollTop: el.prop("scrollHeight")
     }, 400);
