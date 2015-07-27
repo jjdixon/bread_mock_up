@@ -1,6 +1,6 @@
 $(document).on('ready', function() {
     $('input[value="custom"]').trigger('click');
-
+	
 });
 
 function formTableData(data, custom) {
@@ -29,7 +29,7 @@ function formTableData(data, custom) {
             }
             if (custom) {
                 if (!firstrow) {
-                    row_html = '<tr class="level" data-level="1">' + '<td class="select"> <input type="checkbox"> </td>' + '<td class="customer_name">' + customer_name + '</td>' + '<td class="address">' + address + '</td>' + '<td class="visits">' + visits + '</td>' + '<td class="time">' + time + '</td><td>' +type+ '</td><td>'+((comment.length > 1) ? '<a href="#" data-toggle="tooltip" data-placement="top" title="'+comment+'">More&hellip;</a>' : "" )+' </td></tr>';
+                    row_html = '<tr class="level" data-level="1">' + '<td class="select"> <input type="checkbox"> </td>' + '<td class="customer_name">' + customer_name + '</td>' + '<td class="address">' + address + '</td>' + '<td class="visits">' + visits + '</td>' + '<td class="time">' + time + '</td><td>' +type+ '</td><td'+((comment.length > 1) ? ' data-toggle="tooltip" data-placement="top" title="'+comment+'">More&hellip;' : "> " )+' </td></tr>';
                     rows.push(row_html);
                 }
                 firstrow = false;
@@ -65,6 +65,7 @@ $(document).on('change', '.filter-radio', function(e) {
             url: url,
             success: function(data) {
                 $('#main-table tbody').empty().append(formTableData(data, boo));
+				$('[data-toggle="tooltip"]').tooltip();	
             },
             error: function(err) {
                 $('#main-table tbody').empty().append(formTableData("", boo));
@@ -115,7 +116,7 @@ $(document).on('click', 'tr', function(e) {
 
 $(document).on('click', '.btn-success', function(e) {
 	$('.hidden').removeClass('hidden');
-		 $('[data-toggle="tooltip"]').tooltip()	
+		
 });
 
 $(document).on('click', '.update', function(e) {
