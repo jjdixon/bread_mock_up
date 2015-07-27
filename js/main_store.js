@@ -257,11 +257,12 @@ function formTableData(data) {
         row_html = '<tr class="level" data-level="'+level+'">'+
         '<td><button class="btn btn-default btn-expand"><span class="glyphicon glyphicon-plus"></span></button></td>'+
         '<td class="category'+zeroIssue+'"><a href="#graph" rel="modal:open">'+name+'</a></td>'+
-        '<td class="unit-mix">'+product.mix+'</td>'+
-        '<td class="avg-net">'+product.average+'</td>'+
+        //'<td class="unit-mix">'+product.mix+'</td>'+
+      
         '<td class="nu-growth">'+product.growth+'</td>'+
         '<td class="ret">'+product.returnPercent+'</td>'+
         '<td class="avg-ret">'+product.returnUnits+'</td>'+
+		  '<td class="avg-net">'+product.average+'</td>'+
         //'<td class="vcm-nu">'+product.vcm+'</td>'+
         '<td class="five-day-order" style="background-color: #339933;">'+num+'</td>'+
         '<td class="day-order" style="background-color: #339933;">'+Math.ceil((num * 0.15))+'<br>15%</td>'+
