@@ -251,3 +251,8 @@ form.add-comment .form-control {
 .repo-box a {
 	color: #158cba;
 }
+
+.tooltip {
+background-color: yellow;
+color: black;
+}

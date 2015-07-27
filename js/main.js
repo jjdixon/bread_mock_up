@@ -268,7 +268,7 @@ function formPricingTable(data){
 	if(data){
 		data.forEach(function(entry){
 		tableHTML = '<tr><td>'+entry.company+'</td><td>'+entry.Item+'</td><td><input type="number"></td><td><select class="input-control"><option>Select Type</option>'+
-		'<option>Feature</option> <option>TPR</option><option>EDLP</option></select></td></tr>';
+		'<option> Retail(Bag) Price</option><option>Feature</option> <option>TPR</option><option>EDLP</option></select></td></tr>';
 		rows.push(tableHTML);
 		});
 	}
