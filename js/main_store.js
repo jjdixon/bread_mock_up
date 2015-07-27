@@ -208,7 +208,7 @@ function formTableData(data) {
       if(percentDiff < 0.1){
 	  color = green;
 	  }
-	  else if(perfcentDiff < 0.20){
+	  else if(percentDiff < 0.20){
 	  color = yellow;
 	  }
 	  else {
