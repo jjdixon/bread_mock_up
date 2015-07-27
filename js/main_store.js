@@ -11,7 +11,7 @@ var goldenPath = { "Breakfast Meats": [52,194], "Cream Cheese": [52,120], "OJ": 
 $(document).on('ready', function(){
 	
 
-  $('input[value="last_4_weeks"]').trigger('click');
+  $('input[value="last4weeks"]').trigger('click');
  // $('#priorities').trigger('click');
 	
  /*setTimeout(function() {
@@ -242,7 +242,7 @@ function formTableData(data) {
         '<td class="avg-ret">'+product.returnUnits+'</td>'+
 		'<td class="avg-net">'+product.average+'</td>'+
         //'<td class="vcm-nu">'+product.vcm+'</td>'+
-        '<td class="five-day-order">--</td>'+
+        '<td class="five-day-order">'+product.totalAct+'</td>'+
         '<td class="day-order">-</td>'+
         '<td class="day-order">-</td>'+
         '<td class="day-order">-</td>'+
@@ -264,12 +264,12 @@ function formTableData(data) {
         '<td class="avg-ret">'+product.returnUnits+'</td>'+
 		  '<td class="avg-net">'+product.average+'</td>'+
         //'<td class="vcm-nu">'+product.vcm+'</td>'+
-        '<td class="five-day-order" style="background-color: #339933;">'+num+'</td>'+
-        '<td class="day-order" style="background-color: #339933;">'+Math.ceil((num * 0.15))+'<br>15%</td>'+
-        '<td class="day-order" style="background-color: #339933;">'+Math.ceil((num * 0.20))+'<br>20%</td>'+
-        '<td class="day-order" style="background-color: #339933;">'+Math.ceil((num * 0.15))+'<br>15%</td>'+
-        '<td class="day-order" style="background-color: #339933;">'+Math.ceil((num * 0.15))+'<br>15%</td>'+
-        '<td class="day-order" style="background-color: #339933;">'+Math.ceil((num * 0.35))+'<br>35%</td>'+
+        '<td class="five-day-order" style="background-color: #339933;">'+product.totalAct+'<br>'+product.totalSug+'</td>'+
+        '<td class="day-order" style="background-color: #339933;">'+product.mAct+'<br>'+product.mSug+'</td>'+
+        '<td class="day-order" style="background-color: #339933;">'+product.tAct+'<br>'+product.tSug+'</td>'+
+        '<td class="day-order" style="background-color: #339933;">'+product.thAct+'<br>'+product.thSug+'</td>'+
+        '<td class="day-order" style="background-color: #339933;">'+product.fAct+'<br>'+product.fSug+'</td>'+
+        '<td class="day-order" style="background-color: #339933;">'+product.sAct+'<br>'+product.sSug+'</td>'+
         ((((firstPL4 == 1)|| (firstBL4 == 1) || (firstBL2 == 1)) && (firstPn < 2)) ? '<td><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="OOS: No OOC: Yes Comment: Shelf looks great" data-original-title="" title="">Yes</button></td>' : '<td></td>')+
         // '<td class="issues-last-visit"><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="OOS: Yes; Out of Code: Yes; Comment: Shelf condition poor.">Yes</button></td>'+
         '<td class="issues-today">'+((level == 4) ? '<button type="button" data-toggle="modal" data-target="#issue" style="color:#000000">Add</button>' : "" )+'</td>'+
