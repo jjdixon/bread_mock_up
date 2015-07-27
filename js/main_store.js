@@ -80,9 +80,7 @@ $(document).on('ready', function(){
 	loadJSON("data/privatelabel.json","PL");
 	loadJSON("data/other.json","Other");
 	
-	$("#modal-launcher, #modal-background, #modal-close, #submission").click(function () {
-		$("#modal-content,#modal-background").toggleClass("active");
-	});
+
 });
  		
 
@@ -742,7 +740,9 @@ $(document).ready(function() {
 
 /****************************************
 RECAP MODAL************************************
-
+	$("#modal-launcher, #modal-background, #modal-close, #submission").click(function () {
+		$("#modal-content,#modal-background").toggleClass("active");
+	});*********************************/
 $(document).on('click','#submission',function(e){
 	$("#modal-content,#modal-background").toggleClass("active");
-});*********************************/
+});
