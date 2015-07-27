@@ -720,6 +720,13 @@ $(document).on('click','#customerLink',function (e) {
     });
 });
 
+$(document).on('click','#submission1',function (e) {
+	$('.main:visible').fadeOut('500',function(e){
+      $('#recapID').fadeIn('500');
+    });
+});
+
+
 /***********************************************
 REPO FUNCTIONALITY******************************
 ***********************************************/
