@@ -74,12 +74,12 @@ $(document).on('change', '.filter-radio', function(e) {
     var boo;
     if (location.host) {
         if ($(this).val() == "custom") {
-            row_html = '<th style="text-align:center; border: 1px solid black;">Select</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Vists Per Month</th>' + '<th style="text-align:center; border: 1px solid black;">Service Time</th>';
+            row_html = '<th style="text-align:center; border: 1px solid black;">Select</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Vists Per Month</th>' + '<th style="text-align:center; border: 1px solid black;">Last Visit</th>';
             $('#main-table thead').empty().append(row_html);
             boo = true;
             var url = "data/alpha.json";
         } else {
-            row_html = '<th style="text-align:center; border: 1px solid black;">+/-</th>' + '<th style="text-align:center; border: 1px solid black;">Tour</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Visits Per Month</th>' + '<th style="text-align:center; border: 1px solid black;">Service Time</th>';
+            row_html = '<th style="text-align:center; border: 1px solid black;">+/-</th>' + '<th style="text-align:center; border: 1px solid black;">Tour</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Frequency</th>' + '<th style="text-align:center; border: 1px solid black;">Last Visit</th>';
             $('#main-table thead').empty().append(row_html);
             boo = false;
             var url = "data/tours.json";
@@ -175,7 +175,7 @@ $(document).on('click', '#simulate', function(e) {
 	document.getElementById('date').innerHTML = "Today is " + tomorrow.toDateString();
     if (location.host) {
      
-            row_html = '<th style="text-align:center; border: 1px solid black;">+/-</th>' + '<th style="text-align:center; border: 1px solid black;">Tour</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Visits Per Month</th>' + '<th style="text-align:center; border: 1px solid black;">Service Time</th>';
+            row_html = '<th style="text-align:center; border: 1px solid black;">+/-</th>' + '<th style="text-align:center; border: 1px solid black;">Tour</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Frequency</th>' + '<th style="text-align:center; border: 1px solid black;">Last Visit</th>';
             $('#main-table thead').empty().append(row_html);
             boo = false;
             var url = "data/tours.json";
