@@ -8,7 +8,7 @@ function formTableData(data, custom) {
     firstrow = true;
     if (data) {
         data.forEach(function(tour) {
-            var tour_name, customer_name, address, city, state, visits, time,type;
+            var tour_name, customer_name, address, city, state, visits, time,type comment;
             tour_name = tour["Tour"];
             customer_name = tour["Customer_Name"];
             address = tour["Address"];
@@ -17,6 +17,9 @@ function formTableData(data, custom) {
             visits = tour["# of Visits"];
             time = tour["Serve Time"];
 			type = tour["Type"];
+			comment = tour["Comments"];
+			
+		
             if (customer_name == "-----------------") {
                 firstrow = true;
                 level = 1;
@@ -25,7 +28,7 @@ function formTableData(data, custom) {
             }
             if (custom) {
                 if (!firstrow) {
-                    row_html = '<tr class="level" data-level="1">' + '<td class="select"> <input type="checkbox"> </td>' + '<td class="customer_name">' + customer_name + '</td>' + '<td class="address">' + address + '</td>' + '<td class="city">' + city + '</td>' + '<td class="state">' + state + '</td>' + '<td class="visits">' + visits + '</td>' + '<td class="time">' + time + '</td><td>' +type+ '</td><td> </td></tr>';
+                    row_html = '<tr class="level" data-level="1">' + '<td class="select"> <input type="checkbox"> </td>' + '<td class="customer_name">' + customer_name + '</td>' + '<td class="address">' + address + '</td>' + '<td class="visits">' + visits + '</td>' + '<td class="time">' + time + '</td><td>' +type+ '</td><td>'+((comment.length > 1) ? '<a href="#" data-toggle="tooltip" data-placement="right" title="'+comment+'">More&hellip;</a>' : "" )+' </td></tr>';
                     rows.push(row_html);
                 }
                 firstrow = false;
@@ -45,7 +48,7 @@ $(document).on('change', '.filter-radio', function(e) {
     var boo;
     if (location.host) {
         if ($(this).val() == "custom") {
-            row_html = '<th style="text-align:center; border: 1px solid black;">Select</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>' + '<th style="text-align:center; border: 1px solid black;">City</th>' + '<th style="text-align:center; border: 1px solid black;">State</th>' + '<th style="text-align:center; border: 1px solid black;">Vists Per Month</th>' + '<th style="text-align:center; border: 1px solid black;">Last Visit</th><th style="text-align:center; border: 1px solid black;">Visit Type</th><th style="text-align:center; border: 1px solid black;">Comments</th>';
+            row_html = '<th style="text-align:center; border: 1px solid black;">Select</th>' + '<th style="text-align:center; border: 1px solid black;">Customer</th>' + '<th style="text-align:center; border: 1px solid black;">Address</th>'  + '<th style="text-align:center; border: 1px solid black;">Frequency</th>' + '<th style="text-align:center; border: 1px solid black;">Last Visit</th><th style="text-align:center; border: 1px solid black;">Visit Type</th><th style="text-align:center; border: 1px solid black;">Comments</th>';
             $('#main-table thead').empty().append(row_html);
             boo = true;
             var url = "data/alpha.json";
