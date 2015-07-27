@@ -250,7 +250,7 @@ function formTableData(data) {
         '<td class="day-order">-</td>'+
         '<td class="issues-last-visit"></td>'+
         '<td class="issues-today"></td>'+
-        '<td class="on-hand"></td>'+
+        //'<td class="on-hand"></td>'+
         '</tr>';
       }
       else{
@@ -273,7 +273,7 @@ function formTableData(data) {
         ((((firstPL4 == 1)|| (firstBL4 == 1) || (firstBL2 == 1)) && (firstPn < 2)) ? '<td><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="OOS: No OOC: Yes Comment: Shelf looks great" data-original-title="" title="">Yes</button></td>' : '<td></td>')+
         // '<td class="issues-last-visit"><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="OOS: Yes; Out of Code: Yes; Comment: Shelf condition poor.">Yes</button></td>'+
         '<td class="issues-today">'+((level == 4) ? '<button type="button" data-toggle="modal" data-target="#issue" style="color:#000000">Add</button>' : "" )+'</td>'+
-        '<td class="on-hand">'+((level == 4) ? '<input type="number" name="onhands" value="0" maxlength="4" style="width:60px;color:#000000" >' : "" )+'</td>'+
+        //'<td class="on-hand">'+((level == 4) ? '<input type="number" name="onhands" value="0" maxlength="4" style="width:60px;color:#000000" >' : "" )+'</td>'+
         '</tr>';
       }
       rows.push(row_html);
