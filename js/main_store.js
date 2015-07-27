@@ -146,7 +146,7 @@ function formWorkWithTable(data) {
 		'<td><input class="workwithinput linear" type="text" id="'+"lin"+catid+table+line+'" value="0"></td>'+
 		'<td id="'+"linper"+catid+table+line+'">'+'0'+'</td></tr>';
 		
-		if(line<25 && table == 1){
+		if(line<28 && table == 1){
 		rows_t1.push(row_html);
 		}
 		else {
