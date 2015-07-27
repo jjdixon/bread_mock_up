@@ -187,7 +187,11 @@ function formTableData(data) {
   var firstPL4 = 0;
   var firstBL4 = 0;
   var num = 0;
-
+  var green = "#339933"
+  var yellow = "#FFFF00"
+  var red = "#FF0000"
+  var color;
+  var percentDiff = 0.0;
   if(data){
     data.forEach(function(product){
       var name, level, pl_4, bl_4, bl_2, pn, upc, row_html;
@@ -200,7 +204,17 @@ function formTableData(data) {
       bl_2 = product["Brand Level 2"];
       pn = product["Product Name"];
      // upc = product["UPC 10"];
-      if(pn){
+	 percentDiff=Math.abs(product.Average-product.totalAct)/product.Average
+      if(percentDiff < 0.1){
+	  color = green;
+	  }
+	  else if(perfcentDiff < 0.20){
+	  color = yellow;
+	  }
+	  else {
+	  color = red;
+	  }
+	  if(pn){
    
           name = pn;
           level = 4;
@@ -264,12 +278,12 @@ function formTableData(data) {
         '<td class="avg-ret">'+product.returnUnits+'</td>'+
 		  '<td class="avg-net">'+product.average+'</td>'+
         //'<td class="vcm-nu">'+product.vcm+'</td>'+
-        '<td class="five-day-order" style="background-color: #339933;">'+product.totalAct+'<br>'+product.totalSug+'</td>'+
-        '<td class="day-order" style="background-color: #339933;">'+product.mAct+'<br>'+product.mSug+'</td>'+
-        '<td class="day-order" style="background-color: #339933;">'+product.tAct+'<br>'+product.tSug+'</td>'+
-        '<td class="day-order" style="background-color: #339933;">'+product.thAct+'<br>'+product.thSug+'</td>'+
-        '<td class="day-order" style="background-color: #339933;">'+product.fAct+'<br>'+product.fSug+'</td>'+
-        '<td class="day-order" style="background-color: #339933;">'+product.sAct+'<br>'+product.sSug+'</td>'+
+        '<td class="five-day-order" style="background-color:'+color+';">'+product.totalAct+'<br>'+product.totalSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+';">'+product.mAct+'<br>'+product.mSug+'</td>'+
+        '<td class="day-order" style="background-color:'+color+';">'+product.tAct+'<br>'+product.tSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+';">'+product.thAct+'<br>'+product.thSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+';">'+product.fAct+'<br>'+product.fSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+';">'+product.sAct+'<br>'+product.sSug+'</td>'+
         ((((firstPL4 == 1)|| (firstBL4 == 1) || (firstBL2 == 1)) && (firstPn < 2)) ? '<td><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="OOS: No OOC: Yes Comment: Shelf looks great" data-original-title="" title="">Yes</button></td>' : '<td></td>')+
         // '<td class="issues-last-visit"><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="OOS: Yes; Out of Code: Yes; Comment: Shelf condition poor.">Yes</button></td>'+
         '<td class="issues-today">'+((level == 4) ? '<button type="button" data-toggle="modal" data-target="#issue" style="color:#000000">Add</button>' : "" )+'</td>'+
