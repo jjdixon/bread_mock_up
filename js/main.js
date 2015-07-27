@@ -282,11 +282,12 @@ $(document).on('click','.next-priority',function(e) {
     if($('#priority2').is(":visible")){
 	$('#priority1').fadeOut('500',function(e){
 	$('#priority2').fadeIn('500');
+	});
 	}
 	else{
 	$('#priority2').fadeOut('500',function(e){
 	$('#priority1').fadeIn('500');
-	 });
+	 
 	 }
 });
 
