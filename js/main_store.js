@@ -205,6 +205,7 @@ function formTableData(data) {
       pn = product["Product Name"];
      // upc = product["UPC 10"];
 	 percentDiff=Math.abs(product.Average-product.totalAct)/product.Average
+	 console.log(percentDiff);
       if(percentDiff < 0.1){
 	  color = green;
 	  }
