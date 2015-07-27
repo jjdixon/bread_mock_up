@@ -206,12 +206,12 @@ function formTableData(data) {
      // upc = product["UPC 10"];
 	 percentDiff=Math.abs(product.average-product.totalAct)/product.average
 	 //console.log(percentDiff);
-      if(percentDiff < 0.1){
+      if(percentDiff < 0.2){
 	  color = green;
 	  }
-	  else if(percentDiff < 0.20){
-	  color = yellow;
-	  }
+	  //else if(percentDiff < 0.20){
+	  //color = yellow;
+	 // }
 	  else {
 	  color = red;
 	  }
