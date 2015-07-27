@@ -50,6 +50,9 @@ $(document).on('ready', function(){
 					},5);
 				$('#modvoid').addClass('active');
 				}
+				if($(this).next('.main').attr('id')== 'recapID'){
+				$('#commentsRollUp').html($('#commentList').html());
+				}
 				
             } else {
                  
