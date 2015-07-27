@@ -14,8 +14,8 @@
     "Address":"488 HWY 71 W",
     "City":"BASTROP",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"75"
+    "# of Visits":"1 per week",
+    "Serve Time":"Monday, July 20, 2015"
   },
   {
     "Tour":"M",
@@ -23,8 +23,8 @@
     "Address":"1400 FANNIN",
     "City":"COLUMBUS",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"30"
+    "# of Visits":"1 per week",
+    "Serve Time":"Monday, July 20, 2015"
   },
   {
     "Tour":"M",
@@ -32,8 +32,8 @@
     "Address":"1700 HWY 71 E",
     "City":"BASTROP",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"20"
+    "# of Visits":"1 per week",
+    "Serve Time":"Monday, July 20, 2015"
   },
   {
     "Tour":"M",
@@ -41,8 +41,8 @@
     "Address":"2105 MILAM ST",
     "City":"COLUMBUS",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"60"
+    "# of Visits":"1 per week",
+    "Serve Time":"Monday, July 20, 2015"
   },
   {
     "Tour":"M",
@@ -50,8 +50,8 @@
     "Address":"2103 MILAM ST",
     "City":"COLUMBUS",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"45"
+    "# of Visits":"1 per week",
+    "Serve Time":"Monday, July 20, 2015"
   },
   {
     "Tour":"M",
@@ -59,8 +59,8 @@
     "Address":"FM 812 2287",
     "City":"DALE",
     "State":"TX",
-    "# of Visits":"2",
-    "Serve Time":"30"
+    "# of Visits":"1 per month",
+    "Serve Time":"Monday, July 20, 2015"
   },
   {
     "Tour":"M",
@@ -68,8 +68,8 @@
     "Address":"717 E TRAVIS",
     "City":"LA GRANGE",
     "State":"TX",
-    "# of Visits":"1",
-    "Serve Time":"20"
+    "# of Visits":"semi annually",
+    "Serve Time":"Monday, July 20, 2015"
   },
   {
     "Tour":"R",
@@ -86,8 +86,8 @@
     "Address":"8752 RESEARCH BLVD",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"30"
+    "# of Visits":"1 per week",
+    "Serve Time":"Tuesday, July 21, 2015"
   },
   {
     "Tour":"R",
@@ -95,8 +95,8 @@
     "Address":"2508 E RIVERSIDE DR",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"60"
+    "# of Visits":"1 per week",
+    "Serve Time":"Tuesday, July 21, 2015"
   },
   {
     "Tour":"R",
@@ -104,8 +104,8 @@
     "Address":"1917 E 7TH ST",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"30"
+    "# of Visits":"1 per week",
+    "Serve Time":"Tuesday, July 21, 2015"
   },
   {
     "Tour":"R",
@@ -113,8 +113,8 @@
     "Address":"11215 HWY 290 E",
     "City":"MANOR",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"20"
+    "# of Visits":"1 per week",
+    "Serve Time":"Tuesday, July 21, 2015"
   },
   {
     "Tour":"R",
@@ -122,8 +122,8 @@
     "Address":"8601 RESEARCH BLVD",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"30"
+    "# of Visits":"1 per week",
+    "Serve Time":"Tuesday, July 21, 2015"
   },
   {
     "Tour":"R",
@@ -131,8 +131,8 @@
     "Address":"2525 W ANDERSON LN",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"60"
+    "# of Visits":"1 per week",
+    "Serve Time":"Tuesday, July 21, 2015"
   },
   {
     "Tour":"R",
@@ -140,8 +140,8 @@
     "Address":"14300 A FM 969",
     "City":"DEL VALLE",
     "State":"TX",
-    "# of Visits":"2",
-    "Serve Time":"30"
+    "# of Visits":"1 per month",
+    "Serve Time":"Tuesday, July 21, 2015"
   },
   {
     "Tour":"R",
@@ -149,8 +149,8 @@
     "Address":"2512 E RIVERSIDE",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"2",
-    "Serve Time":"20"
+    "# of Visits":"1 per month",
+    "Serve Time":"Tuesday, July 21, 2015"
   },
   {
     "Tour":"R",
@@ -158,8 +158,8 @@
     "Address":"7112 ED BLUESTEIN BL",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"1",
-    "Serve Time":"20"
+    "# of Visits":"semi annually",
+    "Serve Time":"Tuesday, July 21, 2015"
   },
   {
     "Tour":"T",
@@ -172,21 +172,12 @@
   },
   {
     "Tour":"T",
-    "Customer_Name":"BASTROP",
-    "Address":"305 INDUSTRIAL BLVD",
-    "City":"BASTROP",
-    "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"30"
-  },
-  {
-    "Tour":"T",
     "Customer_Name":"HEB 0475",
     "Address":"1080 HWY 290 E",
     "City":"ELGIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"60"
+    "# of Visits":"1 per week",
+    "Serve Time":"Wednesday, July 22, 2015"
   },
   {
     "Tour":"T",
@@ -194,8 +185,8 @@
     "Address":"400 HWY 71 W",
     "City":"BASTROP",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"60"
+    "# of Visits":"1 per week",
+    "Serve Time":"Wednesday, July 22, 2015"
   },
   {
     "Tour":"T",
@@ -203,8 +194,8 @@
     "Address":"US HWY 290/2374 E AU",
     "City":"GIDDINGS",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"45"
+    "# of Visits":"1 per week",
+    "Serve Time":"Wednesday, July 22, 2015"
   },
   {
     "Tour":"T",
@@ -212,8 +203,8 @@
     "Address":"11923 US HWY 290 E",
     "City":"MANOR",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"60"
+    "# of Visits":"1 per week",
+    "Serve Time":"Wednesday, July 22, 2015"
   },
   {
     "Tour":"T",
@@ -221,8 +212,8 @@
     "Address":"1320 W HWY 290",
     "City":"ELGIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"45"
+    "# of Visits":"1 per week",
+    "Serve Time":"Wednesday, July 22, 2015"
   },
   {
     "Tour":"T",
@@ -230,8 +221,8 @@
     "Address":"1134 HWY 290",
     "City":"ELGIN",
     "State":"TX",
-    "# of Visits":"1",
-    "Serve Time":"20"
+    "# of Visits":"semi annually",
+    "Serve Time":"Wednesday, July 22, 2015"
   },
   {
     "Tour":"T",
@@ -239,8 +230,8 @@
     "Address":"1254 E AUSTIN",
     "City":"GIDDINGS",
     "State":"TX",
-    "# of Visits":"1",
-    "Serve Time":"20"
+    "# of Visits":"semi annually",
+    "Serve Time":"Wednesday, July 22, 2015"
   },
   {
     "Tour":"W",
@@ -257,8 +248,8 @@
     "Address":"6800 BERKMAN",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"30"
+    "# of Visits":"1 per week",
+    "Serve Time":"Thursday, July 23, 2015"
   },
   {
     "Tour":"W",
@@ -266,8 +257,8 @@
     "Address":"3909 N IH 35",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"30"
+    "# of Visits":"1 per week",
+    "Serve Time":"Thursday, July 23, 2015"
   },
   {
     "Tour":"W",
@@ -275,8 +266,8 @@
     "Address":"7112 ED BLUESTEIN",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"60"
+    "# of Visits":"1 per week",
+    "Serve Time":"Thursday, July 23, 2015"
   },
   {
     "Tour":"W",
@@ -284,8 +275,8 @@
     "Address":"9414 N LAMAR BLVD",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"60"
+    "# of Visits":"1 per week",
+    "Serve Time":"Thursday, July 23, 2015"
   },
   {
     "Tour":"W",
@@ -293,8 +284,8 @@
     "Address":"1801 E 51ST ST",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"60"
+    "# of Visits":"1 per week",
+    "Serve Time":"Thursday, July 23, 2015"
   },
   {
     "Tour":"W",
@@ -302,8 +293,8 @@
     "Address":"6908 CAMERON RD",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"30"
+    "# of Visits":"1 per week",
+    "Serve Time":"Thursday, July 23, 2015"
   },
   {
     "Tour":"W",
@@ -311,8 +302,8 @@
     "Address":"5621 N IH 35",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"30"
+    "# of Visits":"1 per week",
+    "Serve Time":"Thursday, July 23, 2015"
   },
   {
     "Tour":"W",
@@ -320,8 +311,8 @@
     "Address":"1030 NORWOOD PARK BL",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"4",
-    "Serve Time":"75"
+    "# of Visits":"1 per week",
+    "Serve Time":"Thursday, July 23, 2015"
   },
   {
     "Tour":"W",
@@ -329,8 +320,8 @@
     "Address":"834 E RUNDBERG",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"2",
-    "Serve Time":"30"
+    "# of Visits":"1 per month",
+    "Serve Time":"Thursday, July 23, 2015"
   },
   {
     "Tour":"W",
@@ -338,7 +329,7 @@
     "Address":"2706 GONZALEZ",
     "City":"AUSTIN",
     "State":"TX",
-    "# of Visits":"1",
-    "Serve Time":"20"
+    "# of Visits":"semi annually",
+    "Serve Time":"Thursday, July 23, 2015"
   }
 ]
