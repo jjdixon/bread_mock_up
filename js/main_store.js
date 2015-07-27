@@ -756,4 +756,6 @@ RECAP MODAL************************************
 $(document).on('click','#submission',function(e){
 	$("#modal-content,#modal-background").toggleClass("active");
 });*********************************/
-
+$(document).on('click','#submission1', function(e){
+	$('#commentsRollUp').text($('#commentList').html());
+});
