@@ -79,6 +79,10 @@ $(document).on('ready', function(){
 	loadJSON("data/imports.json","Imp");
 	loadJSON("data/privatelabel.json","PL");
 	loadJSON("data/other.json","Other");
+	
+	$("#modal-launcher, #modal-background, #modal-close").click(function () {
+		$("#modal-content,#modal-background").toggleClass("active");
+	});
 });
  		
 
@@ -736,3 +740,9 @@ $(document).ready(function() {
     scrollRepoToBottom();
 });
 
+/****************************************
+RECAP MODAL************************************
+*********************************/
+$(document).on('click','#submission',function(e){
+	$("#modal-content,#modal-background").toggleClass("active");
+});

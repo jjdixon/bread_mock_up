@@ -171,7 +171,7 @@
 		</div>
 		<div class="col-md-1">
 		<!--<a href="mailto:IO@yahoo.com;PromptPlanner@bbumail.com?subject=Recap for Wal-Mart 0454&body= Out Of Stock:0 %0D%0A Out Of Code:0 %0D%0A Issues: Prompt order for MB Large White looks low; Heavy on Sara Lee Box Cake %0D%0A New Display: 9/21, Entenmann Little Bites"  class="btn btn-primary btn-block" >Submit</a>-->  
-		<a href="images/recap3.png" class="btn btn-primary btn-block" data-gallery="submission">Submit</a>
+		<a href="images/recap3.png" class="btn btn-primary btn-block" id="submission" >Submit</a> <!--old data-gallery="submission"-->
 		</div>
 	</div>
 	
@@ -1847,7 +1847,12 @@ function showCoords(event) {
     </div>   
 </div>
 <!--END REPO BOX-->
-
+<!--RECAP MODAL-->
+<div id="modal-background"></div>
+<div id="modal-content">
+    <button id="modal-close">Close Modal Window</button>
+</div>
+<!-- END RECAP MODAL-->
 	<!--OLD SUBMIT
 	<div class="span2" style="display:block;width:250px; float:right; margin-bottom:10px">
 	<div class="row">
