@@ -279,7 +279,8 @@ function formPricingTable(data){
 priorities scolling
 ********************************************/
 $(document).on('click','.next-priority',function(e) {
-    $('#priority1').toggleClass('active');
-	 $('#priority2').toggleClass('active');
+    $('.priorities:visible').fadeOut('500',function(e){
+	$('.priorities:hidden').fadeIn('500');
+	 });
 });
 

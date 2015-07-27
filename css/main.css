@@ -257,11 +257,9 @@ background-color: yellow;
 color: black;
 }
 
-.priorities {
-visibility: hidden;
+.priorities:not(:first-of-type) {
+display:none;
 
 }
 
-.priorities.active{
-visibility: visible;
-}
+
