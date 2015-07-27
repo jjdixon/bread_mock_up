@@ -1,6 +1,6 @@
 $(document).on('ready', function() {
     $('input[value="custom"]').trigger('click');
-	 $('[data-toggle="tooltip"]').tooltip()	
+
 });
 
 function formTableData(data, custom) {
@@ -29,7 +29,7 @@ function formTableData(data, custom) {
             }
             if (custom) {
                 if (!firstrow) {
-                    row_html = '<tr class="level" data-level="1">' + '<td class="select"> <input type="checkbox"> </td>' + '<td class="customer_name">' + customer_name + '</td>' + '<td class="address">' + address + '</td>' + '<td class="visits">' + visits + '</td>' + '<td class="time">' + time + '</td><td>' +type+ '</td><td>'+((comment.length > 1) ? '<a href="#" data-toggle="tooltip" data-placement="right" title="'+comment+'">More&hellip;</a>' : "" )+' </td></tr>';
+                    row_html = '<tr class="level" data-level="1">' + '<td class="select"> <input type="checkbox"> </td>' + '<td class="customer_name">' + customer_name + '</td>' + '<td class="address">' + address + '</td>' + '<td class="visits">' + visits + '</td>' + '<td class="time">' + time + '</td><td>' +type+ '</td><td>'+((comment.length > 1) ? '<a href="#" data-toggle="tooltip" data-placement="top" title="'+comment+'">More&hellip;</a>' : "" )+' </td></tr>';
                     rows.push(row_html);
                 }
                 firstrow = false;
@@ -115,6 +115,7 @@ $(document).on('click', 'tr', function(e) {
 
 $(document).on('click', '.btn-success', function(e) {
 	$('.hidden').removeClass('hidden');
+		 $('[data-toggle="tooltip"]').tooltip()	
 });
 
 $(document).on('click', '.update', function(e) {
