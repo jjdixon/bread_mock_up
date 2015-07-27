@@ -317,6 +317,7 @@ $(document).on('change', '.filter-radio', function(e) {
       success: function(data)  {
         $('#main-table tbody').empty().append(formTableData(data));       
         $('[data-toggle="popover"]').popover();
+		console.log(url);
 		//$("table").freezeHeader();
       },
       error: function(err) {
