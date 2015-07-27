@@ -204,7 +204,9 @@ function formTableData(data) {
       bl_2 = product["Brand Level 2"];
       pn = product["Product Name"];
      // upc = product["UPC 10"];
-	 percentDiff=Math.abs(product.average-product.totalAct)/product.average
+	 
+
+	 percentDiff=Math.abs(parseInt(product.average.replace(/,/g,""))-product.totalAct)/parseInt(product.average.replace(/,/g,""))
 	 //console.log(percentDiff);
       if(percentDiff < 0.2){
 	  color = green;
