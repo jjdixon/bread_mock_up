@@ -295,9 +295,9 @@ function formTableData(data) {
         '<td class="five-day-order" style="background-color:'+color+';font-color="'+fontColor+'">'+product.totalAct+'<br>'+product.totalSug+'</td>'+
         '<td class="day-order" style="background-color: '+color+';font-color="'+fontColor+'">'+product.mAct+'<br>'+product.mSug+'</td>'+
         '<td class="day-order" style="background-color:'+color+';font-color="'+fontColor+'">'+product.tAct+'<br>'+product.tSug+'</td>'+
-        '<td class="day-order" style="background-color: '+color+'font-color="'+fontColor+';">'+product.thAct+'<br>'+product.thSug+'</td>'+
-        '<td class="day-order" style="background-color: '+color+'font-color="'+fontColor+';">'+product.fAct+'<br>'+product.fSug+'</td>'+
-        '<td class="day-order" style="background-color: '+color+'font-color="'+fontColor+';">'+product.sAct+'<br>'+product.sSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+';font-color="'+fontColor+';">'+product.thAct+'<br>'+product.thSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+';font-color="'+fontColor+';">'+product.fAct+'<br>'+product.fSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+';font-color="'+fontColor+';">'+product.sAct+'<br>'+product.sSug+'</td>'+
         ((((firstPL4 == 1)|| (firstBL4 == 1) || (firstBL2 == 1)) && (firstPn < 2)) ? '<td><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="OOS: No OOC: Yes Comment: Shelf looks great" data-original-title="" title="">Yes</button></td>' : '<td></td>')+
         // '<td class="issues-last-visit"><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="OOS: Yes; Out of Code: Yes; Comment: Shelf condition poor.">Yes</button></td>'+
         '<td class="issues-today">'+((level == 4) ? '<button type="button" data-toggle="modal" data-target="#issue" style="color:#000000">Add</button>' : "" )+'</td>'+
