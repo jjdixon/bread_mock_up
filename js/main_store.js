@@ -199,6 +199,8 @@ function formTableData(data) {
   var yellow = "#FFFF00"
   var red = "#FF0000"
   var color;
+  var fontColor;
+  
   var percentDiff = 0.0;
   if(data){
     data.forEach(function(product){
@@ -224,6 +226,7 @@ function formTableData(data) {
 	 // }
 	  else {
 	  color = red;
+	  fontColor = "white"
 	  }
 	  if(pn){
    
@@ -289,12 +292,12 @@ function formTableData(data) {
         '<td class="avg-ret">'+product.returnUnits+'</td>'+
 		  '<td class="avg-net">'+product.average+'</td>'+
         //'<td class="vcm-nu">'+product.vcm+'</td>'+
-        '<td class="five-day-order" style="background-color:'+color+';">'+product.totalAct+'<br>'+product.totalSug+'</td>'+
-        '<td class="day-order" style="background-color: '+color+';">'+product.mAct+'<br>'+product.mSug+'</td>'+
-        '<td class="day-order" style="background-color:'+color+';">'+product.tAct+'<br>'+product.tSug+'</td>'+
-        '<td class="day-order" style="background-color: '+color+';">'+product.thAct+'<br>'+product.thSug+'</td>'+
-        '<td class="day-order" style="background-color: '+color+';">'+product.fAct+'<br>'+product.fSug+'</td>'+
-        '<td class="day-order" style="background-color: '+color+';">'+product.sAct+'<br>'+product.sSug+'</td>'+
+        '<td class="five-day-order" style="background-color:'+color+';font-color="'+fontColor+'">'+product.totalAct+'<br>'+product.totalSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+';font-color="'+fontColor+'">'+product.mAct+'<br>'+product.mSug+'</td>'+
+        '<td class="day-order" style="background-color:'+color+';font-color="'+fontColor+'">'+product.tAct+'<br>'+product.tSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+'font-color="'+fontColor+';">'+product.thAct+'<br>'+product.thSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+'font-color="'+fontColor+';">'+product.fAct+'<br>'+product.fSug+'</td>'+
+        '<td class="day-order" style="background-color: '+color+'font-color="'+fontColor+';">'+product.sAct+'<br>'+product.sSug+'</td>'+
         ((((firstPL4 == 1)|| (firstBL4 == 1) || (firstBL2 == 1)) && (firstPn < 2)) ? '<td><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="OOS: No OOC: Yes Comment: Shelf looks great" data-original-title="" title="">Yes</button></td>' : '<td></td>')+
         // '<td class="issues-last-visit"><button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="OOS: Yes; Out of Code: Yes; Comment: Shelf condition poor.">Yes</button></td>'+
         '<td class="issues-today">'+((level == 4) ? '<button type="button" data-toggle="modal" data-target="#issue" style="color:#000000">Add</button>' : "" )+'</td>'+
@@ -527,8 +530,8 @@ $(document).on('change','.locationSelect', function(e){
 	var brkMeatsSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option></select>'
 	var juiceBrand = '<select class="form-control"><option>Select Brand</option><option>Thomas</option><option>Sara Lee</option><option>Entenmanns</option></select>'
 	var juiceSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option><option>SBG</option></select>'
-	var milkBrand = '<select class="form-control"><option>Select Brand</option><option>Sara Lee</option><option>Entenmanns</option></select>'
-	var milkSeg = '<select class="form-control"><option>Select Segment</option><option>SBG</option></select>'
+	var milkBrand = '<select class="form-control"><option>Select Brand</option><option>Thomas</option<option>Sara Lee</option><option>Entenmanns</option></select>'
+	var milkSeg = '<select class="form-control"><option>Select Segment</option><option>SBG</option><option>Breakfast</option></select>'
 	var prepBrand = '<select class="form-control"><option>Select Brand</option><option>Sara Lee</option><option>Mrs. Bairds</option></select>'
 	var prepSeg = '<select class="form-control"><option>Select Segment</option><option>Sliced Bread</option><option>Buns and Rolls</option></select>'
 	var locID, location;
@@ -544,7 +547,7 @@ $(document).on('change','.locationSelect', function(e){
 	document.getElementById('brand'+locID).innerHTML = juiceBrand;
 	document.getElementById('seg'+locID).innerHTML= juiceSeg;
 	}
-	else if(location == "Milk-Table"){
+	else if(location == "Milk"){
 	document.getElementById('brand'+locID).innerHTML = milkBrand;
 	document.getElementById('seg'+locID).innerHTML= milkSeg;
 	}
