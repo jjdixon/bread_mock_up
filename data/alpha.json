@@ -1,108 +1,27 @@
 [
   {
-    "Tour":"M",
-    "Customer_Name":"-----------------",
-    "Address":"-----------------",
-    "# of Visits":"----",
-    "Serve Time":"----",
-    "Type":"",
-    "Comments":""
-  },
-  {
-    "Tour":"R",
-    "Customer_Name":"-----------------",
-    "Address":"-----------------",
-    "# of Visits":"----",
-    "Serve Time":"----",
-    "Type":"",
-    "Comments":""
-  },
-  {
     "Tour":"T",
-    "Customer_Name":"-----------------",
-    "Address":"-----------------",
-    "# of Visits":"----",
-    "Serve Time":"----",
-    "Type":"",
-    "Comments":""
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"-----------------",
-    "Address":"-----------------",
-    "# of Visits":"----",
-    "Serve Time":"----",
-    "Type":"",
-    "Comments":""
-  },
-  {
-    "Tour":"T",
-    "Customer_Name":"BASTROP",
-    "Address":"305 INDUSTRIAL BLVD, BASTROP, TX",
-    "# of Visits":"1 per month",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"M",
-    "Customer_Name":"BREAD BASKET",
-    "Address":"FM 812 2287, DALE, TX",
-    "# of Visits":"1 per month",
-    "Serve Time":"Monday, July 20, 2015",
+    "Customer_Name":"SONIC 1984 CONWAY GRP",
+    "Address":"1134 HWY 290, ELGIN, TX",
+    "# of Visits":"semi annually",
+    "Serve Time":"Monday, May 4 2015",
     "Type":"CV",
-    "Comments":"Not receiving indendent promotional pricing"
-  },
-  {
-    "Tour":"M",
-    "Customer_Name":"BROOKSHIRE B 0034",
-    "Address":"1400 FANNIN, COLUMBUS, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
     "Comments":""
   },
   {
-    "Tour":"M",
-    "Customer_Name":"BUC EES 0028",
-    "Address":"1700 HWY 71 E, BASTROP, TX",
-    "# of Visits":"1 per month",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"R",
-    "Customer_Name":"EL RANCHO 0018",
-    "Address":"8752 RESEARCH BLVD, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"EL RANCHO 0024",
-    "Address":"6800 BERKMAN, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"FIESTA 0025",
-    "Address":"3909 N IH 35, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
+    "Tour":"T",
+    "Customer_Name":"SONIC 2112 KEN HILL",
+    "Address":"1254 E AUSTIN, GIDDINGS, TX",
+    "# of Visits":"semi annually",
+    "Serve Time":"Monday, May 4 2015",
+    "Type":"CV",
     "Comments":""
   },
   {
     "Tour":"R",
     "Customer_Name":"FOREST BLUFF",
     "Address":"14300 A FM 969, DEL VALLE, TX",
-    "# of Visits":"1 per month",
+    "# of Visits":"1 per quarter",
     "Serve Time":"Monday, July 20, 2015",
     "Type":"CV",
     "Comments":""
@@ -111,109 +30,10 @@
     "Tour":"W",
     "Customer_Name":"GAMA 1163 WHISTLE STOP GROCERY",
     "Address":"834 E RUNDBERG, AUSTIN, TX",
-    "# of Visits":"1 per month",
+    "# of Visits":"1 per quarter",
     "Serve Time":"Monday, July 20, 2015",
     "Type":"CV",
-    "Comments":""
-  },
-  {
-    "Tour":"M",
-    "Customer_Name":"HARLANS 08",
-    "Address":"236 COLLEGE ST, SCHULENBURG, TX",
-    "# of Visits":"1 per month",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"R",
-    "Customer_Name":"HEB 0091",
-    "Address":"2508 E RIVERSIDE DR, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"HEB 0161",
-    "Address":"7112 ED BLUESTEIN, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"HEB 0183",
-    "Address":"9414 N LAMAR BLVD, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"M",
-    "Customer_Name":"HEB 0256",
-    "Address":"2105 MILAM ST, COLUMBUS, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"T",
-    "Customer_Name":"HEB 0475",
-    "Address":"1080 HWY 290 E, ELGIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"T",
-    "Customer_Name":"HEB 0582",
-    "Address":"400 HWY 71 W, BASTROP, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"R",
-    "Customer_Name":"HEB 0628",
-    "Address":"2512 E RIVERSIDE, AUSTIN, TX",
-    "# of Visits":"1 per month",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"CV",
-    "Comments":""
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"HEB 0639",
-    "Address":"1801 E 51ST ST, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"R",
-    "Customer_Name":"LA MICHOACANA AUS   0001",
-    "Address":"1917 E 7TH ST, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"LA MICHOACANA AUS   0002",
-    "Address":"6908 CAMERON RD, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
+    "Comments":"Not receiving indendent promotional pricing"
   },
   {
     "Tour":"R",
@@ -223,24 +43,6 @@
     "Serve Time":"Monday, July 20, 2015",
     "Type":"CV",
     "Comments":"10 Empty trays behind store"
-  },
-  {
-    "Tour":"T",
-    "Customer_Name":"SONIC 1984 CONWAY GRP",
-    "Address":"1134 HWY 290, ELGIN, TX",
-    "# of Visits":"semi annually",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"CV",
-    "Comments":""
-  },
-  {
-    "Tour":"T",
-    "Customer_Name":"SONIC 2112 KEN HILL",
-    "Address":"1254 E AUSTIN, GIDDINGS, TX",
-    "# of Visits":"semi annually",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"CV",
-    "Comments":""
   },
   {
     "Tour":"M",
@@ -261,15 +63,6 @@
     "Comments":""
   },
   {
-    "Tour":"R",
-    "Customer_Name":"SONIC 4057 CONWAY GRP",
-    "Address":"11215 HWY 290 E, MANOR, TX",
-    "# of Visits":"semi annually",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
     "Tour":"M",
     "Customer_Name":"SONIC 5417 CONWAY GRP",
     "Address":"1481 STATE HWY 71 W, WYLDWOOD, TX",
@@ -280,83 +73,11 @@
   },
   {
     "Tour":"R",
-    "Customer_Name":"TARGET 0095",
-    "Address":"8601 RESEARCH BLVD, AUSTIN, TX",
-    "# of Visits":"1 per week",
+    "Customer_Name":"SONIC 4057 CONWAY GRP",
+    "Address":"11215 HWY 290 E, MANOR, TX",
+    "# of Visits":"semi annually",
     "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"TARGET 1542",
-    "Address":"5621 N IH 35, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"T",
-    "Customer_Name":"WALMART 0473",
-    "Address":"US HWY 290/2374 E AU, GIDDINGS, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"M",
-    "Customer_Name":"WALMART 0503",
-    "Address":"2103 MILAM ST, COLUMBUS, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"M",
-    "Customer_Name":"WALMART 1042",
-    "Address":"488 HWY 71 W, BASTROP, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"WALMART 1185",
-    "Address":"1030 NORWOOD PARK BL, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"T",
-    "Customer_Name":"WALMART 3169",
-    "Address":"11923 US HWY 290 E, MANOR, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"T",
-    "Customer_Name":"WALMART 3170",
-    "Address":"1320 W HWY 290, ELGIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
-    "Comments":""
-  },
-  {
-    "Tour":"R",
-    "Customer_Name":"WALMART 4554",
-    "Address":"2525 W ANDERSON LN, AUSTIN, TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Monday, July 20, 2015",
-    "Type":"ME",
+    "Type":"CV",
     "Comments":""
   }
 ]

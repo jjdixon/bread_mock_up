@@ -530,7 +530,7 @@ $(document).on('change','.locationSelect', function(e){
 	var brkMeatsSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option></select>'
 	var juiceBrand = '<select class="form-control"><option>Select Brand</option><option>Thomas</option><option>Sara Lee</option><option>Entenmanns</option></select>'
 	var juiceSeg = '<select class="form-control"><option>Select Segment</option><option>Breakfast</option><option>SBG</option></select>'
-	var milkBrand = '<select class="form-control"><option>Select Brand</option><option>Thomas</option<option>Sara Lee</option><option>Entenmanns</option></select>'
+	var milkBrand = '<select class="form-control"><option>Select Brand</option><option>Thomas</option><option>Sara Lee</option><option>Entenmanns</option></select>'
 	var milkSeg = '<select class="form-control"><option>Select Segment</option><option>SBG</option><option>Breakfast</option></select>'
 	var prepBrand = '<select class="form-control"><option>Select Brand</option><option>Sara Lee</option><option>Mrs. Bairds</option></select>'
 	var prepSeg = '<select class="form-control"><option>Select Segment</option><option>Sliced Bread</option><option>Buns and Rolls</option></select>'

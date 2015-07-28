@@ -54,24 +54,6 @@
     "Serve Time":"Monday, July 20, 2015"
   },
   {
-    "Tour":"M",
-    "Customer_Name":"BREAD BASKET",
-    "Address":"FM 812 2287",
-    "City":"DALE",
-    "State":"TX",
-    "# of Visits":"1 per month",
-    "Serve Time":"Monday, July 20, 2015"
-  },
-  {
-    "Tour":"M",
-    "Customer_Name":"SONIC 2378 MANN HILL",
-    "Address":"717 E TRAVIS",
-    "City":"LA GRANGE",
-    "State":"TX",
-    "# of Visits":"semi annually",
-    "Serve Time":"Monday, July 20, 2015"
-  },
-  {
     "Tour":"R",
     "Customer_Name":"-----------------",
     "Address":"-----------------",
@@ -109,15 +91,6 @@
   },
   {
     "Tour":"R",
-    "Customer_Name":"SONIC 4057 CONWAY GRP",
-    "Address":"11215 HWY 290 E",
-    "City":"MANOR",
-    "State":"TX",
-    "# of Visits":"1 per week",
-    "Serve Time":"Tuesday, July 21, 2015"
-  },
-  {
-    "Tour":"R",
     "Customer_Name":"TARGET 0095",
     "Address":"8601 RESEARCH BLVD",
     "City":"AUSTIN",
@@ -136,29 +109,11 @@
   },
   {
     "Tour":"R",
-    "Customer_Name":"FOREST BLUFF",
-    "Address":"14300 A FM 969",
-    "City":"DEL VALLE",
-    "State":"TX",
-    "# of Visits":"1 per month",
-    "Serve Time":"Tuesday, July 21, 2015"
-  },
-  {
-    "Tour":"R",
     "Customer_Name":"HEB 0628",
     "Address":"2512 E RIVERSIDE",
     "City":"AUSTIN",
     "State":"TX",
     "# of Visits":"1 per month",
-    "Serve Time":"Tuesday, July 21, 2015"
-  },
-  {
-    "Tour":"R",
-    "Customer_Name":"SONIC 1562 CONWAY GRP",
-    "Address":"7112 ED BLUESTEIN BL",
-    "City":"AUSTIN",
-    "State":"TX",
-    "# of Visits":"semi annually",
     "Serve Time":"Tuesday, July 21, 2015"
   },
   {
@@ -213,24 +168,6 @@
     "City":"ELGIN",
     "State":"TX",
     "# of Visits":"1 per week",
-    "Serve Time":"Wednesday, July 22, 2015"
-  },
-  {
-    "Tour":"T",
-    "Customer_Name":"SONIC 1984 CONWAY GRP",
-    "Address":"1134 HWY 290",
-    "City":"ELGIN",
-    "State":"TX",
-    "# of Visits":"semi annually",
-    "Serve Time":"Wednesday, July 22, 2015"
-  },
-  {
-    "Tour":"T",
-    "Customer_Name":"SONIC 2112 KEN HILL",
-    "Address":"1254 E AUSTIN",
-    "City":"GIDDINGS",
-    "State":"TX",
-    "# of Visits":"semi annually",
     "Serve Time":"Wednesday, July 22, 2015"
   },
   {
@@ -312,24 +249,6 @@
     "City":"AUSTIN",
     "State":"TX",
     "# of Visits":"1 per week",
-    "Serve Time":"Thursday, July 23, 2015"
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"GAMA 1163 WHISTLE STOP GROCERY",
-    "Address":"834 E RUNDBERG",
-    "City":"AUSTIN",
-    "State":"TX",
-    "# of Visits":"1 per month",
-    "Serve Time":"Thursday, July 23, 2015"
-  },
-  {
-    "Tour":"W",
-    "Customer_Name":"SONIC 3356 CONWAY GRP",
-    "Address":"2706 GONZALEZ",
-    "City":"AUSTIN",
-    "State":"TX",
-    "# of Visits":"semi annually",
     "Serve Time":"Thursday, July 23, 2015"
   }
 ]
