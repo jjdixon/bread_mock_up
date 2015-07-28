@@ -50,9 +50,12 @@ function formTableData(data, custom, alltours,simulateDate) {
 				console.log(switchNum);
 				switch (switchNum) {
 				case 1: tourName = "M"; break;
-				case 2: tourName = "R"; break;
+				case 2: tourName = "M"; break;
 				case 3: tourName = "T"; break;
 				case 4: tourName = "W"; break;
+				case 5: tourName = "M"; break;
+				case 6: tourName = "M"; break;
+				case 7: tourName = "M"; break;
 				default: tour = "M";
 				}
 				console.log(tourName);
